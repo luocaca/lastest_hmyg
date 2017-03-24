@@ -221,8 +221,7 @@ public class AActivity extends FragmentActivity implements OnClickListener {
 	 * view，所以contentView.getMeasuredHeight()表示得到子View的高度,
 	 * getScrollY()表示得到y轴的滚动距离，getHeight()为scrollView的高度。
 	 * 当getScrollY()达到最大时加上scrollView的高度就的就等于它内容的高度了啊~
-	 * 
-	 * @param pos
+	 *
 	 */
 	private void doOnBorderListener() {
 		Log.i(TAG,

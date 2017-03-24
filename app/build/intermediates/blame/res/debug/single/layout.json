@@ -12,12 +12,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\layout\\activity_store_type.xml"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buy_order2.xml",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\layout\\activity_buy_order2.xml"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sellect.xml",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\layout\\activity_sellect.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buy_order2.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\layout\\activity_buy_order2.xml"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sc.xml",

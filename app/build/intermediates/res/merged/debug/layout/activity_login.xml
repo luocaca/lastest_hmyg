@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".CheckOrderActivity" >
+     >
 
     <RelativeLayout
         android:layout_width="fill_parent"

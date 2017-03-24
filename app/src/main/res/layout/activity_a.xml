@@ -131,7 +131,9 @@
                             <com.autoscrollview.widget.AutoScrollViewPager
                                 android:id="@+id/view_pager"
                                 android:layout_width="fill_parent"
-                                android:layout_height="wrap_content" />
+                                android:layout_height="wrap_content"
+
+                                />
 
                             <com.autoscrollview.widget.indicator.CirclePageIndicator
                                 android:id="@+id/indicator"

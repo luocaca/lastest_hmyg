@@ -161,7 +161,8 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 			finish();
 		}
 		finish();
-		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+        overridePendingTransition_back();
+//		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
 	}
 
 	public class MultipleClickProcess implements OnClickListener {
@@ -187,12 +188,13 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 					Intent toLoginActivity = new Intent(RegisterActivity.this,
 							LoginActivity.class);
 					startActivityForResult(toLoginActivity, 4);
-					overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+//					overridePendingTransition(R.anim.slide_in_left,
+//							R.anim.slide_out_right);
+                    overridePendingTransition_open();
 					finish();
 					break;
 				case R.id.btn_get_code:
-				
+
 					if (!TextUtils.isEmpty(et_phone.getText().toString())) {
 						if(et_phone.getText().toString().length()<11 &&!et_phone.getText().toString().startsWith("1")){
 							Toast.makeText(RegisterActivity.this, "手机格式有问题，请检查后重试",
@@ -352,5 +354,7 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 			btn_get_code.setClickable(true);
 		}
 	}
+
+
 
 }
