@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y34"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="物流信息"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/x18" />
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@drawable/btn_back" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line" />
+
+    <me.maxwin.view.XListView
+        android:id="@+id/xlistView"
+         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff0f0f0"
+        android:clickable="true"
+        android:fadingEdge="none"
+        android:scrollingCache="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#CCCCCC" />
+
+        <LinearLayout
+            android:id="@+id/ll_add_car"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y34"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_getProduct"
+                android:layout_width="0.0dip"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确认收货"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/main_color" />
+
+            <TextView
+                android:id="@+id/tv_change"
+                  android:visibility="gone"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/main_color"
+                android:gravity="center"
+                android:text="退换货"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

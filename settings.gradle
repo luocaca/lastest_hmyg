@@ -1,0 +1,2 @@
+//include ':app'
+include ':app', ':appcompat_v7_hmyg_model'
