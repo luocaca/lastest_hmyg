@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_my_list"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y34"
+        android:background="@drawable/btn_my_list"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/x7" >
+
+        <cn.bingoogolapple.badgeview.BGABadgeLinearLayout
+            android:id="@+id/ll_yanmiao_nei_01"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/x3"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="@dimen/y25"
+                android:layout_height="@dimen/y25"
+                       android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+        </cn.bingoogolapple.badgeview.BGABadgeLinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/x12"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x15" />
+
+                <com.neopixl.pixlui.components.textview.TextView
+                    android:id="@+id/tv_createDateStr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/x12" />
+            </RelativeLayout>
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/tv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/x12"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/x12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/x15"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,3192 @@
+{
+  "code": "1",
+  "msg": "操作成功",
+  "data": {
+    "bannerList": [
+    {
+        "id": "1",
+        "name": "北京",
+        "fullName": "北京市",
+        "cityCode": "11",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "id": "2",
+                "name": "北京",
+                "fullName": "北京",
+                "cityCode": "1101",
+                "parentCode": "11",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "353",
+        "name": "天津",
+        "fullName": "天津市",
+        "cityCode": "12",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            
+            {
+                "id": "354",
+                "name": "天津",
+                "fullName": "天津",
+                "cityCode": "1201",
+                "parentCode": "12",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "629",
+        "name": "河北",
+        "fullName": "河北省",
+        "cityCode": "13",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "河北省",
+                "cityCode": "13"
+            },
+            {
+                "id": "630",
+                "name": "石家庄",
+                "fullName": "河北 石家庄",
+                "cityCode": "1301",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "972",
+                "name": "唐山",
+                "fullName": "河北 唐山",
+                "cityCode": "1302",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "1242",
+                "name": "秦皇岛",
+                "fullName": "河北 秦皇岛",
+                "cityCode": "1303",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "1363",
+                "name": "邯郸",
+                "fullName": "河北 邯郸",
+                "cityCode": "1304",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "1682",
+                "name": "邢台",
+                "fullName": "河北 邢台",
+                "cityCode": "1305",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "1949",
+                "name": "保定",
+                "fullName": "河北 保定",
+                "cityCode": "1306",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "2340",
+                "name": "张家口",
+                "fullName": "河北 张家口",
+                "cityCode": "1307",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "2609",
+                "name": "承德",
+                "fullName": "河北 承德",
+                "cityCode": "1308",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "2851",
+                "name": "沧州",
+                "fullName": "河北 沧州",
+                "cityCode": "1309",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "3113",
+                "name": "廊坊",
+                "fullName": "河北 廊坊",
+                "cityCode": "1310",
+                "parentCode": "13",
+                "level": 2
+            },
+            {
+                "id": "3276",
+                "name": "衡水",
+                "fullName": "河北 衡水",
+                "cityCode": "1311",
+                "parentCode": "13",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "3428",
+        "name": "山西",
+        "fullName": "山西省",
+        "cityCode": "14",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "山西省",
+                "cityCode": "14"
+            },
+            {
+                "id": "3429",
+                "name": "太原",
+                "fullName": "山西 太原",
+                "cityCode": "1401",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "3555",
+                "name": "大同",
+                "fullName": "山西 大同",
+                "cityCode": "1402",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "3718",
+                "name": "阳泉",
+                "fullName": "山西 阳泉",
+                "cityCode": "1403",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "3774",
+                "name": "长治",
+                "fullName": "山西 长治",
+                "cityCode": "1404",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "3965",
+                "name": "晋城",
+                "fullName": "山西 晋城",
+                "cityCode": "1405",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4063",
+                "name": "朔州",
+                "fullName": "山西 朔州",
+                "cityCode": "1406",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4154",
+                "name": "晋中",
+                "fullName": "山西 晋中",
+                "cityCode": "1407",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4320",
+                "name": "运城",
+                "fullName": "山西 运城",
+                "cityCode": "1408",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4511",
+                "name": "忻州",
+                "fullName": "山西 忻州",
+                "cityCode": "1409",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4736",
+                "name": "临汾",
+                "fullName": "山西 临汾",
+                "cityCode": "1410",
+                "parentCode": "14",
+                "level": 2
+            },
+            {
+                "id": "4949",
+                "name": "吕梁",
+                "fullName": "山西 吕梁",
+                "cityCode": "1411",
+                "parentCode": "14",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "5145",
+        "name": "内蒙古",
+        "fullName": "内蒙古自治区",
+        "cityCode": "15",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "内蒙古自治区",
+                "cityCode": "15"
+            },
+            {
+                "id": "5146",
+                "name": "呼和浩特",
+                "fullName": "内蒙古 呼和浩特",
+                "cityCode": "1501",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5242",
+                "name": "包头",
+                "fullName": "内蒙古 包头",
+                "cityCode": "1502",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5343",
+                "name": "乌海",
+                "fullName": "内蒙古 乌海",
+                "cityCode": "1503",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5368",
+                "name": "赤峰",
+                "fullName": "内蒙古 赤峰",
+                "cityCode": "1504",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5558",
+                "name": "通辽",
+                "fullName": "内蒙古 通辽",
+                "cityCode": "1505",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5726",
+                "name": "鄂尔多斯",
+                "fullName": "内蒙古 鄂尔多斯",
+                "cityCode": "1506",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5812",
+                "name": "呼伦贝尔",
+                "fullName": "内蒙古 呼伦贝尔",
+                "cityCode": "1507",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "5975",
+                "name": "巴彦淖尔",
+                "fullName": "内蒙古 巴彦淖尔",
+                "cityCode": "1508",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "6072",
+                "name": "乌兰察布",
+                "fullName": "内蒙古 乌兰察布",
+                "cityCode": "1509",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "6195",
+                "name": "兴安盟",
+                "fullName": "内蒙古 兴安盟",
+                "cityCode": "1522",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "6287",
+                "name": "锡林郭勒盟",
+                "fullName": "内蒙古 锡林郭勒盟",
+                "cityCode": "1525",
+                "parentCode": "15",
+                "level": 2
+            },
+            {
+                "id": "6395",
+                "name": "阿拉善盟",
+                "fullName": "内蒙古 阿拉善盟",
+                "cityCode": "1529",
+                "parentCode": "15",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "6438",
+        "name": "辽宁",
+        "fullName": "辽宁省",
+        "cityCode": "21",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "辽宁省",
+                "cityCode": "21"
+            },
+            {
+                "id": "6439",
+                "name": "沈阳",
+                "fullName": "辽宁 沈阳",
+                "cityCode": "2101",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "6673",
+                "name": "大连",
+                "fullName": "辽宁 大连",
+                "cityCode": "2102",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "6847",
+                "name": "鞍山",
+                "fullName": "辽宁 鞍山",
+                "cityCode": "2103",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "6975",
+                "name": "抚顺",
+                "fullName": "辽宁 抚顺",
+                "cityCode": "2104",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7068",
+                "name": "本溪",
+                "fullName": "辽宁 本溪",
+                "cityCode": "2105",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7136",
+                "name": "丹东",
+                "fullName": "辽宁 丹东",
+                "cityCode": "2106",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7239",
+                "name": "锦州",
+                "fullName": "辽宁 锦州",
+                "cityCode": "2107",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7370",
+                "name": "营口",
+                "fullName": "辽宁 营口",
+                "cityCode": "2108",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7451",
+                "name": "阜新",
+                "fullName": "辽宁 阜新",
+                "cityCode": "2109",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7558",
+                "name": "辽阳",
+                "fullName": "辽宁 辽阳",
+                "cityCode": "2110",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7629",
+                "name": "盘锦",
+                "fullName": "辽宁 盘锦",
+                "cityCode": "2111",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7692",
+                "name": "铁岭",
+                "fullName": "辽宁 铁岭",
+                "cityCode": "2112",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7814",
+                "name": "朝阳",
+                "fullName": "辽宁 朝阳",
+                "cityCode": "2113",
+                "parentCode": "21",
+                "level": 2
+            },
+            {
+                "id": "7998",
+                "name": "葫芦岛",
+                "fullName": "辽宁 葫芦岛",
+                "cityCode": "2114",
+                "parentCode": "21",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "8135",
+        "name": "吉林",
+        "fullName": "吉林省",
+        "cityCode": "22",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "吉林省",
+                "cityCode": "22"
+            },
+            {
+                "id": "8136",
+                "name": "长春",
+                "fullName": "吉林 长春",
+                "cityCode": "2201",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8320",
+                "name": "吉林",
+                "fullName": "吉林 吉林",
+                "cityCode": "2202",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8480",
+                "name": "四平",
+                "fullName": "吉林 四平",
+                "cityCode": "2203",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8603",
+                "name": "辽源",
+                "fullName": "吉林 辽源",
+                "cityCode": "2204",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8670",
+                "name": "通化",
+                "fullName": "吉林 通化",
+                "cityCode": "2205",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8784",
+                "name": "白山",
+                "fullName": "吉林 白山",
+                "cityCode": "2206",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8861",
+                "name": "松原",
+                "fullName": "吉林 松原",
+                "cityCode": "2207",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "8993",
+                "name": "白城",
+                "fullName": "吉林 白城",
+                "cityCode": "2208",
+                "parentCode": "22",
+                "level": 2
+            },
+            {
+                "id": "9117",
+                "name": "延边",
+                "fullName": "吉林 延边",
+                "cityCode": "2224",
+                "parentCode": "22",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "9254",
+        "name": "黑龙江",
+        "fullName": "黑龙江省",
+        "cityCode": "23",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "黑龙江省",
+                "cityCode": "23"
+            },
+            {
+                "id": "9255",
+                "name": "哈尔滨",
+                "fullName": "黑龙江 哈尔滨",
+                "cityCode": "2301",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "9581",
+                "name": "齐齐哈尔",
+                "fullName": "黑龙江 齐齐哈尔",
+                "cityCode": "2302",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "9782",
+                "name": "鸡西",
+                "fullName": "黑龙江 鸡西",
+                "cityCode": "2303",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "9890",
+                "name": "鹤岗",
+                "fullName": "黑龙江 鹤岗",
+                "cityCode": "2304",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "9970",
+                "name": "双鸭山",
+                "fullName": "黑龙江 双鸭山",
+                "cityCode": "2305",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10067",
+                "name": "大庆",
+                "fullName": "黑龙江 大庆",
+                "cityCode": "2306",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10346",
+                "name": "伊春",
+                "fullName": "黑龙江 伊春",
+                "cityCode": "2307",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10484",
+                "name": "佳木斯",
+                "fullName": "黑龙江 佳木斯",
+                "cityCode": "2308",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10679",
+                "name": "七台河",
+                "fullName": "黑龙江 七台河",
+                "cityCode": "2309",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10748",
+                "name": "牡丹江",
+                "fullName": "黑龙江 牡丹江",
+                "cityCode": "2310",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "10860",
+                "name": "黑河",
+                "fullName": "黑龙江 黑河",
+                "cityCode": "2311",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "11001",
+                "name": "绥化",
+                "fullName": "黑龙江 绥化",
+                "cityCode": "2312",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "11219",
+                "name": "大兴安岭",
+                "fullName": "黑龙江 大兴安岭",
+                "cityCode": "2327",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "11274",
+                "name": "农垦总局",
+                "fullName": "黑龙江 农垦总局",
+                "cityCode": "2371",
+                "parentCode": "23",
+                "level": 2
+            },
+            {
+                "id": "11414",
+                "name": "森工总局",
+                "fullName": "黑龙江 森工总局",
+                "cityCode": "2372",
+                "parentCode": "23",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "11441",
+        "name": "上海",
+        "fullName": "上海市",
+        "cityCode": "31",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            
+            {
+                "id": "11442",
+                "name": "上海",
+                "fullName": "上海市",
+                "cityCode": "3101",
+                "parentCode": "31",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "11685",
+        "name": "江苏",
+        "fullName": "江苏省",
+        "cityCode": "32",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "江苏省",
+                "cityCode": "32"
+            },
+            {
+                "id": "11686",
+                "name": "南京",
+                "fullName": "江苏 南京",
+                "cityCode": "3201",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "11805",
+                "name": "无锡",
+                "fullName": "江苏 无锡",
+                "cityCode": "3202",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "11896",
+                "name": "徐州",
+                "fullName": "江苏 徐州",
+                "cityCode": "3203",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12079",
+                "name": "常州",
+                "fullName": "江苏 常州",
+                "cityCode": "3204",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12151",
+                "name": "苏州",
+                "fullName": "江苏 苏州",
+                "cityCode": "3205",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12271",
+                "name": "南通",
+                "fullName": "江苏 南通",
+                "cityCode": "3206",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12394",
+                "name": "连云港",
+                "fullName": "江苏 连云港",
+                "cityCode": "3207",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12507",
+                "name": "淮安",
+                "fullName": "江苏 淮安",
+                "cityCode": "3208",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12668",
+                "name": "盐城",
+                "fullName": "江苏 盐城",
+                "cityCode": "3209",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12837",
+                "name": "扬州",
+                "fullName": "江苏 扬州",
+                "cityCode": "3210",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "12939",
+                "name": "镇江",
+                "fullName": "江苏 镇江",
+                "cityCode": "3211",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "13012",
+                "name": "泰州",
+                "fullName": "江苏 泰州",
+                "cityCode": "3212",
+                "parentCode": "32",
+                "level": 2
+            },
+            {
+                "id": "13124",
+                "name": "宿迁",
+                "fullName": "江苏 宿迁",
+                "cityCode": "3213",
+                "parentCode": "32",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "13262",
+        "name": "浙江",
+        "fullName": "浙江省",
+        "cityCode": "33",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "浙江省",
+                "cityCode": "33"
+            },
+            {
+                "id": "13263",
+                "name": "杭州",
+                "fullName": "浙江 杭州",
+                "cityCode": "3301",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "13480",
+                "name": "宁波",
+                "fullName": "浙江 宁波",
+                "cityCode": "3302",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "13668",
+                "name": "温州",
+                "fullName": "浙江 温州",
+                "cityCode": "3303",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "13822",
+                "name": "嘉兴",
+                "fullName": "浙江 嘉兴",
+                "cityCode": "3304",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "13912",
+                "name": "湖州",
+                "fullName": "浙江 湖州",
+                "cityCode": "3305",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14002",
+                "name": "绍兴",
+                "fullName": "浙江 绍兴",
+                "cityCode": "3306",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14141",
+                "name": "金华",
+                "fullName": "浙江 金华",
+                "cityCode": "3307",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14322",
+                "name": "衢州",
+                "fullName": "浙江 衢州",
+                "cityCode": "3308",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14442",
+                "name": "舟山",
+                "fullName": "浙江 舟山",
+                "cityCode": "3309",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14483",
+                "name": "台州",
+                "fullName": "浙江 台州",
+                "cityCode": "3310",
+                "parentCode": "33",
+                "level": 2
+            },
+            {
+                "id": "14635",
+                "name": "丽水",
+                "fullName": "浙江 丽水",
+                "cityCode": "3311",
+                "parentCode": "33",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "14831",
+        "name": "安徽",
+        "fullName": "安徽省",
+        "cityCode": "34",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "安徽省",
+                "cityCode": "34"
+            },
+            {
+                "id": "14832",
+                "name": "合肥",
+                "fullName": "安徽 合肥",
+                "cityCode": "3401",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15000",
+                "name": "芜湖",
+                "fullName": "安徽 芜湖",
+                "cityCode": "3402",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15090",
+                "name": "蚌埠",
+                "fullName": "安徽 蚌埠",
+                "cityCode": "3403",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15188",
+                "name": "淮南",
+                "fullName": "安徽 淮南",
+                "cityCode": "3404",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15266",
+                "name": "马鞍山",
+                "fullName": "安徽 马鞍山",
+                "cityCode": "3405",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15345",
+                "name": "淮北",
+                "fullName": "安徽 淮北",
+                "cityCode": "3406",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15387",
+                "name": "铜陵",
+                "fullName": "安徽 铜陵",
+                "cityCode": "3407",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15435",
+                "name": "安庆",
+                "fullName": "安徽 安庆",
+                "cityCode": "3408",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15630",
+                "name": "黄山",
+                "fullName": "安徽 黄山",
+                "cityCode": "3410",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15748",
+                "name": "滁州",
+                "fullName": "安徽 滁州",
+                "cityCode": "3411",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "15884",
+                "name": "阜阳",
+                "fullName": "安徽 阜阳",
+                "cityCode": "3412",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "16070",
+                "name": "宿州",
+                "fullName": "安徽 宿州",
+                "cityCode": "3413",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "16196",
+                "name": "六安",
+                "fullName": "安徽 六安",
+                "cityCode": "3415",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "16382",
+                "name": "亳州",
+                "fullName": "安徽 亳州",
+                "cityCode": "3416",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "16482",
+                "name": "池州",
+                "fullName": "安徽 池州",
+                "cityCode": "3417",
+                "parentCode": "34",
+                "level": 2
+            },
+            {
+                "id": "16547",
+                "name": "宣城",
+                "fullName": "安徽 宣城",
+                "cityCode": "3418",
+                "parentCode": "34",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "16654",
+        "name": "福建",
+        "fullName": "福建省",
+        "cityCode": "35",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "福建省",
+                "cityCode": "35"
+            },
+            {
+                "id": "16655",
+                "name": "福州",
+                "fullName": "福建 福州",
+                "cityCode": "3501",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "16850",
+                "name": "厦门",
+                "fullName": "福建 厦门",
+                "cityCode": "3502",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "16905",
+                "name": "莆田",
+                "fullName": "福建 莆田",
+                "cityCode": "3503",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "16969",
+                "name": "三明",
+                "fullName": "福建 三明",
+                "cityCode": "3504",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17129",
+                "name": "泉州",
+                "fullName": "福建 泉州",
+                "cityCode": "3505",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17309",
+                "name": "漳州",
+                "fullName": "福建 漳州",
+                "cityCode": "3506",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17461",
+                "name": "南平",
+                "fullName": "福建 南平",
+                "cityCode": "3507",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17612",
+                "name": "龙岩",
+                "fullName": "福建 龙岩",
+                "cityCode": "3508",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17755",
+                "name": "宁德",
+                "fullName": "福建 宁德",
+                "cityCode": "3509",
+                "parentCode": "35",
+                "level": 2
+            },
+            {
+                "id": "17894",
+                "name": "平潭",
+                "fullName": "福建 平潭",
+                "cityCode": "3571",
+                "parentCode": "35",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "17911",
+        "name": "江西",
+        "fullName": "江西省",
+        "cityCode": "36",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "江西省",
+                "cityCode": "36"
+            },
+            {
+                "id": "17912",
+                "name": "南昌",
+                "fullName": "江西 南昌",
+                "cityCode": "3601",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18063",
+                "name": "景德镇",
+                "fullName": "江西 景德镇",
+                "cityCode": "3602",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18126",
+                "name": "萍乡",
+                "fullName": "江西 萍乡",
+                "cityCode": "3603",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18192",
+                "name": "九江",
+                "fullName": "江西 九江",
+                "cityCode": "3604",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18438",
+                "name": "新余",
+                "fullName": "江西 新余",
+                "cityCode": "3605",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18484",
+                "name": "鹰潭",
+                "fullName": "江西 鹰潭",
+                "cityCode": "3606",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18558",
+                "name": "赣州",
+                "fullName": "江西 赣州",
+                "cityCode": "3607",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "18885",
+                "name": "吉安",
+                "fullName": "江西 吉安",
+                "cityCode": "3608",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "19154",
+                "name": "宜春",
+                "fullName": "江西 宜春",
+                "cityCode": "3609",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "19369",
+                "name": "抚州",
+                "fullName": "江西 抚州",
+                "cityCode": "3610",
+                "parentCode": "36",
+                "level": 2
+            },
+            {
+                "id": "19561",
+                "name": "上饶",
+                "fullName": "江西 上饶",
+                "cityCode": "3611",
+                "parentCode": "36",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "19809",
+        "name": "山东",
+        "fullName": "山东省",
+        "cityCode": "37",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "山东省",
+                "cityCode": "37"
+            },
+            {
+                "id": "19810",
+                "name": "济南",
+                "fullName": "山东 济南",
+                "cityCode": "3701",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "19973",
+                "name": "青岛",
+                "fullName": "山东 青岛",
+                "cityCode": "3702",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20138",
+                "name": "淄博",
+                "fullName": "山东 淄博",
+                "cityCode": "3703",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20240",
+                "name": "枣庄",
+                "fullName": "山东 枣庄",
+                "cityCode": "3704",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20314",
+                "name": "东营",
+                "fullName": "山东 东营",
+                "cityCode": "3705",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20457",
+                "name": "烟台",
+                "fullName": "山东 烟台",
+                "cityCode": "3706",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20639",
+                "name": "潍坊",
+                "fullName": "山东 潍坊",
+                "cityCode": "3707",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20806",
+                "name": "济宁",
+                "fullName": "山东 济宁",
+                "cityCode": "3708",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "20983",
+                "name": "泰安",
+                "fullName": "山东 泰安",
+                "cityCode": "3709",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21085",
+                "name": "威海",
+                "fullName": "山东 威海",
+                "cityCode": "3710",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21171",
+                "name": "日照",
+                "fullName": "山东 日照",
+                "cityCode": "3711",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21241",
+                "name": "莱芜",
+                "fullName": "山东 莱芜",
+                "cityCode": "3712",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21280",
+                "name": "临沂",
+                "fullName": "山东 临沂",
+                "cityCode": "3713",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21477",
+                "name": "德州",
+                "fullName": "山东 德州",
+                "cityCode": "3714",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21633",
+                "name": "聊城",
+                "fullName": "山东 聊城",
+                "cityCode": "3715",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21788",
+                "name": "滨州",
+                "fullName": "山东 滨州",
+                "cityCode": "3716",
+                "parentCode": "37",
+                "level": 2
+            },
+            {
+                "id": "21893",
+                "name": "菏泽",
+                "fullName": "山东 菏泽",
+                "cityCode": "3717",
+                "parentCode": "37",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "22077",
+        "name": "河南",
+        "fullName": "河南省",
+        "cityCode": "41",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "河南省",
+                "cityCode": "41"
+            },
+            {
+                "id": "22078",
+                "name": "郑州",
+                "fullName": "河南 郑州",
+                "cityCode": "4101",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "22310",
+                "name": "开封",
+                "fullName": "河南 开封",
+                "cityCode": "4102",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "22446",
+                "name": "洛阳",
+                "fullName": "河南 洛阳",
+                "cityCode": "4103",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "22652",
+                "name": "平顶山",
+                "fullName": "河南 平顶山",
+                "cityCode": "4104",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "22809",
+                "name": "安阳",
+                "fullName": "河南 安阳",
+                "cityCode": "4105",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "22960",
+                "name": "鹤壁",
+                "fullName": "河南 鹤壁",
+                "cityCode": "4106",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23015",
+                "name": "新乡",
+                "fullName": "河南 新乡",
+                "cityCode": "4107",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23187",
+                "name": "焦作",
+                "fullName": "河南 焦作",
+                "cityCode": "4108",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23311",
+                "name": "濮阳",
+                "fullName": "河南 濮阳",
+                "cityCode": "4109",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23485",
+                "name": "许昌",
+                "fullName": "河南 许昌",
+                "cityCode": "4110",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23607",
+                "name": "漯河",
+                "fullName": "河南 漯河",
+                "cityCode": "4111",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23673",
+                "name": "三门峡",
+                "fullName": "河南 三门峡",
+                "cityCode": "4112",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "23765",
+                "name": "南阳",
+                "fullName": "河南 南阳",
+                "cityCode": "4113",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "24030",
+                "name": "商丘",
+                "fullName": "河南 商丘",
+                "cityCode": "4114",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "24234",
+                "name": "信阳",
+                "fullName": "河南 信阳",
+                "cityCode": "4115",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "24480",
+                "name": "周口",
+                "fullName": "河南 周口",
+                "cityCode": "4116",
+                "parentCode": "41",
+                "level": 2
+            },
+            {
+                "id": "24707",
+                "name": "驻马店",
+                "fullName": "河南 驻马店",
+                "cityCode": "4117",
+                "parentCode": "41",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "24944",
+        "name": "湖北",
+        "fullName": "湖北省",
+        "cityCode": "42",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "湖北省",
+                "cityCode": "42"
+            },
+            {
+                "id": "24945",
+                "name": "武汉",
+                "fullName": "湖北 武汉",
+                "cityCode": "4201",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25151",
+                "name": "黄石",
+                "fullName": "湖北 黄石",
+                "cityCode": "4202",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25211",
+                "name": "十堰",
+                "fullName": "湖北 十堰",
+                "cityCode": "4203",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25359",
+                "name": "宜昌",
+                "fullName": "湖北 宜昌",
+                "cityCode": "4205",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25494",
+                "name": "襄阳",
+                "fullName": "湖北 襄阳",
+                "cityCode": "4206",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25625",
+                "name": "鄂州",
+                "fullName": "湖北 鄂州",
+                "cityCode": "4207",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25656",
+                "name": "荆门",
+                "fullName": "湖北 荆门",
+                "cityCode": "4208",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25742",
+                "name": "孝感",
+                "fullName": "湖北 孝感",
+                "cityCode": "4209",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "25881",
+                "name": "荆州",
+                "fullName": "湖北 荆州",
+                "cityCode": "4210",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "26025",
+                "name": "黄冈",
+                "fullName": "湖北 黄冈",
+                "cityCode": "4211",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "26197",
+                "name": "咸宁",
+                "fullName": "湖北 咸宁",
+                "cityCode": "4212",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "26282",
+                "name": "随州",
+                "fullName": "湖北 随州",
+                "cityCode": "4213",
+                "parentCode": "42",
+                "level": 2
+            },
+            {
+                "id": "26338",
+                "name": "恩施",
+                "fullName": "湖北 恩施",
+                "cityCode": "4228",
+                "parentCode": "42",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "26526",
+        "name": "湖南",
+        "fullName": "湖南省",
+        "cityCode": "43",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "湖南省",
+                "cityCode": "43"
+            },
+            {
+                "id": "26527",
+                "name": "长沙",
+                "fullName": "湖南 长沙",
+                "cityCode": "4301",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "26726",
+                "name": "株洲",
+                "fullName": "湖南 株洲",
+                "cityCode": "4302",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "26875",
+                "name": "湘潭",
+                "fullName": "湖南 湘潭",
+                "cityCode": "4303",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "26965",
+                "name": "衡阳",
+                "fullName": "湖南 衡阳",
+                "cityCode": "4304",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "27205",
+                "name": "邵阳",
+                "fullName": "湖南 邵阳",
+                "cityCode": "4305",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "27451",
+                "name": "岳阳",
+                "fullName": "湖南 岳阳",
+                "cityCode": "4306",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "27651",
+                "name": "常德",
+                "fullName": "湖南 常德",
+                "cityCode": "4307",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "27907",
+                "name": "张家界",
+                "fullName": "湖南 张家界",
+                "cityCode": "4308",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "28016",
+                "name": "益阳",
+                "fullName": "湖南 益阳",
+                "cityCode": "4309",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "28128",
+                "name": "郴州",
+                "fullName": "湖南 郴州",
+                "cityCode": "4310",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "28350",
+                "name": "永州",
+                "fullName": "湖南 永州",
+                "cityCode": "4311",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "28597",
+                "name": "怀化",
+                "fullName": "湖南 怀化",
+                "cityCode": "4312",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "28912",
+                "name": "娄底",
+                "fullName": "湖南 娄底",
+                "cityCode": "4313",
+                "parentCode": "43",
+                "level": 2
+            },
+            {
+                "id": "29015",
+                "name": "湘西",
+                "fullName": "湖南 湘西",
+                "cityCode": "4331",
+                "parentCode": "43",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "29189",
+        "name": "广东",
+        "fullName": "广东省",
+        "cityCode": "44",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "广东省",
+                "cityCode": "44"
+            },
+            {
+                "id": "29190",
+                "name": "广州",
+                "fullName": "广东 广州",
+                "cityCode": "4401",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29373",
+                "name": "韶关",
+                "fullName": "广东 韶关",
+                "cityCode": "4402",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29500",
+                "name": "深圳",
+                "fullName": "广东 深圳",
+                "cityCode": "4403",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29569",
+                "name": "珠海",
+                "fullName": "广东 珠海",
+                "cityCode": "4404",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29602",
+                "name": "汕头",
+                "fullName": "广东 汕头",
+                "cityCode": "4405",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29682",
+                "name": "佛山",
+                "fullName": "广东 佛山",
+                "cityCode": "4406",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29722",
+                "name": "江门",
+                "fullName": "广东 江门",
+                "cityCode": "4407",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29810",
+                "name": "湛江",
+                "fullName": "广东 湛江",
+                "cityCode": "4408",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "29969",
+                "name": "茂名",
+                "fullName": "广东 茂名",
+                "cityCode": "4409",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30102",
+                "name": "肇庆",
+                "fullName": "广东 肇庆",
+                "cityCode": "4412",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30218",
+                "name": "惠州",
+                "fullName": "广东 惠州",
+                "cityCode": "4413",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30303",
+                "name": "梅州",
+                "fullName": "广东 梅州",
+                "cityCode": "4414",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30429",
+                "name": "汕尾",
+                "fullName": "广东 汕尾",
+                "cityCode": "4415",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30499",
+                "name": "河源",
+                "fullName": "广东 河源",
+                "cityCode": "4416",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30609",
+                "name": "阳江",
+                "fullName": "广东 阳江",
+                "cityCode": "4417",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30666",
+                "name": "清远",
+                "fullName": "广东 清远",
+                "cityCode": "4418",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30766",
+                "name": "东莞",
+                "fullName": "广东 东莞",
+                "cityCode": "4419",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30801",
+                "name": "中山",
+                "fullName": "广东 中山",
+                "cityCode": "4420",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30827",
+                "name": "潮州",
+                "fullName": "广东 潮州",
+                "cityCode": "4451",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30887",
+                "name": "揭阳",
+                "fullName": "广东 揭阳",
+                "cityCode": "4452",
+                "parentCode": "44",
+                "level": 2
+            },
+            {
+                "id": "30994",
+                "name": "云浮",
+                "fullName": "广东 云浮",
+                "cityCode": "4453",
+                "parentCode": "44",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "31064",
+        "name": "广西",
+        "fullName": "广西壮族自治区",
+        "cityCode": "45",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "广西壮族自治区",
+                "cityCode": "45"
+            },
+            {
+                "id": "31065",
+                "name": "南宁",
+                "fullName": "广西 南宁",
+                "cityCode": "4501",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31214",
+                "name": "柳州",
+                "fullName": "广西 柳州",
+                "cityCode": "4502",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31343",
+                "name": "桂林",
+                "fullName": "广西 桂林",
+                "cityCode": "4503",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31518",
+                "name": "梧州",
+                "fullName": "广西 梧州",
+                "cityCode": "4504",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31595",
+                "name": "北海",
+                "fullName": "广西 北海",
+                "cityCode": "4505",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31630",
+                "name": "防城港",
+                "fullName": "广西 防城港",
+                "cityCode": "4506",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31662",
+                "name": "钦州",
+                "fullName": "广西 钦州",
+                "cityCode": "4507",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31735",
+                "name": "贵港",
+                "fullName": "广西 贵港",
+                "cityCode": "4508",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31819",
+                "name": "玉林",
+                "fullName": "广西 玉林",
+                "cityCode": "4509",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "31941",
+                "name": "百色",
+                "fullName": "广西 百色",
+                "cityCode": "4510",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "32094",
+                "name": "贺州",
+                "fullName": "广西 贺州",
+                "cityCode": "4511",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "32169",
+                "name": "河池",
+                "fullName": "广西 河池",
+                "cityCode": "4512",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "32327",
+                "name": "来宾",
+                "fullName": "广西 来宾",
+                "cityCode": "4513",
+                "parentCode": "45",
+                "level": 2
+            },
+            {
+                "id": "32410",
+                "name": "崇左",
+                "fullName": "广西 崇左",
+                "cityCode": "4514",
+                "parentCode": "45",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "32512",
+        "name": "海南",
+        "fullName": "海南省",
+        "cityCode": "46",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "海南省",
+                "cityCode": "46"
+            },
+            {
+                "id": "32513",
+                "name": "海口",
+                "fullName": "海南 海口",
+                "cityCode": "4601",
+                "parentCode": "46",
+                "level": 2
+            },
+            {
+                "id": "32567",
+                "name": "三亚",
+                "fullName": "海南 三亚",
+                "cityCode": "4602",
+                "parentCode": "46",
+                "level": 2
+            },
+            {
+                "id": "32583",
+                "name": "三沙",
+                "fullName": "海南 三沙",
+                "cityCode": "4603",
+                "parentCode": "46",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "32864",
+        "name": "重庆",
+        "fullName": "重庆市",
+        "cityCode": "50",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            
+            {
+                "id": "32865",
+                "name": "重庆",
+                "fullName": "重庆市",
+                "cityCode": "5001",
+                "parentCode": "50",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "33931",
+        "name": "四川",
+        "fullName": "四川省",
+        "cityCode": "51",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "四川省",
+                "cityCode": "51"
+            },
+            {
+                "id": "33932",
+                "name": "成都",
+                "fullName": "四川 成都",
+                "cityCode": "5101",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "34273",
+                "name": "自贡",
+                "fullName": "四川 自贡",
+                "cityCode": "5103",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "34389",
+                "name": "攀枝花",
+                "fullName": "四川 攀枝花",
+                "cityCode": "5104",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "34556",
+                "name": "泸州",
+                "fullName": "四川 泸州",
+                "cityCode": "5105",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "34709",
+                "name": "德阳",
+                "fullName": "四川 德阳",
+                "cityCode": "5106",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "34846",
+                "name": "绵阳",
+                "fullName": "四川 绵阳",
+                "cityCode": "5107",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "35166",
+                "name": "广元",
+                "fullName": "四川 广元",
+                "cityCode": "5108",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "35424",
+                "name": "遂宁",
+                "fullName": "四川 遂宁",
+                "cityCode": "5109",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "35565",
+                "name": "内江",
+                "fullName": "四川 内江",
+                "cityCode": "5110",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "35694",
+                "name": "乐山",
+                "fullName": "四川 乐山",
+                "cityCode": "5111",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "35927",
+                "name": "南充",
+                "fullName": "四川 南充",
+                "cityCode": "5113",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "36361",
+                "name": "眉山",
+                "fullName": "四川 眉山",
+                "cityCode": "5114",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "36500",
+                "name": "宜宾",
+                "fullName": "四川 宜宾",
+                "cityCode": "5115",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "36699",
+                "name": "广安",
+                "fullName": "四川 广安",
+                "cityCode": "5116",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "36889",
+                "name": "达州",
+                "fullName": "四川 达州",
+                "cityCode": "5117",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "37214",
+                "name": "雅安",
+                "fullName": "四川 雅安",
+                "cityCode": "5118",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "37367",
+                "name": "巴中",
+                "fullName": "四川 巴中",
+                "cityCode": "5119",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "37570",
+                "name": "资阳",
+                "fullName": "四川 资阳",
+                "cityCode": "5120",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "37753",
+                "name": "阿坝",
+                "fullName": "四川 阿坝",
+                "cityCode": "5132",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "38009",
+                "name": "甘孜",
+                "fullName": "四川 甘孜",
+                "cityCode": "5133",
+                "parentCode": "51",
+                "level": 2
+            },
+            {
+                "id": "38355",
+                "name": "凉山",
+                "fullName": "四川 凉山",
+                "cityCode": "5134",
+                "parentCode": "51",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "38996",
+        "name": "贵州",
+        "fullName": "贵州省",
+        "cityCode": "52",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "贵州省",
+                "cityCode": "52"
+            },
+            {
+                "id": "38997",
+                "name": "贵阳",
+                "fullName": "贵州 贵阳",
+                "cityCode": "5201",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "39176",
+                "name": "六盘水",
+                "fullName": "贵州 六盘水",
+                "cityCode": "5202",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "39297",
+                "name": "遵义",
+                "fullName": "贵州 遵义",
+                "cityCode": "5203",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "39559",
+                "name": "安顺",
+                "fullName": "贵州 安顺",
+                "cityCode": "5204",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "39656",
+                "name": "毕节",
+                "fullName": "贵州 毕节",
+                "cityCode": "5205",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "39935",
+                "name": "铜仁",
+                "fullName": "贵州 铜仁",
+                "cityCode": "5206",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "40118",
+                "name": "黔西",
+                "fullName": "贵州 黔西",
+                "cityCode": "5223",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "40267",
+                "name": "黔东",
+                "fullName": "贵州 黔东",
+                "cityCode": "5226",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "40492",
+                "name": "黔南",
+                "fullName": "贵州 黔南",
+                "cityCode": "5227",
+                "parentCode": "52",
+                "level": 2
+            },
+            {
+                "id": "40609",
+                "name": "贵安",
+                "fullName": "贵州 贵安",
+                "cityCode": "5271",
+                "parentCode": "52",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "40615",
+        "name": "云南",
+        "fullName": "云南省",
+        "cityCode": "53",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "云南省",
+                "cityCode": "53"
+            },
+            {
+                "id": "40616",
+                "name": "昆明",
+                "fullName": "云南 昆明",
+                "cityCode": "5301",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "40769",
+                "name": "曲靖",
+                "fullName": "云南 曲靖",
+                "cityCode": "5303",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "40895",
+                "name": "玉溪",
+                "fullName": "云南 玉溪",
+                "cityCode": "5304",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "40983",
+                "name": "保山",
+                "fullName": "云南 保山",
+                "cityCode": "5305",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41064",
+                "name": "昭通",
+                "fullName": "云南 昭通",
+                "cityCode": "5306",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41221",
+                "name": "丽江",
+                "fullName": "云南 丽江",
+                "cityCode": "5307",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41293",
+                "name": "普洱",
+                "fullName": "云南 普洱",
+                "cityCode": "5308",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41410",
+                "name": "临沧",
+                "fullName": "云南 临沧",
+                "cityCode": "5309",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41504",
+                "name": "楚雄",
+                "fullName": "云南 楚雄",
+                "cityCode": "5323",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41618",
+                "name": "红河",
+                "fullName": "云南 红河",
+                "cityCode": "5325",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41771",
+                "name": "文山",
+                "fullName": "云南 文山",
+                "cityCode": "5326",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41895",
+                "name": "西双版纳",
+                "fullName": "云南 西双版纳",
+                "cityCode": "5328",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "41946",
+                "name": "大理",
+                "fullName": "云南 大理",
+                "cityCode": "5329",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "42069",
+                "name": "德宏",
+                "fullName": "云南 德宏",
+                "cityCode": "5331",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "42132",
+                "name": "怒江",
+                "fullName": "云南 怒江",
+                "cityCode": "5333",
+                "parentCode": "53",
+                "level": 2
+            },
+            {
+                "id": "42166",
+                "name": "迪庆",
+                "fullName": "云南 迪庆",
+                "cityCode": "5334",
+                "parentCode": "53",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "42201",
+        "name": "西藏",
+        "fullName": "西藏自治区",
+        "cityCode": "54",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "西藏自治区",
+                "cityCode": "54"
+            },
+            {
+                "id": "42202",
+                "name": "拉萨",
+                "fullName": "西藏 拉萨",
+                "cityCode": "5401",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42277",
+                "name": "昌都",
+                "fullName": "西藏 昌都",
+                "cityCode": "5421",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42427",
+                "name": "山南",
+                "fullName": "西藏 山南",
+                "cityCode": "5422",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42523",
+                "name": "日喀则",
+                "fullName": "西藏 日喀则",
+                "cityCode": "5423",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42745",
+                "name": "那曲",
+                "fullName": "西藏 那曲",
+                "cityCode": "5424",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42870",
+                "name": "阿里",
+                "fullName": "西藏 阿里",
+                "cityCode": "5425",
+                "parentCode": "54",
+                "level": 2
+            },
+            {
+                "id": "42917",
+                "name": "林芝",
+                "fullName": "西藏 林芝",
+                "cityCode": "5426",
+                "parentCode": "54",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "42984",
+        "name": "陕西",
+        "fullName": "陕西省",
+        "cityCode": "61",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "陕西省",
+                "cityCode": "61"
+            },
+            {
+                "id": "42985",
+                "name": "西安",
+                "fullName": "陕西 西安",
+                "cityCode": "6101",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43203",
+                "name": "铜川",
+                "fullName": "陕西 铜川",
+                "cityCode": "6102",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43252",
+                "name": "宝鸡",
+                "fullName": "陕西 宝鸡",
+                "cityCode": "6103",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43387",
+                "name": "咸阳",
+                "fullName": "陕西 咸阳",
+                "cityCode": "6104",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43588",
+                "name": "渭南",
+                "fullName": "陕西 渭南",
+                "cityCode": "6105",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43773",
+                "name": "延安",
+                "fullName": "陕西 延安",
+                "cityCode": "6106",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "43945",
+                "name": "汉中",
+                "fullName": "陕西 汉中",
+                "cityCode": "6107",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "44147",
+                "name": "榆林",
+                "fullName": "陕西 榆林",
+                "cityCode": "6108",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "44403",
+                "name": "安康",
+                "fullName": "陕西 安康",
+                "cityCode": "6109",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "44579",
+                "name": "商洛",
+                "fullName": "陕西 商洛",
+                "cityCode": "6110",
+                "parentCode": "61",
+                "level": 2
+            },
+            {
+                "id": "44713",
+                "name": "杨凌",
+                "fullName": "陕西 杨凌",
+                "cityCode": "6111",
+                "parentCode": "61",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "44720",
+        "name": "甘肃",
+        "fullName": "甘肃省",
+        "cityCode": "62",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "甘肃省",
+                "cityCode": "62"
+            },
+            {
+                "id": "44721",
+                "name": "兰州",
+                "fullName": "甘肃 兰州",
+                "cityCode": "6201",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "44852",
+                "name": "嘉峪关",
+                "fullName": "甘肃 嘉峪关",
+                "cityCode": "6202",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "44888",
+                "name": "金昌",
+                "fullName": "甘肃 金昌",
+                "cityCode": "6203",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "44924",
+                "name": "白银",
+                "fullName": "甘肃 白银",
+                "cityCode": "6204",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45010",
+                "name": "天水",
+                "fullName": "甘肃 天水",
+                "cityCode": "6205",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45142",
+                "name": "武威",
+                "fullName": "甘肃 武威",
+                "cityCode": "6206",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45251",
+                "name": "张掖",
+                "fullName": "甘肃 张掖",
+                "cityCode": "6207",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45335",
+                "name": "平凉",
+                "fullName": "甘肃 平凉",
+                "cityCode": "6208",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45463",
+                "name": "酒泉",
+                "fullName": "甘肃 酒泉",
+                "cityCode": "6209",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45578",
+                "name": "庆阳",
+                "fullName": "甘肃 庆阳",
+                "cityCode": "6210",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45721",
+                "name": "定西",
+                "fullName": "甘肃 定西",
+                "cityCode": "6211",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "45852",
+                "name": "陇南",
+                "fullName": "甘肃 陇南",
+                "cityCode": "6212",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "46060",
+                "name": "临夏",
+                "fullName": "甘肃 临夏",
+                "cityCode": "6229",
+                "parentCode": "62",
+                "level": 2
+            },
+            {
+                "id": "46199",
+                "name": "甘南",
+                "fullName": "甘肃 甘南",
+                "cityCode": "6230",
+                "parentCode": "62",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "46309",
+        "name": "青海",
+        "fullName": "青海省",
+        "cityCode": "63",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "青海省",
+                "cityCode": "63"
+            },
+            {
+                "id": "46310",
+                "name": "西宁",
+                "fullName": "青海 西宁",
+                "cityCode": "6301",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46390",
+                "name": "海东",
+                "fullName": "青海 海东",
+                "cityCode": "6321",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46493",
+                "name": "海北",
+                "fullName": "青海 海北",
+                "cityCode": "6322",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46530",
+                "name": "黄南",
+                "fullName": "青海 黄南",
+                "cityCode": "6323",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46567",
+                "name": "海南",
+                "fullName": "青海 海南",
+                "cityCode": "6325",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46611",
+                "name": "果洛",
+                "fullName": "青海 果洛",
+                "cityCode": "6326",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46662",
+                "name": "玉树",
+                "fullName": "青海 玉树",
+                "cityCode": "6327",
+                "parentCode": "63",
+                "level": 2
+            },
+            {
+                "id": "46714",
+                "name": "海西",
+                "fullName": "青海 海西",
+                "cityCode": "6328",
+                "parentCode": "63",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "46768",
+        "name": "宁夏",
+        "fullName": "宁夏回族自治区",
+        "cityCode": "64",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "宁夏回族自治区",
+                "cityCode": "64"
+            },
+            {
+                "id": "46769",
+                "name": "银川",
+                "fullName": "宁夏 银川",
+                "cityCode": "6401",
+                "parentCode": "64",
+                "level": 2
+            },
+            {
+                "id": "46837",
+                "name": "石嘴山",
+                "fullName": "宁夏 石嘴山",
+                "cityCode": "6402",
+                "parentCode": "64",
+                "level": 2
+            },
+            {
+                "id": "46881",
+                "name": "吴忠",
+                "fullName": "宁夏 吴忠",
+                "cityCode": "6403",
+                "parentCode": "64",
+                "level": 2
+            },
+            {
+                "id": "46942",
+                "name": "固原",
+                "fullName": "宁夏 固原",
+                "cityCode": "6404",
+                "parentCode": "64",
+                "level": 2
+            },
+            {
+                "id": "47015",
+                "name": "中卫",
+                "fullName": "宁夏 中卫",
+                "cityCode": "6405",
+                "parentCode": "64",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "47063",
+        "name": "新疆",
+        "fullName": "新疆维吾尔自治区",
+        "cityCode": "65",
+        "parentCode": "0",
+        "level": 1,
+        "childs": [
+            {
+                "name": "不限",
+                "fullName": "新疆维吾尔自治区",
+                "cityCode": "65"
+            },
+            {
+                "id": "47064",
+                "name": "乌鲁木齐",
+                "fullName": "新疆 乌鲁木齐",
+                "cityCode": "6501",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47187",
+                "name": "克拉玛依",
+                "fullName": "新疆 克拉玛依",
+                "cityCode": "6502",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47206",
+                "name": "吐鲁番",
+                "fullName": "新疆 吐鲁番",
+                "cityCode": "6521",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47244",
+                "name": "哈密",
+                "fullName": "新疆 哈密",
+                "cityCode": "6522",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47299",
+                "name": "昌吉",
+                "fullName": "新疆 昌吉",
+                "cityCode": "6523",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47401",
+                "name": "博尔塔拉蒙古",
+                "fullName": "新疆 博尔塔拉蒙古",
+                "cityCode": "6527",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47433",
+                "name": "巴音郭楞蒙古",
+                "fullName": "新疆 巴音郭楞蒙古",
+                "cityCode": "6528",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47557",
+                "name": "阿克苏",
+                "fullName": "新疆 阿克苏",
+                "cityCode": "6529",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47697",
+                "name": "克孜勒苏柯尔克孜",
+                "fullName": "新疆 克孜勒苏柯尔克孜",
+                "cityCode": "6530",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47750",
+                "name": "喀什",
+                "fullName": "新疆 喀什",
+                "cityCode": "6531",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "47969",
+                "name": "和田",
+                "fullName": "新疆 和田",
+                "cityCode": "6532",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "48093",
+                "name": "伊犁哈萨克",
+                "fullName": "新疆 伊犁哈萨克",
+                "cityCode": "6540",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "48261",
+                "name": "塔城",
+                "fullName": "新疆 塔城",
+                "cityCode": "6542",
+                "parentCode": "65",
+                "level": 2
+            },
+            {
+                "id": "48371",
+                "name": "阿勒泰",
+                "fullName": "新疆 阿勒泰",
+                "cityCode": "6543",
+                "parentCode": "65",
+                "level": 2
+            }
+        ]
+    }
+]
+  }
+}

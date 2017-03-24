@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@color/main_color"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/common_titlebar_leftBtn"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="@drawable/back_sel"
+        android:drawablePadding="5dip"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="10dip"
+        android:textColor="@drawable/common_title_text_selector"
+        android:textSize="18sp" >
+    </Button>
+
+    <Button
+        android:id="@+id/common_titlebar_cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="#00000000"
+        android:drawablePadding="5dip"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="10dip"
+        android:text="@string/cancel"
+        android:textColor="@drawable/common_title_text_selector"
+        android:textSize="18sp"
+        android:visibility="gone" >
+    </Button>
+
+    <Button
+        android:id="@+id/common_titlebar_rightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:background="#00000000"
+        android:gravity="center"
+        android:textColor="@drawable/common_title_text_selector"
+        android:textSize="18sp" >
+    </Button>
+
+    <TextView
+        android:id="@+id/common_titlebar_titleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="22sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/common_titlebar_right_iv_btn"
+        style="@style/titlebar_rightib"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

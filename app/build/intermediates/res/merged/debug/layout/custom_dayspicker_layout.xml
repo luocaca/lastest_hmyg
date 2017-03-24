@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheelViewStyle="http://schemas.android.com/apk/res/com.hldj.hmyg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/pop_arae_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/popWinBgColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="50dip"
+                android:layout_height="30dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/common_black_btn_shape"
+                android:text="@string/cancel"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/custom_btn"
+                android:layout_width="70dip"
+                android:layout_height="30dip"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/common_black_btn_shape"
+                android:text="@string/custom"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="50dip"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/common_black_btn_shape"
+                android:text="@string/confirm_sure"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/stringPicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_horizontal" >
+
+            <com.zzy.common.widget.wheelview.WheelView
+                android:id="@+id/stringwheel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                wheelViewStyle:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

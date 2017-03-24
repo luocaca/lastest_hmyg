@@ -1,0 +1,758 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.hldj.hmyg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hldj.hmyg.SellectActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y28"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/sellect"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/x18" />
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@drawable/btn_back" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/ll_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y28"
+                android:layout_marginTop="@dimen/x8"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x10"
+                android:paddingRight="@dimen/x10"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="品名："
+                    android:textSize="@dimen/x15" />
+
+                <EditText
+                    android:id="@+id/et_pinming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center_vertical"
+                    android:padding="5.0dip"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/x13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_area"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y28"
+                android:layout_marginTop="@dimen/x8"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x10"
+                android:paddingRight="@dimen/x10"
+             >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="地   区："
+                    android:textSize="@dimen/x15" />
+
+                <TextView
+                    android:id="@+id/tv_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="全国"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/x13" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y28"
+                android:layout_marginTop="@dimen/x8"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x10"
+                android:paddingRight="@dimen/x10" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="规   格："
+                    android:textSize="@dimen/x15"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/et_min_guige"
+                    android:layout_width="0.0dip"
+                    android:layout_height="@dimen/x33"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center"
+                    android:hint="厘米"
+                    android:inputType="number"
+                    android:maxLength="7"
+                    android:padding="@dimen/x2"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/x15" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/x2"
+                    android:text="---"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/x15" />
+
+                <EditText
+                    android:id="@+id/et_max_guige"
+                    android:layout_width="0.0dip"
+                    android:layout_height="@dimen/x33"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/green_btn_selector"
+                    android:gravity="center"
+                    android:hint="厘米"
+                    android:inputType="number"
+                    android:maxLength="7"
+                    android:padding="@dimen/x2"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/gray"
+                    android:textSize="@dimen/x15" />
+            </LinearLayout>
+
+            <com.zhy.view.flowlayout.TagFlowLayout
+                android:id="@+id/id_flowlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="2.5dp"
+                android:visibility="gone"
+                app:auto_select_effect="true"
+                app:max_select="1" >
+            </com.zhy.view.flowlayout.TagFlowLayout>
+
+            <com.zhy.view.flowlayout.TagFlowLayout
+                android:id="@+id/id_flowlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/x8"
+                android:background="@color/white"
+                android:padding="2.5dp"
+                app:auto_select_effect="true"
+                app:max_select="1" >
+            </com.zhy.view.flowlayout.TagFlowLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y28"
+                android:layout_marginTop="@dimen/x8"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/x10"
+                android:paddingRight="@dimen/x10" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="种植类型："
+                    android:textSize="@dimen/x15" />
+            </LinearLayout>
+
+            <com.zhy.view.flowlayout.TagFlowLayout
+                android:id="@+id/id_flowlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="2.5dp"
+                app:auto_select_effect="true"
+                app:max_select="-1" >
+            </com.zhy.view.flowlayout.TagFlowLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ll_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="价   格："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minPrice"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="元"
+                        android:inputType="numberDecimal"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxPrice"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="元"
+                        android:inputType="numberDecimal"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="地   径："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minDiameter"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxDiameter"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="胸   径："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minDbh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxDbh"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="高   度："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minHeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxHeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="长   度："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minLength"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxLength"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="冠   幅："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minCrown"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxCrown"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="脱杆高："
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_minOffbarHeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/x2"
+                        android:text="--"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x15" />
+
+                    <EditText
+                        android:id="@+id/et_maxOffbarHeight"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/x23"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center_vertical|right"
+                        android:hint="厘米"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:padding="@dimen/x2"
+                        android:textColor="@color/gray"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x10"
+                    android:paddingRight="@dimen/x10" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:text="种植类型："
+                        android:textSize="@dimen/x15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/y28"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/x5"
+                    android:paddingRight="@dimen/x5" >
+
+                    <TextView
+                        android:id="@+id/tv_type01"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/y21"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/x8"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/x2"
+                        android:text="地栽苗"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x13" />
+
+                    <TextView
+                        android:id="@+id/tv_type02"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/y21"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/x8"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/x2"
+                        android:text="移植苗"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x13" />
+
+                    <TextView
+                        android:id="@+id/tv_type03"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/y21"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/x8"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/x2"
+                        android:text="假植苗"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x13" />
+
+                    <TextView
+                        android:id="@+id/tv_type04"
+                        android:layout_width="0.0dip"
+                        android:layout_height="@dimen/y21"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/x8"
+                        android:layout_weight="1"
+                        android:background="@drawable/sellect_edit_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/x2"
+                        android:text="容器苗"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/x13" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y34"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/iv_reset"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="重置"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/main_color" />
+
+            <TextView
+                android:id="@+id/sure"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/main_color"
+                android:gravity="center"
+                android:text="确认"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

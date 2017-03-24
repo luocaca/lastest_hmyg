@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/x5" >
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y128"
+        android:scaleType="fitXY"
+    />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/red"
+            android:textSize="@dimen/y9" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/tv_01"
+                android:layout_width="@dimen/y10"
+                android:layout_height="@dimen/y10"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="@dimen/y11" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/tv_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/y11" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#FA0000" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/y7" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_07"
+            android:layout_alignBottom="@+id/tv_07"
+            android:layout_toRightOf="@+id/tv_07"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/y7" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_status_01"
+            android:layout_width="@dimen/y20"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="@dimen/x1"
+            android:background="@drawable/r_o_status01"
+            android:gravity="center"
+            android:text="自营"
+            android:textColor="@color/white"
+            android:textSize="@dimen/y7"
+            android:visibility="gone" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_status_02"
+            android:layout_width="@dimen/y10"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="@dimen/x1"
+            android:background="@drawable/r_o_status02"
+            android:gravity="center"
+            android:text="返"
+            android:textColor="@color/white"
+            android:textSize="@dimen/y7"
+            android:visibility="gone" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_status_03"
+            android:layout_width="@dimen/y10"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="@dimen/x1"
+            android:background="@drawable/r_o_status03"
+            android:gravity="center"
+            android:text="担"
+            android:textColor="@color/white"
+            android:textSize="@dimen/y7"
+            android:visibility="gone" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_status_04"
+            android:layout_width="@dimen/y10"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="@dimen/x1"
+            android:background="@drawable/r_o_status04"
+            android:gravity="center"
+            android:text="免"
+            android:textColor="@color/white"
+            android:textSize="@dimen/y7"
+            android:visibility="gone" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/tv_status_05"
+            android:layout_width="@dimen/y10"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="@dimen/x1"
+            android:background="@drawable/r_o_status02"
+            android:gravity="center"
+            android:text="免"
+            android:textColor="@color/white"
+            android:textSize="@dimen/y7"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="@dimen/y10" />
+
+        <ImageView
+            android:id="@+id/sc_ziying"
+            android:layout_width="@dimen/y22"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="2.5dip"
+            android:src="@drawable/sc_ziying"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/sc_fuwufugai"
+            android:layout_width="@dimen/y46"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="2.5dip"
+            android:src="@drawable/sc_fuwufugai"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/sc_hezuoshangjia"
+            android:layout_width="@dimen/y46"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="2.5dip"
+            android:src="@drawable/sc_hezuoshangjia"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/sc_huodaofukuan"
+            android:layout_width="@dimen/y46"
+            android:layout_height="@dimen/y10"
+            android:layout_margin="2.5dip"
+            android:src="@drawable/sc_huodaofukuan"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

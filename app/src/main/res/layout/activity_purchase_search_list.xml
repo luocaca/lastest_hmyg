@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y34"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="@dimen/x265"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/y5"
+            android:layout_toLeftOf="@+id/edit_btn"
+            android:layout_toRightOf="@+id/btn_back"
+            android:background="@drawable/search_edit_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/ll_sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="100.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/transparent"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_choose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/transparent"
+                    android:text="苗木资源"
+                    android:textColor="@color/main_color" />
+
+                <ImageView
+                    android:id="@+id/iv_seller_arrow2"
+                    android:layout_width="@dimen/x12"
+                    android:layout_height="@dimen/x5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:src="@drawable/seller_arrow4x" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/main_color" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:ems="10"
+                android:hint="找苗/报价/店铺"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingLeft="5dip"
+                android:paddingRight="2.5dip"
+                android:textColor="@color/gray"
+                android:textColorHint="@color/gray"
+                android:textSize="14.5sp" >
+            </EditText>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x10"
+            android:background="@drawable/btn_back"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/edit_btn"
+            android:layout_width="@dimen/x48"
+            android:layout_height="@dimen/x24"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x15"
+            android:background="@drawable/r_o_green"
+            android:gravity="center"
+            android:text="搜索"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line" />
+
+    <me.maxwin.view.XListView
+        android:id="@+id/xlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff0f0f0"
+        android:clickable="true"
+        android:fadingEdge="none"
+        android:scrollingCache="false" />
+
+</LinearLayout>

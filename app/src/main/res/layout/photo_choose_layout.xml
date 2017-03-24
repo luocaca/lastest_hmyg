@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titleLayout"
+        layout="@layout/common_titlebar" />
+
+    <GridView
+        android:id="@+id/choose_photo_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:horizontalSpacing="5dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:padding="10dip"
+        android:verticalSpacing="5dip" />
+
+    <RelativeLayout
+        android:id="@+id/choose_chat_photo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#f6f6f8" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/divider_color" />
+
+        <Button
+            android:id="@+id/choose_photo_preview_btn"
+            android:layout_width="50dip"
+            android:layout_height="45dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/image_priview"
+            android:textColor="@drawable/photo_choose_bottom_text_preview_color_selector"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/choose_photo_send_btn"
+            android:layout_width="50dip"
+            android:layout_height="45dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/confirm_sure"
+            android:textColor="@drawable/photo_choose_bottom_text_send_color_selector"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/choose_photo_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/choose_photo_send_btn"
+            android:background="@drawable/photo_choose_number_bg"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="9"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</LinearLayout>

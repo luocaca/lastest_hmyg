@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_popup_shadow.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\bg_popup_shadow.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\crop__divider.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\crop__divider.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\topbar_background.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\topbar_background.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png"
+    }
+]

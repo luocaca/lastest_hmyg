@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="showOrHidden">
+<com.photo.choosephotos.photoviewer.photoviewlibs.HackyViewPager 
+    android:id="@+id/view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="48dip"/>
+
+    <RelativeLayout
+        android:id="@+id/header"     
+     android:layout_width="fill_parent"
+    android:layout_height="@dimen/y34"
+    android:background="@color/white" >
+         <Button
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/x24"
+            android:layout_height="@dimen/x24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:onClick="back"
+            android:textColor="#ffffff"
+            android:textSize="14sp" /> 
+    </RelativeLayout>
+    
+</FrameLayout>

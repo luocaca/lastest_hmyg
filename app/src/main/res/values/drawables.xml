@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="textcolor_gray3">#ff333333</item>
+    <item type="drawable" name="textcolor_gray6">#ff666666</item>
+    <item type="drawable" name="textcolor_gray9">#ff999999</item>
+    <item type="drawable" name="textcolor_grayb">#ffbbbbbb</item>
+    <item type="drawable" name="textcolor_white">#ffffffff</item>
+    <item type="drawable" name="textcolor_brown">#ffff7800</item>
+    <item type="drawable" name="textcolor_orange">#ffff9333</item>
+    <item type="drawable" name="textcolor_rightBlue">#ff0079b8</item>
+    <item type="drawable" name="textcolor_brown434">#ffeca434</item>
+    <item type="drawable" name="textcolor_gestureBrown">#ffa72121</item>
+    <item type="drawable" name="textcolor_blue">#ff12a0ea</item>
+    <item type="drawable" name="textcolor_bluenew">#ff0073ae</item>
+    <item type="drawable" name="textcolor_red">#fffe4040</item>
+    <item type="drawable" name="textcolor_graya0">#ffa0a0a0</item>
+    <item type="drawable" name="textcolor_grayaa">#ffaaaaaa</item>
+    <item type="drawable" name="activity_nomalBackground">#fff4f4f4</item>
+    <item type="drawable" name="activity_searchBackground">#ffdedede</item>
+    <item type="drawable" name="activity_seniorSearchBackground">#fff4f8f9</item>
+    <item type="drawable" name="activity_rightDailogPress">#ffededed</item>
+    <item type="drawable" name="activity_pressBackground">#ffe6e6e6</item>
+    <item type="drawable" name="activity_columnTitleBackground">#fff8f8f8</item>
+</resources>

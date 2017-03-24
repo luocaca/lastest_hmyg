@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#90FFFFFF" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="#90FFFFFF"
+        android:gravity="bottom|center_horizontal"
+        
+    >
+
+        <TextView
+            android:id="@+id/more_window_local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dip"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_1"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="发布苗木" />
+
+        <TextView
+            android:id="@+id/more_window_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@+id/more_window_local"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_2"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="苗木管理" />
+
+        <TextView
+            android:id="@+id/more_window_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/more_window_online"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_3"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="草稿箱" />
+
+        <TextView
+            android:id="@+id/more_window_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_window_local"
+            android:layout_marginRight="25dip"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_4"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="发布采购" />
+
+        <TextView
+            android:id="@+id/more_window_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_window_online"
+            android:layout_marginRight="25dip"
+            android:layout_toRightOf="@+id/more_window_collect"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_5"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="采购管理" />
+
+        <TextView
+            android:id="@+id/more_window_external"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_window_delete"
+            android:layout_toRightOf="@+id/more_window_auto"
+            android:clickable="true"
+            android:drawableTop="@drawable/fabuye_3"
+            android:gravity="center_horizontal"
+            android:paddingBottom="@dimen/more_window_item_margin"
+            android:text="更多"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_window_auto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/bottom_margin"
+            android:layout_toRightOf="@+id/more_window_collect"
+            android:src="@drawable/tabbar_compose_background_icon_close"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/center_music_window_close"
+        android:layout_width="25.0dip"
+        android:layout_height="25.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30.0dip"
+        android:src="@drawable/tabbar_compose_background_icon_close" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/bottom_margin"
+        android:src="@drawable/fabuye_wenzi" />
+
+</RelativeLayout>

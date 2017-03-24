@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hldj.hmyg"
+    android:versionCode="73"
+    android:versionName="2.0.43" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.         autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- Required -->
+    <permission
+        android:name="com.hldj.hmyg.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required -->
+    <uses-permission android:name="com.hldj.hmyg.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 需要申明的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- bugly tencent -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 可选的权限 -->
+    <!-- 使用GPS获取用户精确定位信息 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission> -->
+    <!-- testin -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--  -->
+    <!-- fir.im http://bughd.com/必选 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature android:name="android.hardware.nfc.hce" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name="com.hldj.hmyg.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/e"
+        android:label="@string/app_name"
+        android:theme="@style/NoActionBarThemeWhite" >
+        <activity
+            android:name="com.example.sortlistview.ActivityAddFriends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hldj.hmyg.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="hldjhmeg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.jpush.hmeg.main" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.hugo.android.scanner.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.hldj.hmyg.AActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.CActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.CActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.WebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SeedlingMarketWebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.WeituoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.DActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.DActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.DActivity3"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseSearchListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseDemandListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseDemandConsumerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseDemandItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseDemandItem4BuyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.DActivity4"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.DActivity5"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.EActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SafeAcountActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.StoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.store.StoreTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.meinvtupian.album.ImagePagerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.FlowerDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.GalleryImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.MessageListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jpush.hmeg.message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hldj.hmyg.MessageListDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.SaveForCartActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.SavePurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.QuoteListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.AddPurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.SaveReturnApplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.SaveReceipptActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.CheckOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.CheckOutValidateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.ManagerPurchaseListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.QuoteDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.ManagerPurchaseListDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.StorePurchaseListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.ManagerPurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.PurchaseDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.FeedBackActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SetProfileActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SetPasswardActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SetPasswardByGetCodeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.ChoosePicsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.listedittext.ParamsListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SetPhoneByGetCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BuyerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SalerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.ThematicActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 相片界面 -->
+        <activity
+            android:name="com.zzy.flowers.activity.photoalbum.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustResize|stateHidden" />
+        <activity
+            android:name="com.zzy.flowers.activity.photoalbum.PhotoAlbumActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustResize|stateHidden" />
+        <!-- e -->
+        <!-- 图片预览编辑界面 -->
+        <activity
+            android:name="com.zzy.flowers.activity.photoalbum.EditGalleryImageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustResize|stateHidden" />
+        <!-- 选择相片预览界面 -->
+        <activity
+            android:name="com.hldj.hmyg.saler.ChoosePhotoGalleryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|adjustResize|stateHidden" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SaveSeedlingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SubscribeManagerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SubscribeSearchListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.purchase.PurchasePyMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.jimiao.SaveMiaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.jimiao.MiaoNoteListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.jimiao.MiaoDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.jimiao.SellectMiaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SaveSeedlingActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.ValidateDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.EventsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SavePriceAndCountAndOutlineActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.ChooseParamsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.StoreSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.UpdataImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SellectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.SellectActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.ChooseFirstTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.AddAdressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.AdressListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.SalerOrderActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.OrderDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.ManagerQuoteActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.ManagerQuoteListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.StorageSaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.purchaseconfirmlist.PurchaseConfirmListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.purchaseconfirmlist.ConfirmWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.saler.purchaseconfirmlist.SellectForPurchaseConfirmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerListDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerOrderListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerOrderDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerSendProductsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BrokerSendCarDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BuyerValidateApplyListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.BuyerValidateApplyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.SettingBuyConfigActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BuyerListDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.BuyOrderActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.BuyOrderActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.BuyerOrderDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.LoadCarListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.LoadCarListActivity2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.ReceiptListActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.OrderReceiptListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.ReceiptAdressListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.buyer.AddReceiptAdressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.AddCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.AddReceiptActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.ChooseReceptListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SaveChooseReceptListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SaveMarketPriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SellectMarketPriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SubscribeSearchList4MarketPriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.MarketListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.MyMarketListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.MarketDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.BrokerYanmiaoOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SearchAgent4TransferValidateApplyAActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SeedlingMarketPyMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.broker.SeedlingMarketSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.ManagerListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.RegisterActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 您从百度网站获取的APP KEY -->
+        <meta-data
+            android:name="BaiduMobAd_STAT_ID"
+            android:value="09cd76900b" /> <!-- 09cd76900b -->
+        <!-- 渠道商编号 -->
+        <meta-data
+            android:name="BaiduMobAd_CHANNEL"
+            android:value="Baidu Market" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_EXCEPTION_LOG"
+            android:value="true" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data
+            android:name="BaiduMobAd_SEND_STRATEGY"
+            android:value="APP_START" />
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <!-- <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="2" /> -->
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data
+            android:name="BaiduMobAd_ONLY_WIFI"
+            android:value="false" />
+        <!-- 是否获取基站位置信息 ,默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_CELL_LOCATION"
+            android:value="true" />
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_GPS_LOCATION"
+            android:value="true" />
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data
+            android:name="BaiduMobAd_WIFI_LOCATION"
+            android:value="true" />
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="ace0b347eac16f0554c65087edef0e12" />
+
+        <!-- Required SDK 核心功能 -->
+        <!-- option since 2.0.5 可配置PushService，DaemonService,PushReceiver,AlarmReceiver的android:process参数 将JPush相关组件设置为一个独立进程 -->
+        <!-- 如：android:process=":remote" -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.hldj.hmyg" />
+            </intent-filter>
+        </service>
+
+        <!-- Required -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+
+                <category android:name="com.hldj.hmyg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.hldj.hmyg" />
+            </intent-filter>
+        </activity>
+        <!-- Required SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined. 用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.hldj.hmyg.MyReceiver"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.hldj.hmyg" />
+            </intent-filter>
+        </receiver>
+        <!-- Required. For publish channel feature -->
+        <!-- JPUSH_CHANNEL 是为了方便开发者统计APK分发渠道。 -->
+        <!-- 例如: -->
+        <!-- 发到 Google Play 的APK可以设置为 google-play; -->
+        <!-- 发到其他市场的 APK 可以设置为 xxx-market。 -->
+        <!-- 目前这个渠道统计功能的报表还未开放。 -->
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <!-- Required. AppKey copied from Portal -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="5ea65acf72f09d1fa4664a00" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="21e7d83fc58234f31b5162a8bd78f745" />
+
+        <activity
+            android:name="com.amap.api.car.example.FindFlowerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hldj.hmyg.MapSearchListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.amap.api.car.example.DestinationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.unionpay.UPPayWapActivity"
+            android:configChanges="orientation|keyboardHidden|fontScale"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent1105449535" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 微信分享回调 -->
+        <activity
+            android:name="com.hldj.hmyg.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity
+            android:name="com.photo.choosephotos.ChooseMorePicsActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.ChooseMorePicsActivity2"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photoviewer.photoviewerinterface.ImageViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photoviewer.photoviewerinterface.ViewPagerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photoviewer.photoviewerinterface.ViewPagerDeleteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photoviewer.photoviewerinterface.ViewPagerBitmapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photo.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.photo.choosephotos.photo.PhotoAlbumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity" />
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hy.utils.TagActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hy.utils.TagViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hy.utils.FlowTagActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.ericssonlabs.BarCodeTestActivity" />
+        <activity
+            android:name="com.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>
