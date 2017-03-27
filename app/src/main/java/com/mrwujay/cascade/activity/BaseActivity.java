@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
+import me.imid.swipebacklayout.lib.app.SwipeBackBActivity;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -13,12 +14,13 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.res.AssetManager;
 
+import com.hldj.hmyg.R;
 import com.mrwujay.cascade.model.CityModel;
 import com.mrwujay.cascade.model.DistrictModel;
 import com.mrwujay.cascade.model.ProvinceModel;
 import com.mrwujay.cascade.service.JsonParserHandler;
 
-public class BaseActivity extends SwipeBackActivity {
+public class BaseActivity extends SwipeBackBActivity {
 
 	/**
 	 * 所有省
@@ -123,5 +125,32 @@ public class BaseActivity extends SwipeBackActivity {
 
 		}
 	}
+
+
+
+	/**
+	 * 打开activity 动画
+	 */
+	public void overridePendingTransition_open() {
+		//进
+		//100  ---   0
+		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_left_out);
+		//出
+		//0  --- -100
+	}
+
+	/**
+	 * 关闭activity 动画
+	 */
+
+
+	public  void overridePendingTransition_back() {
+		//进
+		//-100  ---   0
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+		//出
+		//0  --- 100
+	}
+
 
 }

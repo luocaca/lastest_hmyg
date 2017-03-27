@@ -47,4 +47,7 @@ public class SwipeBackBActivity extends FragmentActivity implements
 		Utils.convertActivityToTranslucent(this);
 		getSwipeBackLayout().scrollToFinishActivity();
 	}
+
+
+
 }

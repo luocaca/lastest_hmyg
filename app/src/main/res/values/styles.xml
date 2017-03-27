@@ -111,14 +111,18 @@
     </style>
     
 
-    <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
-        <!-- 无ActionBar -->
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
+
 
     <style name="FullScreenTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
     </style>
+
+    <style name="SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+
+
+    </style>
+
 
     <style name="NoActionBarTheme.TextGearedSlab" parent="@style/NoActionBarTheme">
         <item name="android:textSize">12.0sp</item>
@@ -371,5 +375,27 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:backgroundDimAmount">0.4</item>
     </style>
+
+
+
+
+
+    <!--swipe back 主题适配-->
+    <style name="AppBaseThemeMain"  parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AppBaseTheme"  parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
+        <!-- 无ActionBar -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+
 
 </resources>

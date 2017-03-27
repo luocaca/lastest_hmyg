@@ -2,7 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/ic_splash" >
+    android:background="@drawable/ic_splash"
+    android:fitsSystemWindows="true"
+    >
 
     <LinearLayout
         android:id="@+id/bottomRl"
@@ -11,7 +13,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:visibility="invisible" >
+        android:visibility="gone" >
 
         <ImageView
             android:id="@+id/iv_logo_t"
@@ -41,7 +43,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@id/bottomRl"
-        android:visibility="invisible" >
+        android:visibility="gone" >
 
         <ImageView
             android:id="@+id/img_sp"

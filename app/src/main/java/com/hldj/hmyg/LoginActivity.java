@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import cn.jpush.android.api.JPushInterface;
 import cn.jpush.android.api.TagAliasCallback;
+import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
 
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
@@ -35,6 +36,7 @@ import com.hy.utils.JsonGetInfo;
 import com.loginjudge.LoginJudge;
 import com.mrwujay.cascade.activity.BaseActivity;
 
+//public class LoginActivity extends BaseActivity {
 public class LoginActivity extends BaseActivity {
 
     /**

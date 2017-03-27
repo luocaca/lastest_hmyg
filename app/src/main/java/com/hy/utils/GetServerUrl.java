@@ -30,8 +30,13 @@ public class GetServerUrl {
     // static String FIR =
     // "http://api.fir.im/apps/latest/57882cfc748aac17af00001e?api_token=7b3d87a7cb04b3a1624abb900c045c22&type=android&bundle_id=com.hldj.hmyg";
 
+
+
+    //http://test.api.hmeg.cn/_____for luocaa
+
     // 测试,xingguo.huang@qq.com
-    static String API_03 = "http://test.hmeg.cn:93/";
+//    static String API_03 = "http://test.hmeg.cn:93/";
+    static String API_03 = "http://test.api.hmeg.cn/";
     static String FIR_03 = "http://api.fir.im/apps/latest/574270cc00fc744aef000000?api_token=d5ec18bebb4cd5acd798ffeeccbed6f4&type=android&bundle_id=com.hldj.hmyg";
     static String PGYER_UPLOAD_03 = "https://www.pgyer.com/hmegandroid";
     static String aId_03 = "ca3d2e3158115aa784e85a145acdcb0f";

@@ -1,3 +1,4 @@
+
 /*
  * Copyright (C) 2008 ZXing authors
  *
@@ -30,7 +31,7 @@ import com.zxing.activity.CaptureActivity;
 
 /**
  * This thread does all the heavy lifting of decoding the images.
- * ½âÂëÏß³Ì
+ *
  */
 final class DecodeThread extends Thread {
 
@@ -51,12 +52,12 @@ final class DecodeThread extends Thread {
     hints = new Hashtable<DecodeHintType, Object>(3);
 
     if (decodeFormats == null || decodeFormats.isEmpty()) {
-    	 decodeFormats = new Vector<BarcodeFormat>();
-    	 decodeFormats.addAll(DecodeFormatManager.ONE_D_FORMATS);
-    	 decodeFormats.addAll(DecodeFormatManager.QR_CODE_FORMATS);
-    	 decodeFormats.addAll(DecodeFormatManager.DATA_MATRIX_FORMATS);
+      decodeFormats = new Vector<BarcodeFormat>();
+      decodeFormats.addAll(DecodeFormatManager.ONE_D_FORMATS);
+      decodeFormats.addAll(DecodeFormatManager.QR_CODE_FORMATS);
+      decodeFormats.addAll(DecodeFormatManager.DATA_MATRIX_FORMATS);
     }
-    
+
     hints.put(DecodeHintType.POSSIBLE_FORMATS, decodeFormats);
 
     if (characterSet != null) {

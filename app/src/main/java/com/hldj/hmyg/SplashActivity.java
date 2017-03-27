@@ -56,8 +56,8 @@ public class SplashActivity extends Activity {
 				Intent toMainActivity = new Intent(SplashActivity.this,
 						MainActivity.class);
 				startActivity(toMainActivity);
-				overridePendingTransition(R.anim.slide_bottom_in,
-						R.anim.slide_bottom_out);
+//				overridePendingTransition(R.anim.slide_bottom_in,
+//						R.anim.slide_bottom_out);
 				finish();
 			}
 		}, delayMillis);

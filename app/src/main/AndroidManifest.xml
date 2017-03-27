@@ -6,7 +6,7 @@
     android:versionName="2.0.43">
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="14"
         android:targetSdkVersion="23"
         tools:overrideLibrary= "android.support.v7.appcompat" />
 
@@ -109,13 +109,13 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
-
+<!--  android:theme="@style/NoActionBarThemeWhite"-->
     <application xmlns:tools="http://schemas.android.com/tools"
         android:name="com.hldj.hmyg.application.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/e"
         android:label="@string/app_name"
-        android:theme="@style/NoActionBarThemeWhite"
+        android:theme="@style/AppBaseTheme"
         tools:replace="android:icon, android:theme">
         <activity
             android:name="com.example.sortlistview.ActivityAddFriends"
@@ -123,7 +123,8 @@
         <activity
             android:name="com.hldj.hmyg.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/FullScreenTheme">
+            android:theme="@style/FullScreenTheme"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -133,7 +134,8 @@
         <activity
             android:name="com.hldj.hmyg.MainActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -578,7 +580,8 @@
             android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.hldj.hmyg.RegisterActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            ></activity>
 
         <!-- 您从百度网站获取的APP KEY -->
         <meta-data

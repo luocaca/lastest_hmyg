@@ -104,7 +104,7 @@ public class AndroidUtil {
 	/**
 	 * 用来判断服务是否运行.
 	 * 
-	 * @param context
+	 * @param mContext
 	 * @param className
 	 *            判断的服务名字
 	 * @return true 在运行 false 不在运行
@@ -279,7 +279,7 @@ public class AndroidUtil {
 	public static float getSingleFontWidth(float fontSize) {
 		TextPaint itemsPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
 		itemsPaint.setTextSize(14);
-		return FloatMath.ceil(Layout.getDesiredWidth("0", itemsPaint));
+		return (float) Math.ceil(Layout.getDesiredWidth("0", itemsPaint));
 	}
 
 	/** 获取对应字体数字行高 */

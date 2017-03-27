@@ -16,6 +16,7 @@ import android.os.CountDownTimer;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
@@ -34,6 +35,7 @@ import com.loginjudge.LoginJudge;
 
 public class RegisterActivity extends NeedSwipeBackActivity {
 
+	private static final String TAG = "RegisterActivity";
 	/**
 	 */
 	private ImageView btn_back;
@@ -52,6 +54,8 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register);
+
+
 		time = new TimeCount(60000, 1000);
 		getWindow().setSoftInputMode(
 				WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
@@ -252,6 +256,7 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 		GetServerUrl.addHeaders(finalHttp,false);
 		AjaxParams params = new AjaxParams();
 		params.put("phone", phString);
+		//    http://hmeg.cn:93/common/getSmsCode/&phone=17074990702
 		finalHttp.post(GetServerUrl.getUrl() + "common/getSmsCode", params,
 				new AjaxCallBack<Object>() {
 
@@ -303,12 +308,18 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 		params.put("password", et_passward.getText().toString());
 		params.put("recommendPhone", et_inventer.getText().toString());
 		params.put("smsCode", et_code.getText().toString());
+		String str = et_code.getText().toString() ;
+		String str1 = et_code.getText().toString() ;
+		String str2 = et_code.getText().toString() ;
+		Log.e(TAG, "this url is :"+GetServerUrl.getUrl() + "user/register" +params.toString());
 		finalHttp.post(GetServerUrl.getUrl() + "user/register", params,
 				new AjaxCallBack<Object>() {
 
 					@Override
 					public void onSuccess(Object t) {
 						// TODO Auto-generated method stub
+						String json = t.toString();
+
 						try {
 							JSONObject jsonObject = new JSONObject(t.toString());
 							String code = jsonObject.getString("code");
@@ -332,7 +343,18 @@ public class RegisterActivity extends NeedSwipeBackActivity {
 						}
 						super.onSuccess(t);
 					}
+
+
+					@Override
+					public void onFailure(Throwable t, int errorNo, String strMsg) {
+						Log.e(TAG, "is error occr" );
+						super.onFailure(t, errorNo, strMsg);
+					}
 				});
+
+
+
+
 
 	}
 

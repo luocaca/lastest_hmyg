@@ -9,7 +9,7 @@
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:fitsSystemWindows">true</item>
-        
+
     </style>
 
     <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light.NoActionBar">
@@ -17,8 +17,21 @@
         <item name="android:fitsSystemWindows">true</item>
     </style>
 
-    <style name="FullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+    <style name="FullScreenTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
         <!-- API 14 theme customizations can go here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
     </style>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- API 19 theme customizations can go here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+
+
 
 </resources>
