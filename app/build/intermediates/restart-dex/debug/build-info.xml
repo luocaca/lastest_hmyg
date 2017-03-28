@@ -6,34 +6,31 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490607348372"
+    timestamp="1490673319691"
     token="-421635440994696779"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="2482" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="44" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
+        duration="0" />
 
     <artifact
-        location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
+        location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490607027810"
+        timestamp="1490673246509"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
         <artifact
             location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -45,6 +42,9 @@
             type="SPLIT" />
         <artifact
             location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -59,10 +59,10 @@
             location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\outputs\apk\app-debug.apk"
@@ -70,11 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490607348372"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1490673319691"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
-            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
+            location="D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

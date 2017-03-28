@@ -317,7 +317,8 @@
         <activity
             android:name="com.hldj.hmyg.SetPasswardByGetCodeActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme2Register" />
         <activity
             android:name="com.hldj.hmyg.ChoosePicsActivity"
             android:screenOrientation="portrait" />
@@ -571,10 +572,12 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.hldj.hmyg.LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme2Register" />
         <activity
             android:name="com.hldj.hmyg.RegisterActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme2Register" />
 
         <!-- 您从百度网站获取的APP KEY -->
         <meta-data
