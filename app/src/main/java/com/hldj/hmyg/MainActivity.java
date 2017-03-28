@@ -393,24 +393,19 @@ public class MainActivity extends TabActivity implements
         // TODO Auto-generated method stub
         switch (checkedId) {
             case R.id.tab_a:
-
                 tabHost.setCurrentTabByTag("1");
                 check = "1";
-                old_item_id = checkedId ;
                 break;
             case R.id.tab_b:
                 tabHost.setCurrentTabByTag("2");
                 check = "2";
-                old_item_id = checkedId ;
                 break;
             case R.id.tab_c:
                 tabHost.setCurrentTabByTag("3");
-                old_item_id = checkedId ;
+                check = "3";
                 // showDialog();
                 break;
             case R.id.tab_d:
-
-
                 if (MyApplication.Userinfo.getBoolean("isLogin", false) == false) {
                     Intent toLoginActivity = new Intent(MainActivity.this,
                             LoginActivity.class);
@@ -418,12 +413,11 @@ public class MainActivity extends TabActivity implements
 //                    overridePendingTransition(R.anim.slide_in_left,
 //                            R.anim.slide_out_right);
                     overridePendingTransition_open();
-
+                    Log.e("onCheckedChanged", "onCheckedChanged: check = "+check);
+                    ((RadioButton)group.getChildAt((Integer.parseInt(check))-1)).setChecked(true);
                 } else {
-
                     tabHost.setCurrentTabByTag("4");
                     check = "4";
-                    old_item_id = checkedId ;
                 }
 
                 break;
@@ -437,10 +431,12 @@ public class MainActivity extends TabActivity implements
 //                    overridePendingTransition(R.anim.slide_in_left,
 //                            R.anim.slide_out_right);
                     overridePendingTransition_open();
+                    Log.e("onCheckedChanged", "onCheckedChanged: check = "+check);
+                    ((RadioButton)group.getChildAt((Integer.parseInt(check))-1)).setChecked(true);
                 } else {
                     tabHost.setCurrentTabByTag("5");
                     check = "5";
-                    old_item_id = checkedId ;
+
                 }
 
                 break;
