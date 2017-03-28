@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\debug\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

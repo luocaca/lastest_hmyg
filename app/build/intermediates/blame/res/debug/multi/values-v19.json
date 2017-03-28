@@ -7,61 +7,82 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 4,
+                    "endLine": 7,
                     "endColumn": 12,
-                    "endOffset": 220
+                    "endOffset": 344
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 669,
-                        "endLine": 21,
+                        "startOffset": 680,
+                        "endLine": 24,
                         "endColumn": 12,
-                        "endOffset": 834
+                        "endOffset": 974
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 225,
-                    "endLine": 9,
+                    "startOffset": 349,
+                    "endLine": 12,
                     "endColumn": 12,
-                    "endOffset": 445
+                    "endOffset": 561
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 221,
+                        "startOffset": 229,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 441
+                        "endOffset": 445
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 450,
-                    "endLine": 13,
+                    "startOffset": 566,
+                    "endLine": 16,
                     "endColumn": 12,
-                    "endOffset": 666
+                    "endOffset": 782
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v19\\styles.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 447,
+                        "startOffset": 453,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 663
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 787,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1071
+                },
+                "from": {
+                    "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v19\\styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 982,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1270
                     }
                 }
             }

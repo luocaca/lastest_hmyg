@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tncrash">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/tncrash.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
