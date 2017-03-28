@@ -8,7 +8,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="23"
-        tools:overrideLibrary= "android.support.v7.appcompat" />
+        tools:overrideLibrary="android.support.v7.appcompat" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
@@ -109,7 +109,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
-<!--  android:theme="@style/NoActionBarThemeWhite"-->
+    <!--  android:theme="@style/NoActionBarThemeWhite"-->
     <application xmlns:tools="http://schemas.android.com/tools"
         android:name="com.hldj.hmyg.application.MyApplication"
         android:allowBackup="true"
@@ -123,8 +123,7 @@
         <activity
             android:name="com.hldj.hmyg.SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/FullScreenTheme"
-            >
+            android:theme="@style/FullScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -134,8 +133,7 @@
         <activity
             android:name="com.hldj.hmyg.MainActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -323,7 +321,8 @@
         <activity
             android:name="com.hldj.hmyg.SetPasswardByGetCodeActivity"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme2Register"></activity>
         <activity
             android:name="com.hldj.hmyg.ChoosePicsActivity"
             android:screenOrientation="portrait"></activity>
@@ -577,11 +576,12 @@
             android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.hldj.hmyg.LoginActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppBaseTheme2Register"></activity>
         <activity
             android:name="com.hldj.hmyg.RegisterActivity"
             android:screenOrientation="portrait"
-            ></activity>
+            android:theme="@style/AppBaseTheme2Register"></activity>
 
         <!-- 您从百度网站获取的APP KEY -->
         <meta-data

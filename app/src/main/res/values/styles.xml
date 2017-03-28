@@ -390,11 +390,17 @@
     </style>
 
 
-    <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
+       <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
         <!-- 无ActionBar -->
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
+        </style>
 
+
+
+    <!--6.0之后 提供亮色状态栏，，能黑白交换-->
+    <!--NoActionBarThemeWhite-->
+    <style name="AppBaseTheme2Register"  parent="NoActionBarThemeWhite" >
+    </style>
 
 
 

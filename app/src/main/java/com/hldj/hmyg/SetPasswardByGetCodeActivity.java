@@ -32,6 +32,10 @@ import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.loginjudge.LoginJudge;
 
+
+/**
+ * 通过验证码  重置密码
+ */
 public class SetPasswardByGetCodeActivity extends NeedSwipeBackActivity {
 
 	/**

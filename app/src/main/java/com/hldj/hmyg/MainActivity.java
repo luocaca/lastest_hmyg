@@ -3,6 +3,7 @@ package com.hldj.hmyg;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Set;
+import java.util.jar.*;
 
 import me.drakeet.materialdialog.MaterialDialog;
 
@@ -14,6 +15,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.*;
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.Dialog;
@@ -23,6 +25,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -82,9 +85,11 @@ import com.flyco.animation.BaseAnimatorSet;
 import com.flyco.animation.BounceEnter.BounceTopEnter;
 import com.flyco.animation.SlideExit.SlideBottomExit;
 import com.flyco.dialog.listener.OnBtnClickL;
+import com.flyco.dialog.utils.StatusBarUtils;
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.application.PermissionUtils;
+import com.hldj.hmyg.application.StateBarUtil;
 import com.hldj.hmyg.broker.adapter.ChooseManagerAdapter;
 import com.hldj.hmyg.buy.bean.CollectCar;
 import com.hldj.hmyg.saler.StorageSaveActivity;
@@ -95,6 +100,7 @@ import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.mrwujay.cascade.activity.GetCitiyNameByCode;
 import com.readystatesoftware.systembartint.StatusBarCompat;
+import com.readystatesoftware.systembartint.StatusBarUtil;
 import com.white.update.UpdateInfo;
 import com.white.utils.SettingUtils;
 import com.white.utils.SystemSetting;
@@ -147,21 +153,9 @@ public class MainActivity extends TabActivity implements
     public Editor e;
 
 
-    /**
-     *
-     * 增加 状态栏字体 样式为深色
-     * @param dark  use 2 theme font  color black
-     */
-    private void setStatusBarIconDark(boolean dark) {
-        try {
-            Object win = getWindow();
-            Class<?> cls = win.getClass();
-            Method method = cls.getDeclaredMethod("setStatusBarIconDark", boolean.class);
-            method.invoke(win, dark);
-        } catch (Exception e) {
-            Log.v("ff", "statusBarIconDark,e=" + e);
-        }
-    }
+
+
+
 
 
         @Override
@@ -173,10 +167,6 @@ public class MainActivity extends TabActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setStatusBarIconDark(true);
-
-
-
         setContentView(R.layout.activity_main);
         e = MyApplication.Userinfo.edit();//初始化 sp
         GetLotLat.getBaiduLotLat(MainActivity.this, e);
@@ -187,10 +177,12 @@ public class MainActivity extends TabActivity implements
         getAddress(latLonPoint);// 暂不用
 
         Data.screenWidth = getScreenWidth(false, MainActivity.this);
-        if (Build.VERSION.SDK_INT >= 23) {
+
+        if (Build.VERSION.SDK_INT >= 23 && MyApplication.getInstance().getApplicationInfo().targetSdkVersion >=23) {
             new PermissionUtils(this).needPermission(200);
         }
-        StatusBarCompat.compat(this);// 状态栏
+//         StatusBarCompat.compat(this);// 状态栏
+//         StateBarUtil.setStatusBarIconDark(this,true);
         mMaterialDialog = new MaterialDialog(this);
         mBasIn = new BounceTopEnter();//进出场动画
         mBasOut = new SlideBottomExit();//进出场动画
@@ -1041,6 +1033,7 @@ public class MainActivity extends TabActivity implements
     protected void onResume() {
         super.onResume();
         mapView.onResume();
+        JPushInterface.onResume(MyApplication.getInstance());
     }
 
     /**
@@ -1050,6 +1043,8 @@ public class MainActivity extends TabActivity implements
     protected void onPause() {
         super.onPause();
         mapView.onPause();
+        JPushInterface.onPause(MyApplication.getInstance());
+
     }
 
     /**

@@ -13,7 +13,7 @@ import net.tsz.afinal.FinalHttp;
 
 public class GetServerUrl {
 
-    public static boolean isTest = true;//测试时使用
+    public static boolean isTest = false;//测试时使用
     static String PGYER = "http://www.pgyer.com/apiv1/app/viewGroup";
     // 正式 可用
     static String API_01 = "http://hmeg.cn:93/";

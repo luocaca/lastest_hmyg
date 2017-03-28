@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--6.0之后 提供亮色状态栏，，能黑白交换-->
+    <style name="AppBaseTheme" parent="NoActionBarThemeWhite">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <!--6.0之后 提供亮色状态栏，，能黑白交换-->
+    <!--NoActionBarThemeWhite-->
+    <style name="AppBaseTheme2Register"  parent="NoActionBarThemeWhite" >
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowLightStatusBar">true</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="colorPrimary">@android:color/transparent</item>-->
+        <!--<item name="colorPrimaryDark">@android:color/transparent</item>-->
+        <!--<item name="colorAccent">@android:color/transparent</item>-->
+        <!--<item name="android:verticalDivider">@android:color/transparent</item>-->
+        <!--<item name="android:textColorPrimary">@android:color/transparent</item>-->
+
+
+
+    </style>
+</resources>
