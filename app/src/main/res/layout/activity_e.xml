@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    tools:context=".CheckOrderActivity" >
+    tools:context=".EActivity"
+    >
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -20,7 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/x175"
                 android:background="@drawable/gerenzhongxin_beij"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                >
 
                 <RelativeLayout
                     android:layout_width="fill_parent"

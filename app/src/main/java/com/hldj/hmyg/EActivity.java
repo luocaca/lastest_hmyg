@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -56,6 +57,7 @@ import com.flyco.dialog.listener.OnBtnClickL;
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.application.PermissionUtils;
+import com.hldj.hmyg.application.StateBarUtil;
 import com.hldj.hmyg.bean.Pic;
 import com.hldj.hmyg.bean.PlatformForShare;
 import com.hldj.hmyg.buyer.PurchaseDemandListActivity;
@@ -65,6 +67,7 @@ import com.hy.utils.JsonGetInfo;
 import com.hy.utils.Loading;
 import com.hy.utils.TagViewActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
+import com.readystatesoftware.systembartint.StatusBarUtil;
 import com.soundcloud.android.crop.Crop;
 import com.xingguo.huang.mabiwang.util.CacheUtils;
 import com.xingguo.huang.mabiwang.util.PictureManageUtil;
@@ -77,6 +80,9 @@ import com.zym.selecthead.tools.SelectHeadTools;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+/**
+ * 我的 界面
+ */
 public class EActivity extends LoginActivity implements PlatformActionListener {
 
 	private Dialog dialog;
@@ -109,9 +115,15 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 		this.mBasOut = bas_out;
 	}
 
+	private static final String TAG = "EActivity";
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        setSwipeBackEnable(tr);//不能侧滑
+		Log.e(TAG, "onCreate: " );
+
+
 		setContentView(R.layout.activity_e);
 		fb = FinalBitmap.create(this);
 
@@ -189,6 +201,8 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 
 	@Override
 	protected void onResume() {
+		Log.e(TAG, "onResume: " );
+//		StateBarUtil.setColorPrimaryDark(R.color.main_color,this.getWindow());
 		// TODO Auto-generated method stub
 		if (iv_msg != null) {
 			unReadCount();
@@ -280,7 +294,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							LoginActivity.class);
 					startActivityForResult(toLoginActivity, 4);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					return;
 				}
 				switch (view.getId()) {
@@ -311,13 +325,13 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 					// R.anim.slide_out_right);
 
 
-					
+
 
 					Intent toSettingActivity = new Intent(EActivity.this,
 							SettingActivity.class);
 					startActivityForResult(toSettingActivity, 6);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 
 					break;
 				case R.id.iv_msg:
@@ -325,7 +339,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							MessageListActivity.class);
 					startActivity(toMessageListActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 				case R.id.iv_icon_persion_pic:
 					if (!FileTools.hasSdcard()) {
@@ -349,28 +363,28 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							BuyerActivity.class);
 					startActivity(toBuyerActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 				case R.id.ll_saler:
 					Intent toSalerActivity = new Intent(EActivity.this,
 							SalerActivity.class);
 					startActivity(toSalerActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 				case R.id.ll_jingji:
 					Intent toJingjiActivity = new Intent(EActivity.this,
 							BrokerActivity.class);
 					startActivity(toJingjiActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 				case R.id.ll_personal_profile:
 					Intent toSetProfileActivity = new Intent(EActivity.this,
 							SetProfileActivity.class);
 					startActivity(toSetProfileActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					// Intent toSetPasswardActivity = new Intent(EActivity.this,
 					// SetPasswardActivity.class);
 					// startActivity(toSetPasswardActivity);
@@ -382,7 +396,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							SafeAcountActivity.class);
 					startActivity(toSafeAcountActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 				case R.id.ll_friends:
 					// Share();
@@ -397,7 +411,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							FeedBackActivity.class);
 					startActivity(toFeedBackActivity);
 					getParent().overridePendingTransition(R.anim.slide_in_left,
-							R.anim.slide_out_right);
+							R.anim.slide_out_left);
 					break;
 
 				default:

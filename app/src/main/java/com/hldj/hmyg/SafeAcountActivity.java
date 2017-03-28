@@ -15,6 +15,9 @@ import android.widget.TextView;
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 
+/**
+ * 账户安全
+ */
 public class SafeAcountActivity extends NeedSwipeBackActivity {
 	private Editor e;
 	private TextView tv_phone;

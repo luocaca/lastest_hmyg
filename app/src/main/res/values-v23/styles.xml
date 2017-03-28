@@ -2,6 +2,22 @@
 <resources>
 
 
+
+    <!--<style name="NoActionBarThemeWhite" parent="Base.Theme.AppCompat.Light">-->
+
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+        <!--&lt;!&ndash; 无ActionBar &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/primary_color</item>-->
+        <!--<item name="colorPrimaryDark">@color/transparent</item>-->
+        <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/main_color</item>&ndash;&gt;-->
+        <!--<item name="colorAccent">@color/accent_color</item>-->
+        <!--<item name="android:verticalDivider">@color/accent_color</item>-->
+        <!--<item name="android:textColorPrimary">@color/primary_text</item>-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+
+
+    <!--</style>-->
+
     <!--6.0之后 提供亮色状态栏，，能黑白交换-->
     <style name="AppBaseTheme" parent="NoActionBarThemeWhite">
         <item name="android:windowIsTranslucent">true</item>
@@ -25,4 +41,11 @@
 
 
     </style>
+
+    <!--6.0之后 提供亮色状态栏，，能黑白交换-->
+    <style name="e_activity_theme" parent="Base.Theme.AppCompat">
+
+
+    </style>
+
 </resources>
