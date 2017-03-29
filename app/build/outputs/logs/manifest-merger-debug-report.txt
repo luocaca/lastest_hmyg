@@ -19,6 +19,7 @@ ADDED from D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\
 		ADDED from D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\app\src\main\AndroidManifest.xml:8:5-11:64
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\58b29d1f50186c8393db99f8e49b71dafa6c45f6\output\AndroidManifest.xml:18:5-42
 MERGED from [hmyg203:appcompat_v7_hmyg_model:unspecified] D:\android_luocaca\studio_workpase\AndroidStudioProjects\hmyg203\appcompat_v7_hmyg_model\build\intermediates\bundles\default\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Administrator\.android\build-cache\a748da40a3f27df047737bdec1b68449eed3fbc6\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 28 11:55:26 CST 2017
+#Tue Mar 28 16:20:25 CST 2017
 1073.file=D\:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\zijindanbao_green.png
 1090.base=D\:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar
 1007.base=D\:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\resources-debug.ap_

@@ -12,7 +12,15 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v23\\styles.xml"
+                    "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 969,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1166
+                    }
                 }
             },
             {
@@ -27,12 +35,33 @@
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v23\\styles.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 364,
-                        "endLine": 26,
+                        "startOffset": 1239,
+                        "endLine": 42,
                         "endColumn": 12,
-                        "endOffset": 1203
+                        "endOffset": 2078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1081,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1157
+                },
+                "from": {
+                    "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\values-v23\\styles.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2119,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 2198
                     }
                 }
             }

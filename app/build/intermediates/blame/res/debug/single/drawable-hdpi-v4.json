@@ -32,12 +32,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_history_normal.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\scan_history_normal.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_feek_back.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_feek_back.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_history_normal.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\scan_history_normal.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\refresh_progress_1.png",
@@ -92,12 +92,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\trans_bg.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tuijian_hui.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\tuijian_hui.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_icon_type02.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\home_icon_type02.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tuijian_hui.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\tuijian_hui.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\seller_x.png",
@@ -184,12 +184,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\maijia_caigouguangl_beituihui.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guanbi.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\guanbi.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wushuju.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\wushuju.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\guanbi.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\guanbi.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_weitijiao.png",
@@ -300,12 +300,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\un_down_load_pic_icon_failure.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_procure.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_procure.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\custom_img.jpg",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\custom_img.jpg"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_procure.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_procure.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\split_left_1.png",
@@ -368,16 +368,16 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\srl_arrow_down.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dingdan_zijindanbao.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\dingdan_zijindanbao.png"
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_fabu.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_fabu.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qbmm_h.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\qbmm_h.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_fabu.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_fabu.png"
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dingdan_zijindanbao.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\dingdan_zijindanbao.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fabuye_fabuhangqing.png",
@@ -496,12 +496,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\shouye_zhuangjing.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_t.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\logo_t.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_quanbu.png",
@@ -516,12 +516,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\home_icon_type03.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_shenhezhong.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\baojiaguangli_shenhezhong.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sns_icon_1.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\sns_icon_1.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_shenhezhong.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\baojiaguangli_shenhezhong.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fenxiang_qq.png",
@@ -548,24 +548,24 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\top_btn_bg.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_choose_check_icon.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\photo_choose_check_icon.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_pic.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\default_pic.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_choose_check_icon.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\photo_choose_check_icon.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scan_photo_pressed.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\scan_photo_pressed.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gouwuche_yiguoqi.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\gouwuche_yiguoqi.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_choose_check_icon_new.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\photo_choose_check_icon_new.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gouwuche_yiguoqi.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\gouwuche_yiguoqi.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
@@ -596,12 +596,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\photo_choose_source_check_icon.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye_guanmu.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\shouye_guanmu.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sc_hezuoshangjia.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\sc_hezuoshangjia.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shouye_guanmu.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\shouye_guanmu.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\toast_success_icon.png",
@@ -672,12 +672,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\icon_yiwancheng.png"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_yibaojia.png",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\baojiaguangli_yibaojia.png"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\baojiaguangli_yibaojia.png",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable-hdpi\\baojiaguangli_yibaojia.png"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fabuye_2.png",

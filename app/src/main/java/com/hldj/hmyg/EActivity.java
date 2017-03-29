@@ -120,7 +120,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        setSwipeBackEnable(tr);//不能侧滑
+        setSwipeBackEnable(true);//不能侧滑
 		Log.e(TAG, "onCreate: " );
 
 

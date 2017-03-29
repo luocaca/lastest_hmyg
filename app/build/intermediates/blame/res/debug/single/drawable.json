@@ -32,20 +32,20 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\agreement_checkbox_bg.xml"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_edit_selector.xml",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\search_edit_selector.xml"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_circle.xml",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\warning_circle.xml"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feedback_content_edittext_shape.xml",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\feedback_content_edittext_shape.xml"
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_edit_selector.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\search_edit_selector.xml"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feedback_content_edittext_shape.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\feedback_content_edittext_shape.xml"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\r_o_green.xml",
@@ -64,12 +64,12 @@
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\tab_home_c.xml"
     },
     {
-        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tag_bg.xml",
-        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\tag_bg.xml"
-    },
-    {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tagview.xml",
         "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\shape_tagview.xml"
+    },
+    {
+        "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tag_bg.xml",
+        "source": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\src\\main\\res\\drawable\\tag_bg.xml"
     },
     {
         "merged": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\comment_bg_left.xml",

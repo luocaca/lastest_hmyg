@@ -1,41 +1,44 @@
- /local.properties
- .DS_Store
- /captures
- # OSX
-
- *.DS_Store
-
- build/
- */build/
- # IDEA
- *.iml
- .idea/.name
- .idea/encodings.xml
- .idea/inspectionProfiles/Project_Default.xml
- .idea/inspectionProfiles/profiles_settings.xml
- .idea/misc.xml
- .idea/modules.xml
- .idea/scopes/scope_settings.xml
- .idea/vcs.xml
- .idea/workspace.xml
- .idea/libraries
-
- # Built application files
- *.apk
- *.ap_
-
- # Files for the Dalvik VM
- *.dex
-
- # Java class files
- *.class
-
- # Generated files
- antLauncher/bin
- antLauncher/gen
-
- # Local configuration file (sdk path, etc)
- local.properties
-
- # Log Files
- *.log
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.idea/
+.DS_Store
+/build
+/captures
+app/build/generated/res/
+app/build/generated/source/aidl/
+app/build/generated/source/r/debug/android/support/multidex/
+app/build/generated/source/rs/
+app/build/intermediates/blame/res/androidTest/
+app/build/intermediates/incremental/mergeDebugAndroidTestResources/aapt-temp/
+app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/
+app/build/intermediates/incremental/mergeDebugResources/aapt-temp/
+app/build/intermediates/incremental/packageDebugAndroidTest/
+app/build/intermediates/incremental/packageRelease/
+app/build/intermediates/incremental/processDebugAndroidTestResources/
+app/build/intermediates/incremental/processDebugResources/
+app/build/intermediates/manifest/tmp/
+app/build/intermediates/res/merged/androidTest/
+app/build/intermediates/rs/
+app/build/intermediates/symbols/androidTest/
+app/src/main/resources/
+appcompat_v7_hmyg_model/assets/
+appcompat_v7_hmyg_model/build/generated/assets/
+appcompat_v7_hmyg_model/build/generated/res/
+appcompat_v7_hmyg_model/build/generated/source/aidl/
+appcompat_v7_hmyg_model/build/generated/source/rs/
+appcompat_v7_hmyg_model/build/intermediates/bundles/debug/aidl/
+appcompat_v7_hmyg_model/build/intermediates/bundles/debug/assets/
+appcompat_v7_hmyg_model/build/intermediates/bundles/default/aidl/
+appcompat_v7_hmyg_model/build/intermediates/bundles/default/assets/
+appcompat_v7_hmyg_model/build/intermediates/incremental/mergeDebugAndroidTestResources/aapt-temp/
+appcompat_v7_hmyg_model/build/intermediates/incremental/packageDebugAndroidTest/
+appcompat_v7_hmyg_model/build/intermediates/incremental/processDebugAndroidTestResources/
+appcompat_v7_hmyg_model/build/intermediates/incremental/processDebugResources/
+appcompat_v7_hmyg_model/build/intermediates/lint/
+appcompat_v7_hmyg_model/build/intermediates/manifest/tmp/
+appcompat_v7_hmyg_model/build/intermediates/rs/
+appcompat_v7_hmyg_model/build/intermediates/shaders/
+appcompat_v7_hmyg_model/res/drawable-ldpi/
