@@ -159,8 +159,65 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 861,
+                    "endColumn": 75,
+                    "endOffset": 932
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 861,
+                        "endColumn": 75,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 937,
+                    "endColumn": 75,
+                    "endOffset": 1008
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 75,
+                        "endOffset": 1008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1013,
+                    "endColumn": 77,
+                    "endOffset": 1086
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1013,
+                        "endColumn": 77,
+                        "endOffset": 1086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1091,
                     "endColumn": 95,
-                    "endOffset": 952
+                    "endOffset": 1182
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -175,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 957,
+                    "startOffset": 1187,
                     "endColumn": 95,
-                    "endOffset": 1048
+                    "endOffset": 1278
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -194,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1053,
+                    "startOffset": 1283,
                     "endColumn": 94,
-                    "endOffset": 1143
+                    "endOffset": 1373
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -213,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1148,
+                    "startOffset": 1378,
                     "endColumn": 96,
-                    "endOffset": 1240
+                    "endOffset": 1470
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -232,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1245,
+                    "startOffset": 1475,
                     "endColumn": 94,
-                    "endOffset": 1335
+                    "endOffset": 1565
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -251,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1340,
+                    "startOffset": 1570,
                     "endColumn": 97,
-                    "endOffset": 1433
+                    "endOffset": 1663
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -270,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1438,
+                    "startOffset": 1668,
                     "endColumn": 111,
-                    "endOffset": 1545
+                    "endOffset": 1775
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-zh-rCN\\values-zh-rCN.xml",
@@ -284,6 +341,63 @@
                         "startOffset": 1438,
                         "endColumn": 111,
                         "endOffset": 1545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1780,
+                    "endColumn": 93,
+                    "endOffset": 1869
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1780,
+                        "endColumn": 93,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1874,
+                    "endColumn": 77,
+                    "endOffset": 1947
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1874,
+                        "endColumn": 77,
+                        "endOffset": 1947
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1952,
+                    "endColumn": 100,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1952,
+                        "endColumn": 100,
+                        "endOffset": 2048
                     }
                 }
             }

@@ -159,8 +159,65 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 919,
+                    "endColumn": 88,
+                    "endOffset": 1003
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 88,
+                        "endOffset": 1003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1008,
+                    "endColumn": 86,
+                    "endOffset": 1090
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1008,
+                        "endColumn": 86,
+                        "endOffset": 1090
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1095,
+                    "endColumn": 83,
+                    "endOffset": 1174
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1095,
+                        "endColumn": 83,
+                        "endOffset": 1174
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1179,
                     "endColumn": 108,
-                    "endOffset": 1023
+                    "endOffset": 1283
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -175,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1028,
+                    "startOffset": 1288,
                     "endColumn": 104,
-                    "endOffset": 1128
+                    "endOffset": 1388
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -194,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1133,
+                    "startOffset": 1393,
                     "endColumn": 97,
-                    "endOffset": 1226
+                    "endOffset": 1486
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -213,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1231,
+                    "startOffset": 1491,
                     "endColumn": 109,
-                    "endOffset": 1336
+                    "endOffset": 1596
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -232,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1341,
+                    "startOffset": 1601,
                     "endColumn": 98,
-                    "endOffset": 1435
+                    "endOffset": 1695
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -251,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1440,
+                    "startOffset": 1700,
                     "endColumn": 105,
-                    "endOffset": 1541
+                    "endOffset": 1801
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -270,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1546,
+                    "startOffset": 1806,
                     "endColumn": 120,
-                    "endOffset": 1662
+                    "endOffset": 1922
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-si-rLK\\values-si-rLK.xml",
@@ -284,6 +341,63 @@
                         "startOffset": 1546,
                         "endColumn": 120,
                         "endOffset": 1662
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1927,
+                    "endColumn": 98,
+                    "endOffset": 2021
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1927,
+                        "endColumn": 98,
+                        "endOffset": 2021
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2026,
+                    "endColumn": 81,
+                    "endOffset": 2103
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2026,
+                        "endColumn": 81,
+                        "endOffset": 2103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2108,
+                    "endColumn": 100,
+                    "endOffset": 2204
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-si-rLK\\values-si-rLK.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2108,
+                        "endColumn": 100,
+                        "endOffset": 2204
                     }
                 }
             }

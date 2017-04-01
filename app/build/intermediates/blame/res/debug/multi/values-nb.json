@@ -159,8 +159,65 @@
                     "startLine": 10,
                     "startColumn": 4,
                     "startOffset": 905,
+                    "endColumn": 75,
+                    "endOffset": 976
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 75,
+                        "endOffset": 976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 981,
+                    "endColumn": 75,
+                    "endOffset": 1052
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 981,
+                        "endColumn": 75,
+                        "endOffset": 1052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1057,
+                    "endColumn": 79,
+                    "endOffset": 1132
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1057,
+                        "endColumn": 79,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1137,
                     "endColumn": 102,
-                    "endOffset": 1003
+                    "endOffset": 1235
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -175,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1008,
+                    "startOffset": 1240,
                     "endColumn": 98,
-                    "endOffset": 1102
+                    "endOffset": 1334
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -194,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1107,
+                    "startOffset": 1339,
                     "endColumn": 95,
-                    "endOffset": 1198
+                    "endOffset": 1430
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -213,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1203,
+                    "startOffset": 1435,
                     "endColumn": 103,
-                    "endOffset": 1302
+                    "endOffset": 1534
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -232,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1307,
+                    "startOffset": 1539,
                     "endColumn": 97,
-                    "endOffset": 1400
+                    "endOffset": 1632
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -251,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1405,
+                    "startOffset": 1637,
                     "endColumn": 100,
-                    "endOffset": 1501
+                    "endOffset": 1733
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -270,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 16,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1506,
+                    "startOffset": 1738,
                     "endColumn": 115,
-                    "endOffset": 1617
+                    "endOffset": 1849
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-nb\\values-nb.xml",
@@ -284,6 +341,63 @@
                         "startOffset": 1506,
                         "endColumn": 115,
                         "endOffset": 1617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1854,
+                    "endColumn": 96,
+                    "endOffset": 1946
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1854,
+                        "endColumn": 96,
+                        "endOffset": 1946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1951,
+                    "endColumn": 78,
+                    "endOffset": 2025
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1951,
+                        "endColumn": 78,
+                        "endOffset": 2025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2030,
+                    "endColumn": 100,
+                    "endOffset": 2126
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-nb\\values-nb.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2030,
+                        "endColumn": 100,
+                        "endOffset": 2126
                     }
                 }
             }

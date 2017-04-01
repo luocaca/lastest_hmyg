@@ -153,7 +153,7 @@
     <!-- 天蓝色 -->
     <color name="honeydew">#f0fff0</color>
     <!-- 蜜色 -->
-    <color name="aliceblue">#f0f8ff</color>
+    <color name="aliceblue">#ffffff</color>
     <!-- 艾利斯兰 -->
     <color name="khaki">#f0e68c</color>
     <!-- 黄褐色 -->
@@ -507,7 +507,7 @@
     <color name="littleblue">#CAEAFB</color>
     <!-- IOSDIALOG COLOR -->
     <color name="trans">#00000000</color>
-    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="alertdialog_line">#8a7777</color>
     <color name="actionsheet_blue">#037BFF</color>
     <color name="actionsheet_red">#FD4A2E</color>
     <color name="actionsheet_gray">#8F8F8F</color>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--触摸时状态-->
+    <item android:drawable="@drawable/icon_grid_view" android:state_pressed="true"></item>
+    <!--选中状态-->
+    <item android:drawable="@drawable/icon_grid_view" android:state_checked="true"></item>
+    <!--正常状态，默认状态-->
+    <item android:drawable="@drawable/icon_list_view"></item>
+
+
+</selector>

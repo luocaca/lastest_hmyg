@@ -294,9 +294,12 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/iv_line_ac_b"
             android:layout_width="match_parent"
             android:layout_height="2px"
             android:background="@color/gray_bg" />
+
+
 
         <me.kaede.tagview.TagView
             android:id="@+id/tagview"
@@ -333,6 +336,7 @@
 
             <me.maxwin.view.XListView
                 android:id="@+id/xlistView"
+                android:overScrollMode="never"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="#fff0f0f0" />

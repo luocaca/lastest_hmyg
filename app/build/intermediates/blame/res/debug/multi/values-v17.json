@@ -7,9 +7,30 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 5,
+                    "endLine": 4,
                     "endColumn": 12,
-                    "endOffset": 278
+                    "endOffset": 223
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 228,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 451
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -25,12 +46,12 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 283,
-                    "endLine": 9,
+                    "startOffset": 456,
+                    "endLine": 12,
                     "endColumn": 12,
-                    "endOffset": 526
+                    "endOffset": 699
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -46,12 +67,12 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 531,
-                    "endLine": 13,
+                    "startOffset": 704,
+                    "endLine": 16,
                     "endColumn": 12,
-                    "endOffset": 766
+                    "endOffset": 939
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -67,12 +88,33 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 771,
-                    "endLine": 16,
+                    "startOffset": 944,
+                    "endLine": 19,
                     "endColumn": 12,
-                    "endOffset": 916
+                    "endOffset": 1097
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1102,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1247
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -88,12 +130,12 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 921,
-                    "endLine": 19,
+                    "startOffset": 1252,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 1088
+                    "endOffset": 1419
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -109,12 +151,12 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1093,
-                    "endLine": 23,
+                    "startOffset": 1424,
+                    "endLine": 29,
                     "endColumn": 12,
-                    "endOffset": 1316
+                    "endOffset": 1647
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -130,12 +172,12 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1321,
-                    "endLine": 27,
+                    "startOffset": 1652,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 1558
+                    "endOffset": 1889
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -151,12 +193,12 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1563,
-                    "endLine": 30,
+                    "startOffset": 1894,
+                    "endLine": 36,
                     "endColumn": 12,
-                    "endOffset": 1729
+                    "endOffset": 2060
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -172,12 +214,12 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 1734,
-                    "endLine": 33,
+                    "startOffset": 2065,
+                    "endLine": 39,
                     "endColumn": 12,
-                    "endOffset": 1903
+                    "endOffset": 2234
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -193,12 +235,12 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1908,
-                    "endLine": 36,
+                    "startOffset": 2239,
+                    "endLine": 42,
                     "endColumn": 12,
-                    "endOffset": 2072
+                    "endOffset": 2403
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -214,12 +256,12 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2077,
-                    "endLine": 40,
+                    "startOffset": 2408,
+                    "endLine": 46,
                     "endColumn": 12,
-                    "endOffset": 2345
+                    "endOffset": 2676
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -235,12 +277,12 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2350,
-                    "endLine": 43,
+                    "startOffset": 2681,
+                    "endLine": 49,
                     "endColumn": 12,
-                    "endOffset": 2545
+                    "endOffset": 2876
                 },
                 "from": {
                     "file": "D:\\android_luocaca\\studio_workpase\\AndroidStudioProjects\\hmyg203\\appcompat_v7_hmyg_model\\build\\intermediates\\bundles\\default\\res\\values-v17\\values-v17.xml",
@@ -251,6 +293,48 @@
                         "endLine": 43,
                         "endColumn": 12,
                         "endOffset": 2545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2881,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3080
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2393,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 2592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3085,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 3409
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\9a1d2302749b048ccae0b6295e9ea4bbf30338ff\\output\\res\\values-v17\\values-v17.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2597,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2921
                     }
                 }
             }
