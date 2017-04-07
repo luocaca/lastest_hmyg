@@ -1,24 +1,23 @@
 package com.mrwujay.cascade.activity;
 
-import java.io.InputStream;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.content.res.AssetManager;
-import android.graphics.Color;
-import android.support.v4.app.FragmentActivity;
 
 import com.mrwujay.cascade.model.CityModel;
 import com.mrwujay.cascade.model.DistrictModel;
 import com.mrwujay.cascade.model.ProvinceModel;
 import com.mrwujay.cascade.service.JsonParserHandler;
 
-public class BaseSecondActivity extends FragmentActivity {
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
+
+public class BaseSecondActivity extends NeedSwipeBackActivity {
 
 	/**
 	 * 所有省

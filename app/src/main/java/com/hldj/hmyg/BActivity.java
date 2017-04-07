@@ -196,6 +196,7 @@ public class BActivity extends BaseSecondActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setSwipeBackEnable(false);
         setContentView(R.layout.activity_b);
         hud = KProgressHUD.create(BActivity.this)
                 .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)

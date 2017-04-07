@@ -37,6 +37,7 @@ public class DActivity extends Activity implements IXListViewListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.activity_d);
 		xListView = (XListView) findViewById(R.id.xlistView);
 		xListView.setDivider(null);
