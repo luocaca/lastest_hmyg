@@ -1,16 +1,5 @@
 package com.hldj.hmyg;
 
-import kankan.wheel.widget.OnWheelChangedListener;
-import kankan.wheel.widget.WheelView;
-import kankan.wheel.widget.adapters.ArrayWheelAdapter;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,6 +23,18 @@ import com.hldj.hmyg.application.MyApplication;
 import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.loginjudge.LoginJudge;
+
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import kankan.wheel.widget.OnWheelChangedListener;
+import kankan.wheel.widget.WheelView;
+import kankan.wheel.widget.adapters.ArrayWheelAdapter;
 
 public class SetProfileActivity extends LoginActivity implements
 		OnWheelChangedListener {
@@ -177,7 +178,8 @@ public class SetProfileActivity extends LoginActivity implements
 			finish();
 		}
 		finish();
-		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+		overridePendingTransition_back();
+//		overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
 	}
 
 	public class MultipleClickProcess implements OnClickListener {

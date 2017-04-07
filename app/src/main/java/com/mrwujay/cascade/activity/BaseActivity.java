@@ -1,17 +1,5 @@
 package com.mrwujay.cascade.activity;
 
-import java.io.InputStream;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import me.imid.swipebacklayout.lib.app.SwipeBackActivity;
-import me.imid.swipebacklayout.lib.app.SwipeBackBActivity;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.content.res.AssetManager;
 
 import com.hldj.hmyg.R;
@@ -19,6 +7,16 @@ import com.mrwujay.cascade.model.CityModel;
 import com.mrwujay.cascade.model.DistrictModel;
 import com.mrwujay.cascade.model.ProvinceModel;
 import com.mrwujay.cascade.service.JsonParserHandler;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import me.imid.swipebacklayout.lib.app.SwipeBackBActivity;
 
 public class BaseActivity extends SwipeBackBActivity {
 
@@ -147,9 +145,14 @@ public class BaseActivity extends SwipeBackBActivity {
 	public  void overridePendingTransition_back() {
 		//进
 		//-100  ---   0
-		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+		overridePendingTransition(R.anim.slide_in_right, R.anim.slide_in_right_new_back);
 		//出
 		//0  --- 100
+
+
+
+
+
 	}
 
 

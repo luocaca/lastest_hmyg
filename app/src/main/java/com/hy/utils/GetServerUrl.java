@@ -3,7 +3,6 @@ package com.hy.utils;
 import android.util.Log;
 
 import com.hldj.hmyg.application.MyApplication;
-import com.white.utils.AndroidUtil;
 
 import net.tsz.afinal.FinalHttp;
 
@@ -13,7 +12,7 @@ import net.tsz.afinal.FinalHttp;
 
 public class GetServerUrl {
 
-    public static boolean isTest = false;//测试时使用
+    public static boolean isTest = true;//测试时使用
     static String PGYER = "http://www.pgyer.com/apiv1/app/viewGroup";
     // 正式 可用
     static String API_01 = "http://hmeg.cn:93/";
@@ -22,6 +21,7 @@ public class GetServerUrl {
     static String aId_01 = "87045b497d4eaffc7621c1f2ef75a79f";
     static String _api_key_01 = "eb7b16eabaf1d9af652fc65e921ba205";
     static String uKey_01 = "424e35aa2abf90730b5de65b2d7896e4";
+
 
 
     //测试看看是不是
@@ -34,9 +34,11 @@ public class GetServerUrl {
 
     //http://test.api.hmeg.cn/_____for luocaa
 
+    //http://192.168.1.20:83/api
+
     // 测试,xingguo.huang@qq.com
-//    static String API_03 = "http://test.hmeg.cn:93/";
-    static String API_03 = "http://test.api.hmeg.cn/";
+  static String API_03 = "http://test.hmeg.cn:93/";
+//    static String API_03 = "http://192.168.1.20:83/api/";
     static String FIR_03 = "http://api.fir.im/apps/latest/574270cc00fc744aef000000?api_token=d5ec18bebb4cd5acd798ffeeccbed6f4&type=android&bundle_id=com.hldj.hmyg";
     static String PGYER_UPLOAD_03 = "https://www.pgyer.com/hmegandroid";
     static String aId_03 = "ca3d2e3158115aa784e85a145acdcb0f";

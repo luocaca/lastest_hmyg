@@ -1,25 +1,14 @@
 package com.hldj.hmyg;
 
-import java.util.ArrayList;
-
-import me.drakeet.materialdialog.MaterialDialog;
-import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
-import net.tsz.afinal.FinalBitmap;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -29,8 +18,9 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.inputmethod.InputMethodManager;
+import android.view.Window;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.LinearLayout;
@@ -42,13 +32,13 @@ import android.widget.Toast;
 import com.example.listedittext.paramsData;
 import com.google.gson.Gson;
 import com.hldj.hmyg.adapter.SeedlingParmAdapter;
+import com.hldj.hmyg.application.AlphaTitleScrollView;
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.application.PermissionUtils;
 import com.hldj.hmyg.bean.Pic;
 import com.hldj.hmyg.bean.PicSerializableMaplist;
 import com.hldj.hmyg.bean.SeedlingParm;
-import com.hldj.hmyg.buyer.AddPurchaseActivity;
 import com.hldj.hmyg.saler.SavePriceAndCountAndOutlineActivity;
 import com.hldj.hmyg.saler.SaveSeedlingActivity;
 import com.hy.utils.GetServerUrl;
@@ -59,11 +49,29 @@ import com.javis.ab.view.AbSlidingPlayView;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
+import com.readystatesoftware.systembartint.SystemBarTintManager;
 import com.yangfuhai.asimplecachedemo.lib.ACache;
 import com.zf.iosdialog.widget.AlertDialog;
 import com.zzy.flowers.widget.popwin.EditP2;
 import com.zzy.flowers.widget.popwin.EditP3;
 
+import net.tsz.afinal.FinalBitmap;
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
+import me.drakeet.materialdialog.MaterialDialog;
+import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
+
+/**
+ * 商城详情
+ */
 @SuppressLint({ "ResourceAsColor", "Override" })
 public class FlowerDetailActivity extends NeedSwipeBackActivity {
 	private AbSlidingPlayView viewPager;
@@ -182,10 +190,110 @@ public class FlowerDetailActivity extends NeedSwipeBackActivity {
 	private TextView tv_open;
 	private ImageView iv_open;
 
+
+
+	@TargetApi(19)
+	private void setTranslucentStatus(boolean on) {
+		Window win = getWindow();
+		WindowManager.LayoutParams winParams = win.getAttributes();
+		final int bits = WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS;
+		if (on) {
+			winParams.flags |= bits;
+		} else {
+			winParams.flags &= ~bits;
+		}
+		win.setAttributes(winParams);
+	}
+
+	/**
+	 * 设置状态栏 黑色 并且图片置顶
+	 */
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+	private void setar()
+    {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+			setTranslucentStatus(true);
+			SystemBarTintManager tintManager = new SystemBarTintManager(this);
+			tintManager.setStatusBarTintEnabled(true);
+			tintManager.setStatusBarAlpha(0.0f);
+			tintManager.setStatusBarTintResource(R.color.transparent);//通知栏所需颜色
+
+
+		}
+
+
+
+//		getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+//		getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE |View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR );
+//		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)
+//		{
+//			// 透明状态栏
+//			getWindow().addFlags( WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//
+//		}
+    }
+
+
+	/**
+	 * 设置状态栏 黑色 并且图片置顶
+	 */
+	@TargetApi(Build.VERSION_CODES.LOLLIPOP)
+	private void setar1() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+			getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+				Window window = getWindow();
+				window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
+						);
+				window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+						| View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+						| View.SYSTEM_UI_FLAG_LAYOUT_STABLE|View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+				window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+				window.setStatusBarColor(Color.TRANSPARENT);
+
+//				window.setNavigationBarColor(Color.TRANSPARENT);
+			}
+//		getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+//		getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE |View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN| View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR );
+//		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)
+//		{
+//			// 透明状态栏
+//			getWindow().addFlags( WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//
+//		}
+		}
+	}
+
+	public void setToolBarAlfaScr() {
+		final AlphaTitleScrollView scroll = (AlphaTitleScrollView) findViewById(R.id.alfa_scroll);
+		LinearLayout title = (LinearLayout) findViewById(R.id.ll_detail_toolbar);
+		View head = findViewById(R.id.view_detail_top);
+		scroll.setTitleAndHead(title, head);
+		new Handler().postDelayed(new Runnable() {
+			@Override
+			public void run() {
+				scroll.smoothScrollTo(0,10);
+			}
+		}, 100);
+
+	}
+	@Override
+	protected void onDestroy() {
+		Log.e("onDestroy", "onDestroy: ");
+		findViewById(R.id.ll_detail_toolbar).setAlpha(0);
+		super.onDestroy();
+	}
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_flower_detail);
+		setar();
+
+//		StateBarUtil.setStatusBarIconDark(this,true);
+		setContentView(R.layout.activity_flower_detail_test_toobar);
+//		setToolBarAlfa();
+		setToolBarAlfaScr();
+
 		mMaterialDialog = new MaterialDialog(this);
 		fb = FinalBitmap.create(this);
 		mCache = ACache.get(this);

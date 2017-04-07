@@ -238,7 +238,8 @@
             android:screenOrientation="portrait"></activity>
         <activity
             android:name="com.hldj.hmyg.FlowerDetailActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/e_activity_theme"></activity>
         <activity
             android:name="com.hldj.hmyg.GalleryImageActivity"
             android:screenOrientation="portrait"></activity>

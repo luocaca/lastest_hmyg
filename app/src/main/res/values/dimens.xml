@@ -52,5 +52,10 @@
     <dimen name="alert_width">290dp</dimen>
     <dimen name="common_circle_width">3dp</dimen>
     <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="header_height" >250dp</dimen>
+    <dimen name="header_height1" >100dp</dimen>
+    <dimen name="top_padding_statu">1dp</dimen>
+
+    <dimen name="loadingbar_icon">40dp</dimen>
 
 </resources>

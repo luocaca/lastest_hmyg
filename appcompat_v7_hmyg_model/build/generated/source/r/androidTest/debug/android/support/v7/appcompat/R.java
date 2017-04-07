@@ -19,7 +19,7 @@ public final class R {
         public static final int actionBarDivider = 0x7f01005a;
         public static final int actionBarItemBackground = 0x7f01005b;
         public static final int actionBarPopupTheme = 0x7f010054;
-        public static final int actionBarSize = 0x7f010059;
+        public static final int actionBarSize_bak = 0x7f010059;
         public static final int actionBarSplitStyle = 0x7f010056;
         public static final int actionBarStyle = 0x7f010055;
         public static final int actionBarTabBarStyle = 0x7f010050;
@@ -856,7 +856,7 @@ public final class R {
         public static final int Theme_actionBarDivider = 19;
         public static final int Theme_actionBarItemBackground = 20;
         public static final int Theme_actionBarPopupTheme = 13;
-        public static final int Theme_actionBarSize = 18;
+        public static final int Theme_actionBarSize_bak = 18;
         public static final int Theme_actionBarSplitStyle = 15;
         public static final int Theme_actionBarStyle = 14;
         public static final int Theme_actionBarTabBarStyle = 9;

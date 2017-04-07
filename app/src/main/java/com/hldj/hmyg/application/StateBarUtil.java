@@ -1,7 +1,6 @@
 package com.hldj.hmyg.application;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Environment;
 import android.util.Log;
@@ -51,6 +50,8 @@ public class StateBarUtil {
             window.setStatusBarColor(color);   //这里动态修改颜色
         }
     }
+
+
 
 
     /**

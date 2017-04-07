@@ -1,13 +1,5 @@
 package com.hldj.hmyg;
 
-import net.tsz.afinal.FinalBitmap;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
@@ -17,8 +9,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
-import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.broker.BrokerYanmiaoOrderActivity;
@@ -28,6 +18,16 @@ import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
+import net.tsz.afinal.FinalBitmap;
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
+import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class BrokerActivity extends LoginActivity {
@@ -129,7 +129,7 @@ public class BrokerActivity extends LoginActivity {
 										JsonGetInfo.getJSONObject(jsonObject,
 												"data"), "unReadCount");
 								if (unReadCount > 0) {
-									iv_msg.setBackgroundResource(R.anim.anim_message);
+									iv_msg.setBackgroundResource(R.drawable.anim_message);
 									AnimationDrawable anim = (AnimationDrawable) iv_msg
 											.getBackground();
 									anim.start();

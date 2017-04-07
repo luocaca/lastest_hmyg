@@ -326,6 +326,14 @@
             app:tagTextSize="8sp" />
 
         <LinearLayout
+            android:id="@+id/ll_spanner_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+        </LinearLayout>
+        <LinearLayout
             android:id="@+id/ll_data"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -335,6 +343,7 @@
                 android:id="@+id/xlistView"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
+                android:overScrollMode="never"
                 android:background="#fff0f0f0" />
 
             <com.huewu.pla.lib.me.maxwin.view.PLAXListView
@@ -344,6 +353,7 @@
                 android:layout_marginLeft="@dimen/x5"
                 android:layout_marginRight="@dimen/x5"
                 android:numColumns="2"
+                android:overScrollMode="never"
                 android:visibility="gone" >
             </com.huewu.pla.lib.me.maxwin.view.PLAXListView>
         </LinearLayout>

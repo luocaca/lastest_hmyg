@@ -38,13 +38,17 @@
         <!--<item name="android:verticalDivider">@android:color/transparent</item>-->
         <!--<item name="android:textColorPrimary">@android:color/transparent</item>-->
 
-
+        <!--View.SYSTEM_UI_FLAG_LAYOUT_STABLE |View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN|-->
 
     </style>
 
     <!--6.0之后 提供亮色状态栏，，能黑白交换-->
-    <style name="e_activity_theme" parent="Base.Theme.AppCompat">
-
+    <style name="e_activity_theme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+        <!--&lt;!&ndash;<item name="colorPrimaryDark">@android:color/transparent</item>&ndash;&gt;-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--&lt;!&ndash;<item name="fitsSystemWindows">true</item>&ndash;&gt;-->
+        <!--<item name="android:statusBarColor">@color/transparent</item>-->
 
     </style>
 

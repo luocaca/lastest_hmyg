@@ -1,20 +1,18 @@
 package com.hldj.hmyg;
 
-import com.hldj.hmyg.application.MyApplication;
-import com.hldj.hmyg.application.PermissionUtils;
-import com.hldj.hmyg.saler.SaveSeedlingActivity;
-import com.hy.utils.GetServerUrl;
-import com.hy.utils.JsonGetInfo;
-import com.white.utils.AndroidUtil;
-
-import net.tsz.afinal.FinalBitmap;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import com.hldj.hmyg.application.MyApplication;
+import com.hldj.hmyg.application.PermissionUtils;
+import com.hy.utils.GetServerUrl;
+import com.white.utils.AndroidUtil;
+
+import net.tsz.afinal.FinalBitmap;
 
 public class SplashActivity extends Activity {
 
@@ -48,6 +46,10 @@ public class SplashActivity extends Activity {
 		// appkey必须在mtj网站上注册生成，该设置建议在AndroidManifest.xml中填写，代码设置容易丢失
 
 		img_sp = (ImageView) findViewById(R.id.img_sp);
+
+//		LoadingBarProxy.getInstance().showLoadingDialog();
+//		new LoadingBarProxy(this).showLoadingDialog();
+//		new LoadingBar(MyApplication.getInstance()).show();
 		// fb.display(img_sp, GetServerUrl.TEST_IMG);
 		new Handler().postDelayed(new Runnable() {
 
@@ -55,9 +57,10 @@ public class SplashActivity extends Activity {
 			public void run() {
 				Intent toMainActivity = new Intent(SplashActivity.this,
 						MainActivity.class);
+//				LoadingBarProxy.getInstance().dismissWithFailure("shibai");
 				startActivity(toMainActivity);
-//				overridePendingTransition(R.anim.slide_bottom_in,
-//						R.anim.slide_bottom_out);
+				overridePendingTransition(R.anim.slide_bottom_in,
+						R.anim.slide_bottom_out);
 				finish();
 			}
 		}, delayMillis);

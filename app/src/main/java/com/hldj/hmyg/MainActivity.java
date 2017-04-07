@@ -1,21 +1,5 @@
 package com.hldj.hmyg;
 
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Set;
-import java.util.jar.*;
-
-import me.drakeet.materialdialog.MaterialDialog;
-
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.*;
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.Dialog;
@@ -25,7 +9,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -58,10 +41,6 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-import cn.jpush.android.api.JPushInterface;
-import cn.jpush.android.api.TagAliasCallback;
-import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
-
 import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
@@ -85,11 +64,9 @@ import com.flyco.animation.BaseAnimatorSet;
 import com.flyco.animation.BounceEnter.BounceTopEnter;
 import com.flyco.animation.SlideExit.SlideBottomExit;
 import com.flyco.dialog.listener.OnBtnClickL;
-import com.flyco.dialog.utils.StatusBarUtils;
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.application.PermissionUtils;
-import com.hldj.hmyg.application.StateBarUtil;
 import com.hldj.hmyg.broker.adapter.ChooseManagerAdapter;
 import com.hldj.hmyg.buy.bean.CollectCar;
 import com.hldj.hmyg.saler.StorageSaveActivity;
@@ -99,11 +76,24 @@ import com.hy.utils.GetLotLat;
 import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.mrwujay.cascade.activity.GetCitiyNameByCode;
-import com.readystatesoftware.systembartint.StatusBarCompat;
-import com.readystatesoftware.systembartint.StatusBarUtil;
 import com.white.update.UpdateInfo;
 import com.white.utils.SettingUtils;
 import com.white.utils.SystemSetting;
+
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Set;
+
+import cn.jpush.android.api.JPushInterface;
+import cn.jpush.android.api.TagAliasCallback;
+import me.drakeet.materialdialog.MaterialDialog;
 
 @SuppressLint("NewApi")
 @SuppressWarnings("deprecation")
@@ -151,12 +141,6 @@ public class MainActivity extends TabActivity implements
     private AMapLocationClient mlocationClient;
     private AMapLocationClientOption mLocationOption;
     public Editor e;
-
-
-
-
-
-
 
         @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
@@ -1184,6 +1168,12 @@ public class MainActivity extends TabActivity implements
         }
         mlocationClient = null;
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
 
     /**
      * 定位成功后回调函数

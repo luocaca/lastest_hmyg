@@ -19,11 +19,10 @@ package com.kaopiz.kprogresshud;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 import com.hldj.hmyg.R;
 
-class SpinView extends ImageView implements Indeterminate {
+class SpinView extends android.support.v7.widget.AppCompatImageView implements Indeterminate {
 
     private float mRotateDegrees;
     private int mFrameTime;
@@ -41,7 +40,8 @@ class SpinView extends ImageView implements Indeterminate {
     }
 
     private void init() {
-        setImageResource(R.drawable.kprogresshud_spinner);
+//        setImageResource(R.drawable.kprogresshud_spinner);
+        setImageResource(R.drawable.progress_loading);
         mFrameTime = 1000 / 12;
         mUpdateViewRunnable = new Runnable() {
             @Override

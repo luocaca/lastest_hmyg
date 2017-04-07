@@ -290,7 +290,7 @@ public class XListView extends ListView implements OnScrollListener {
 				updateFooterHeight(-deltaY / OFFSET_RADIO);
 			}
 			break;
-		default:
+		default://刷新
 			mLastY = -1; // reset
 			if (getFirstVisiblePosition() == 0) {
 				// invoke refresh
@@ -302,7 +302,14 @@ public class XListView extends ListView implements OnScrollListener {
 						mListViewListener.onRefresh();
 					}
 				}
-				resetHeaderHeight();
+//				new Handler().postDelayed(new Runnable() {
+//					@Override
+//					public void run() {
+//						resetHeaderHeight();
+//					}
+//				}, 1500);
+
+
 			} else if (getLastVisiblePosition() == mTotalItemCount - 1) {
 				// invoke load more.
 				if (mEnablePullLoad

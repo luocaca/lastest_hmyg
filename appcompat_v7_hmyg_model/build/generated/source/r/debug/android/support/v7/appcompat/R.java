@@ -46,7 +46,7 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static int actionBarSize=0x7f010059;
+        public static int actionBarSize_bak=0x7f010059;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -3475,7 +3475,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Theme_actionBarDivider android.support.v7.appcompat:actionBarDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_actionBarItemBackground android.support.v7.appcompat:actionBarItemBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_actionBarPopupTheme android.support.v7.appcompat:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize android.support.v7.appcompat:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize_bak android.support.v7.appcompat:actionBarSize_bak}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_actionBarSplitStyle android.support.v7.appcompat:actionBarSplitStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_actionBarStyle android.support.v7.appcompat:actionBarStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_actionBarTabBarStyle android.support.v7.appcompat:actionBarTabBarStyle}</code></td><td></td></tr>
@@ -3559,7 +3559,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
            @see #Theme_actionBarPopupTheme
-           @see #Theme_actionBarSize
+           @see #Theme_actionBarSize_bak
            @see #Theme_actionBarSplitStyle
            @see #Theme_actionBarStyle
            @see #Theme_actionBarTabBarStyle
@@ -3694,7 +3694,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#actionBarSize_bak}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3714,9 +3714,9 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name android.support.v7.appcompat:actionBarSize
+          @attr name android.support.v7.appcompat:actionBarSize_bak
         */
-        public static int Theme_actionBarSize = 18;
+        public static int Theme_actionBarSize_bak = 18;
         /**
           <p>This symbol is the offset where the {@link android.support.v7.appcompat.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.

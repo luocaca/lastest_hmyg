@@ -19,9 +19,14 @@ public class SortList {
 	public void setName(String name) {
 		Name = name;
 	}
+
 	public SortList(String iD, String name) {
 		super();
 		ID = iD;
 		Name = name;
 	}
+
+
+
+
 }

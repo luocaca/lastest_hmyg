@@ -1,6 +1,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    
+
+
     <style name="Crop"></style>
 
     <style name="Crop.DoneCancelBar">
@@ -74,7 +74,7 @@
         <item name="android:paddingLeft">10dp</item>
         <item name="android:paddingRight">10dp</item>
     </style>
-    
+
     <style name="RadioButton3">
         <item name="android:textColor">@drawable/button_text_color</item>
         <item name="android:minHeight">33dp</item>
@@ -84,9 +84,9 @@
         <item name="android:paddingLeft">10dp</item>
         <item name="android:paddingRight">10dp</item>
     </style>
-    
-    
-        <style name="RadioButton4">
+
+
+    <style name="RadioButton4">
         <item name="android:textColor">@drawable/button_text_color</item>
         <item name="android:minHeight">33dp</item>
         <item name="android:gravity">center</item>
@@ -104,13 +104,11 @@
         <!-- 无ActionBar -->
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    
-     <style name="MyAppThemeTWO" parent="android:style/Theme.Holo.Light.NoActionBar">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-           <item name="android:windowIsTranslucent">true</item>
-    </style>
-    
 
+    <style name="MyAppThemeTWO" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
 
 
     <style name="FullScreenTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
@@ -176,8 +174,8 @@
         <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
     </style>
     <!-- IOSDialog STYLES -->
-    
-      <style name="tab_hdpi2">
+
+    <style name="tab_hdpi2">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">@color/tab_bar_text_color_selector2</item>
         <item name="android:gravity">center</item>
@@ -377,31 +375,30 @@
     </style>
 
 
-
-
-
     <!--swipe back 主题适配-->
-    <style name="AppBaseThemeMain"  parent="Theme.AppCompat.Light">
+    <style name="AppBaseThemeMain" parent="Theme.AppCompat.Light">
         <item name="android:windowIsTranslucent">false</item>
     </style>
 
-    <style name="AppBaseTheme"  parent="Theme.AppCompat.Light">
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
 
-       <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
+    <style name="NoActionBarThemeWhite" parent="Theme.AppCompat.Light">
         <!-- 无ActionBar -->
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-        </style>
-
+    </style>
 
 
     <!--6.0之后 提供亮色状态栏，，能黑白交换-->
     <!--NoActionBarThemeWhite-->
-    <style name="AppBaseTheme2Register"  parent="NoActionBarThemeWhite" >
-    </style>
+    <style name="AppBaseTheme2Register" parent="NoActionBarThemeWhite"></style>
 
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+
+        <item name="android:windowBackground">@drawable/dialog_background_new</item>
+    </style>
 
 
 </resources>

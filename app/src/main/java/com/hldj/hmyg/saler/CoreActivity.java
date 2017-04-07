@@ -9,7 +9,6 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -107,7 +106,6 @@ public abstract class CoreActivity extends FragmentActivity {
 		// GlobalData.isFromOtherIntent = false;
 
 	}
-
 	@Override
 	protected void onResume() {
 		super.onResume();

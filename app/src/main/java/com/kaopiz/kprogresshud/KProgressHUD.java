@@ -20,6 +20,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -57,7 +58,7 @@ public class KProgressHUD {
         mProgressDialog = new ProgressDialog(context);
         mDimAmount = 0;
         //noinspection deprecation
-        mWindowColor = context.getResources().getColor(R.color.kprogresshud_default_color);
+        mWindowColor = context.getResources().getColor(R.color.transparent);
         mAnimateSpeed = 1;
         mCornerRadius = 10;
         mIsAutoDismiss = true;
@@ -226,6 +227,7 @@ public class KProgressHUD {
     public KProgressHUD show() {
         if (!isShowing()) {
             mProgressDialog.show();
+            Log.e("KProgressHUD", "暂时停止show 显示: " );
         }
         return this;
     }
@@ -256,7 +258,6 @@ public class KProgressHUD {
             super.onCreate(savedInstanceState);
             requestWindowFeature(Window.FEATURE_NO_TITLE);
             setContentView(R.layout.kprogresshud_hud);
-
             Window window = getWindow();
             window.setBackgroundDrawable(new ColorDrawable(0));
             window.addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);

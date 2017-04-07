@@ -24,7 +24,7 @@
     <style name="Base.Widget.AppCompat.ActionBar" parent="">
         <item name="displayOptions">showTitle</item>
         <item name="divider">?attr/dividerVertical</item>
-        <item name="height">?attr/actionBarSize</item>
+        <item name="height">?attr/actionBarSize_bak</item>
 
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
@@ -129,7 +129,7 @@
     <style name="Base.Widget.AppCompat.ActionMode" parent="">
         <item name="background">?attr/actionModeBackground</item>
         <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
-        <item name="height">?attr/actionBarSize</item>
+        <item name="height">?attr/actionBarSize_bak</item>
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
         <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>
@@ -306,7 +306,7 @@
     <style name="Base.Widget.AppCompat.Toolbar" parent="android:Widget">
         <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
         <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
-        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize_bak</item>
         <item name="titleMargins">4dp</item>
         <item name="maxButtonHeight">56dp</item>
         <item name="collapseIcon">?attr/homeAsUpIndicator</item>

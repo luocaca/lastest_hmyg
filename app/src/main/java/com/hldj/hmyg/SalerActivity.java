@@ -1,27 +1,10 @@
 package com.hldj.hmyg;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-
-import net.tsz.afinal.FinalBitmap;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Bitmap.Config;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,18 +16,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
-import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.application.PermissionUtils;
 import com.hldj.hmyg.bean.Pic;
-import com.hldj.hmyg.buyer.BuyerValidateApplyActivity;
 import com.hldj.hmyg.buyer.SettingBuyConfigActivity;
-import com.hldj.hmyg.buyer.StorePurchaseListActivity;
 import com.hldj.hmyg.saler.AdressListActivity;
-import com.hldj.hmyg.saler.ManagerQuoteActivity;
 import com.hldj.hmyg.saler.ManagerQuoteListActivity;
 import com.hldj.hmyg.saler.SalerOrderActivity2;
 import com.hldj.hmyg.saler.SaveSeedlingActivity;
@@ -66,6 +44,24 @@ import com.zym.selecthead.config.Configs;
 import com.zym.selecthead.tools.FileTools;
 import com.zym.selecthead.tools.SelectHeadTools;
 
+import net.tsz.afinal.FinalBitmap;
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
+import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class SalerActivity extends LoginActivity {
@@ -332,7 +328,7 @@ public class SalerActivity extends LoginActivity {
 										JsonGetInfo.getJSONObject(jsonObject,
 												"data"), "unReadCount");
 								if (unReadCount > 0) {
-									iv_msg.setBackgroundResource(R.anim.anim_message);
+									iv_msg.setBackgroundResource(R.drawable.anim_message);
 									AnimationDrawable anim = (AnimationDrawable) iv_msg
 											.getBackground();
 									anim.start();

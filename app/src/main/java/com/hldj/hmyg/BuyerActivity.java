@@ -1,21 +1,5 @@
 package com.hldj.hmyg;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-
-import net.tsz.afinal.FinalBitmap;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -32,8 +16,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
-import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 
 import com.amap.api.car.example.FindFlowerActivity;
 import com.hldj.hmyg.application.Data;
@@ -60,6 +42,24 @@ import com.zym.selecthead.config.Configs;
 import com.zym.selecthead.tools.FileTools;
 import com.zym.selecthead.tools.SelectHeadTools;
 
+import net.tsz.afinal.FinalBitmap;
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import cn.bingoogolapple.badgeview.BGABadgeLinearLayout;
+import cn.bingoogolapple.badgeview.BGABadgeViewHelper.BadgeGravity;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class BuyerActivity extends LoginActivity {
@@ -217,7 +217,7 @@ public class BuyerActivity extends LoginActivity {
 										JsonGetInfo.getJSONObject(jsonObject,
 												"data"), "unReadCount");
 								if (unReadCount > 0) {
-									iv_msg.setBackgroundResource(R.anim.anim_message);
+									iv_msg.setBackgroundResource(R.drawable.anim_message);
 									AnimationDrawable anim = (AnimationDrawable) iv_msg
 											.getBackground();
 									anim.start();
@@ -242,6 +242,21 @@ public class BuyerActivity extends LoginActivity {
 					}
 
 				});
+	}
+
+	@Override
+	public void onBackPressed() {
+
+		// 完全由自己控制返回键逻辑，系统不在控制，但是有个前提是不要在Activity的onKeyDown或者OnKeyUp中拦截掉返回键
+
+		// 拦截：就是在OnKeyDown或者OnKeyUp中自己处理了返回键（这里处理之后return true.或者return false都会导致onBackPressed不会执行）
+
+		// 不拦截：在OnKeyDown和OnKeyUp中返回super对应的方法（如果两个方法都被覆写就分别都要返回super.onKeyDown,super.onKeyUp）
+
+		this.finish();
+		overridePendingTransition_back();
+
+
 	}
 
 	public class MultipleClickProcess implements OnClickListener {
@@ -483,6 +498,8 @@ public class BuyerActivity extends LoginActivity {
 				new TimeThread().start();
 			}
 		}
+
+
 
 		/**
 		 * 计时线程（防止在一定时间段内重复点击按钮）

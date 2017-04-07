@@ -49,7 +49,7 @@
 
     <style name="Base.V21.Theme.AppCompat" parent="Base.V7.Theme.AppCompat">
         <!-- Action Bar styling attributes -->
-        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarSize_bak">?android:attr/actionBarSize</item>
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
@@ -86,7 +86,7 @@
 
     <style name="Base.V21.Theme.AppCompat.Light" parent="Base.V7.Theme.AppCompat.Light">
         <!-- Action Bar styling attributes -->
-        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarSize_bak">?android:attr/actionBarSize</item>
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
@@ -123,7 +123,7 @@
 
     <style name="Base.V21.Theme.AppCompat.Dialog" parent="Base.V11.Theme.AppCompat.Dialog">
         <!-- Action Bar styling attributes -->
-        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarSize_bak">?android:attr/actionBarSize</item>
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
@@ -160,7 +160,7 @@
 
     <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="Base.V11.Theme.AppCompat.Light.Dialog">
         <!-- Action Bar styling attributes -->
-        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarSize_bak">?android:attr/actionBarSize</item>
         <item name="actionBarDivider">?android:attr/actionBarDivider</item>
         <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
         <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
