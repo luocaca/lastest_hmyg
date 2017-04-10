@@ -1,19 +1,5 @@
 package com.hldj.hmyg;
 
-import in.srain.cube.views.ptr.PtrClassicFrameLayout;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-
-import me.hwang.library.widgit.SmartRefreshLayout;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -38,8 +24,6 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.Toast;
-import aom.xingguo.huang.banner.MyFragment;
-import cn.hugo.android.scanner.CaptureActivity;
 
 import com.autoscrollview.adapter.ImagePagerAdapter;
 import com.autoscrollview.widget.AutoScrollViewPager;
@@ -62,6 +46,25 @@ import com.white.utils.ScreenUtil;
 import com.white.utils.StringUtil;
 import com.yangfuhai.asimplecachedemo.lib.ACache;
 
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import aom.xingguo.huang.banner.MyFragment;
+import cn.hugo.android.scanner.CaptureActivity;
+import in.srain.cube.views.ptr.PtrClassicFrameLayout;
+import me.hwang.library.widgit.SmartRefreshLayout;
+
+/**
+ * change a list hellow world
+ */
 @SuppressLint("NewApi")
 public class AActivity extends FragmentActivity implements OnClickListener {
 
