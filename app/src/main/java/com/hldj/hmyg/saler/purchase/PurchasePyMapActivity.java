@@ -1,31 +1,5 @@
 package com.hldj.hmyg.saler.purchase;
 
-import info.hoang8f.android.segmented.SegmentedGroup;
-
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
-
-import kankan.wheel.widget.OnWheelChangedListener;
-import kankan.wheel.widget.WheelView;
-import kankan.wheel.widget.adapters.ArrayWheelAdapter;
-import me.drakeet.materialdialog.MaterialDialog;
-import me.kaede.tagview.OnTagDeleteListener;
-import me.kaede.tagview.Tag;
-import me.kaede.tagview.TagView;
-import me.maxwin.view.XListView;
-import me.maxwin.view.XListView.IXListViewListener;
-import net.tsz.afinal.FinalBitmap;
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
@@ -46,8 +20,8 @@ import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewConfiguration;
 import android.view.View.OnClickListener;
+import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
@@ -79,32 +53,50 @@ import com.flyco.animation.BounceEnter.BounceTopEnter;
 import com.flyco.animation.SlideExit.SlideBottomExit;
 import com.flyco.dialog.listener.OnBtnClickL;
 import com.hhl.library.FlowTagLayout;
-import com.hhl.library.OnTagClickListener;
-import com.hhl.library.OnTagSelectListener;
-import com.hldj.hmyg.BActivity;
 import com.hldj.hmyg.BFragment;
 import com.hldj.hmyg.LoginActivity;
 import com.hldj.hmyg.R;
-import com.hldj.hmyg.WeituoActivity;
-import com.hldj.hmyg.BActivity.MyPagerAdapter;
-import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
 import com.hldj.hmyg.broker.SeedlingMarketSearchActivity;
 import com.hldj.hmyg.broker.SellectMarketPriceActivity;
 import com.hldj.hmyg.broker.bean.SellectPrice;
-import com.hldj.hmyg.buyer.PurchaseDetailActivity;
 import com.hldj.hmyg.buyer.StorePurchaseListActivity;
 import com.hldj.hmyg.saler.SubscribeManagerListActivity;
 import com.hldj.hmyg.saler.bean.ParamsList;
 import com.hldj.hmyg.saler.bean.Subscribe;
-import com.hy.utils.FlowTagActivity;
 import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.hy.utils.StringFormatUtil;
 import com.hy.utils.TagAdapter;
-import com.hy.utils.ToastUtil;
 import com.mrwujay.cascade.activity.BaseSecondActivity;
 import com.mrwujay.cascade.activity.GetCodeByName;
+
+import net.tsz.afinal.FinalBitmap;
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
+import java.util.List;
+
+import info.hoang8f.android.segmented.SegmentedGroup;
+import kankan.wheel.widget.OnWheelChangedListener;
+import kankan.wheel.widget.WheelView;
+import kankan.wheel.widget.adapters.ArrayWheelAdapter;
+import me.drakeet.materialdialog.MaterialDialog;
+import me.kaede.tagview.OnTagDeleteListener;
+import me.kaede.tagview.Tag;
+import me.kaede.tagview.TagView;
+import me.maxwin.view.XListView;
+import me.maxwin.view.XListView.IXListViewListener;
+
 
 @SuppressLint({ "NewApi", "ResourceAsColor" })
 public class PurchasePyMapActivity extends BaseSecondActivity implements

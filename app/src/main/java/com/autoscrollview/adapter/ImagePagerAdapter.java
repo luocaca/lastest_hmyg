@@ -7,9 +7,6 @@
  */
 package com.autoscrollview.adapter;
 
-import java.util.HashMap;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -23,8 +20,12 @@ import com.autoscrollview.jakewharton.salvage.RecyclingPagerAdapter;
 import com.autoscrollview.utils.ListUtils;
 import com.hldj.hmyg.R;
 import com.hldj.hmyg.WebActivity;
+import com.hldj.hmyg.util.D;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.white.utils.StringUtil;
+
+import java.util.HashMap;
+import java.util.List;
 
 /**
  * ImagePagerAdapter
@@ -95,6 +96,7 @@ public class ImagePagerAdapter extends RecyclingPagerAdapter {
 			@Override
 			public void onClick(View v) {
 
+				D.e("setOnClickListener");
 				if (StringUtil.isHttpUrlPicPath(imageIdList.get(position)
 						.get("href").toString())) {
 					Intent toWebActivity3 = new Intent(context,

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dl_content"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="#FFFFFF" android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tv_a_search"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/search_edit_selector"
+        android:drawableLeft="@drawable/seller_search"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:drawablePadding="4dp"
+        android:text="@string/search_content"
+        android:textColor="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_a_msg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/home_message" />
+
+
+</RelativeLayout>

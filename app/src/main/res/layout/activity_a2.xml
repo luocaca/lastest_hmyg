@@ -33,7 +33,7 @@
                 android:layout_width="@dimen/x242"
                 android:layout_height="match_parent"
                 android:layout_margin="@dimen/y5"
-                android:layout_toLeftOf="@+id/iv_msg"
+                android:layout_toLeftOf="@+id/iv_a_msg"
                 android:layout_toRightOf="@+id/iv_Capture"
                 android:layout_weight="1"
                 android:background="@drawable/search_edit_selector"
@@ -78,7 +78,7 @@
             </RelativeLayout>
 
             <ImageView
-                android:id="@+id/iv_msg"
+                android:id="@+id/iv_a_msg"
                 android:layout_width="@dimen/y24"
                 android:layout_height="@dimen/y24"
                 android:layout_alignParentRight="true"

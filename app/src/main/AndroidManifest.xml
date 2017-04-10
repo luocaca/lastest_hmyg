@@ -230,6 +230,11 @@
             android:name="com.hldj.hmyg.StoreActivity"
             android:screenOrientation="portrait"></activity>
         <activity
+            android:name="com.hldj.hmyg.StoreActivity_bak"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
             android:name="com.hldj.hmyg.store.StoreTypeActivity"
             android:screenOrientation="portrait"></activity>
         <activity

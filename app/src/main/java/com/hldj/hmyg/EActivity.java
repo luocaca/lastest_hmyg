@@ -147,7 +147,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 		tv_user_name = (TextView) findViewById(R.id.tv_user_name);
 		iv_icon_persion_pic = (CircleImageView) findViewById(R.id.iv_icon_persion_pic);
 		ImageView iv_setting = (ImageView) findViewById(R.id.iv_setting);
-		iv_msg = (ImageView) findViewById(R.id.iv_msg);
+		iv_msg = (ImageView) findViewById(R.id.iv_a_msg);
 		LinearLayout ll_buyer = (LinearLayout) findViewById(R.id.ll_buyer);
 		LinearLayout ll_saler = (LinearLayout) findViewById(R.id.ll_saler);
 		ll_jingji = (LinearLayout) findViewById(R.id.ll_jingji);
@@ -195,6 +195,9 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 
 	@Override
 	protected void onResume() {
+
+
+
 		Log.e(TAG, "onResume: " );
 //		StateBarUtil.setColorPrimaryDark(R.color.main_color,this.getWindow());
 		// TODO Auto-generated method stub
@@ -328,7 +331,7 @@ public class EActivity extends LoginActivity implements PlatformActionListener {
 							R.anim.slide_out_left);
 
 					break;
-				case R.id.iv_msg:
+				case R.id.iv_a_msg:
 					Intent toMessageListActivity = new Intent(EActivity.this,
 							MessageListActivity.class);
 					startActivity(toMessageListActivity);

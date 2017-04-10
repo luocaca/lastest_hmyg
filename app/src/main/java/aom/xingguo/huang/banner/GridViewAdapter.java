@@ -1,17 +1,14 @@
 package aom.xingguo.huang.banner;
 
-import java.util.ArrayList;
-
-import net.tsz.afinal.FinalBitmap;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.view.WindowManager;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
@@ -19,6 +16,10 @@ import com.hldj.hmyg.R;
 import com.hldj.hmyg.StoreActivity;
 import com.hldj.hmyg.bean.HomeStore;
 import com.white.utils.AndroidUtil;
+
+import net.tsz.afinal.FinalBitmap;
+
+import java.util.ArrayList;
 
 public class GridViewAdapter extends BaseAdapter {
 	private Context context;
@@ -98,6 +99,7 @@ public class GridViewAdapter extends BaseAdapter {
 		// }
 		// });
 
+		/*跳转热门商家*/
 		inflate.setOnClickListener(new OnClickListener() {
 
 			@Override

@@ -29,7 +29,7 @@
                     android:layout_height="@dimen/y34" >
 
                     <ImageView
-                        android:id="@+id/iv_msg"
+                        android:id="@+id/iv_a_msg"
                         android:layout_width="@dimen/x25"
                         android:layout_height="@dimen/x23"
                         android:layout_alignParentRight="true"

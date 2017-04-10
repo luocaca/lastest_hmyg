@@ -228,5 +228,6 @@
     <string name="out_msg">您确定要退出软件吗？</string>
     <string name="ok">确定</string>
     <string name="cancle">取消</string>
+    <string name="search_content">找苗/报价/店铺</string>
 
 </resources>

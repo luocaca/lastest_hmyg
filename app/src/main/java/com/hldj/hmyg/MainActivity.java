@@ -25,7 +25,6 @@ import android.os.Message;
 import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.view.Display;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -41,25 +40,6 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-import com.amap.api.location.AMapLocation;
-import com.amap.api.location.AMapLocationClient;
-import com.amap.api.location.AMapLocationClientOption;
-import com.amap.api.location.AMapLocationClientOption.AMapLocationMode;
-import com.amap.api.location.AMapLocationListener;
-import com.amap.api.maps2d.AMap;
-import com.amap.api.maps2d.LocationSource;
-import com.amap.api.maps2d.MapView;
-import com.amap.api.maps2d.model.BitmapDescriptorFactory;
-import com.amap.api.maps2d.model.Marker;
-import com.amap.api.maps2d.model.MarkerOptions;
-import com.amap.api.services.core.LatLonPoint;
-import com.amap.api.services.geocoder.GeocodeAddress;
-import com.amap.api.services.geocoder.GeocodeQuery;
-import com.amap.api.services.geocoder.GeocodeResult;
-import com.amap.api.services.geocoder.GeocodeSearch;
-import com.amap.api.services.geocoder.GeocodeSearch.OnGeocodeSearchListener;
-import com.amap.api.services.geocoder.RegeocodeQuery;
-import com.amap.api.services.geocoder.RegeocodeResult;
 import com.flyco.animation.BaseAnimatorSet;
 import com.flyco.animation.BounceEnter.BounceTopEnter;
 import com.flyco.animation.SlideExit.SlideBottomExit;
@@ -72,13 +52,11 @@ import com.hldj.hmyg.buy.bean.CollectCar;
 import com.hldj.hmyg.saler.StorageSaveActivity;
 import com.hldj.hmyg.saler.bean.ChooseManager;
 import com.hldj.hmyg.update.UpdateDialog;
-import com.hy.utils.GetLotLat;
+import com.hldj.hmyg.util.MyUtil;
 import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
-import com.mrwujay.cascade.activity.GetCitiyNameByCode;
 import com.white.update.UpdateInfo;
 import com.white.utils.SettingUtils;
-import com.white.utils.SystemSetting;
 
 import net.tsz.afinal.FinalHttp;
 import net.tsz.afinal.http.AjaxCallBack;
@@ -98,9 +76,7 @@ import me.drakeet.materialdialog.MaterialDialog;
 @SuppressLint("NewApi")
 @SuppressWarnings("deprecation")
 public class MainActivity extends TabActivity implements
-        OnCheckedChangeListener, OnGeocodeSearchListener, LocationSource,
-        AMapLocationListener {
-
+        OnCheckedChangeListener {
     private static TabHost tabHost;
     private static RadioGroup radioderGroup;
     MaterialDialog mMaterialDialog;
@@ -114,11 +90,9 @@ public class MainActivity extends TabActivity implements
     private static final int DB_VERSION = 1;
     private SQLiteDatabase db;
     private ArrayList<CollectCar> userList = new ArrayList<CollectCar>();
-
     ArrayList<ChooseManager> chooseManagers = new ArrayList<ChooseManager>();
     private ChooseManager chooseManager3;
     private String check = "1";
-
     public void setBasIn(BaseAnimatorSet bas_in) {
         this.mBasIn = bas_in;
     }
@@ -127,22 +101,13 @@ public class MainActivity extends TabActivity implements
         this.mBasOut = bas_out;
     }
 
-    private double latitude = 0.0;
-    private double longitude = 0.0;
 
-    private GeocodeSearch geocoderSearch;
-    private String addressName;
-    private AMap aMap;
-    private MapView mapView;
-    private Marker geoMarker;
-    private Marker regeoMarker;
     private ProgressDialog progDialog;
-    private OnLocationChangedListener mListener;
-    private AMapLocationClient mlocationClient;
-    private AMapLocationClientOption mLocationOption;
+
+
     public Editor e;
 
-        @Override
+    @Override
     public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
         super.onCreate(savedInstanceState, persistentState);
     }
@@ -153,16 +118,11 @@ public class MainActivity extends TabActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         e = MyApplication.Userinfo.edit();//初始化 sp
-        GetLotLat.getBaiduLotLat(MainActivity.this, e);
-        mapView = (MapView) findViewById(R.id.map);
-        mapView.onCreate(savedInstanceState);// 此方法必须重写
-        init();
-        LatLonPoint latLonPoint = new LatLonPoint(40.003662, 116.465271);
-        getAddress(latLonPoint);// 暂不用
 
-        Data.screenWidth = getScreenWidth(false, MainActivity.this);
 
-        if (Build.VERSION.SDK_INT >= 23 && MyApplication.getInstance().getApplicationInfo().targetSdkVersion >=23) {
+        Data.screenWidth = MyUtil.getScreenWidth(false, MainActivity.this);
+
+        if (Build.VERSION.SDK_INT >= 23 && MyApplication.getInstance().getApplicationInfo().targetSdkVersion >= 23) {
             new PermissionUtils(this).needPermission(200);
         }
 //         StatusBarCompat.compat(this);// 状态栏
@@ -360,13 +320,13 @@ public class MainActivity extends TabActivity implements
         radioderGroup.check(R.id.tab_a);
     }
 
-    int old_item_id = R.id.tab_a ;//默认是 主页
-    public void resetGroupState(RadioGroup group,int checkedId)
-    {
-        for (int i = 0; i <group.getChildCount() ; i++) {
-            if (old_item_id ==checkedId ){
-                ( (RadioButton)group.getChildAt(i)).setChecked(true);
-            }else{
+    int old_item_id = R.id.tab_a;//默认是 主页
+
+    public void resetGroupState(RadioGroup group, int checkedId) {
+        for (int i = 0; i < group.getChildCount(); i++) {
+            if (old_item_id == checkedId) {
+                ((RadioButton) group.getChildAt(i)).setChecked(true);
+            } else {
 //                ( (RadioButton)group.getChildAt(i)).setChecked(false);
             }
         }
@@ -387,73 +347,29 @@ public class MainActivity extends TabActivity implements
             case R.id.tab_c:
                 tabHost.setCurrentTabByTag("3");
                 check = "3";
-                // showDialog();
                 break;
             case R.id.tab_d:
-                if (MyApplication.Userinfo.getBoolean("isLogin", false) == false) {
-                    Intent toLoginActivity = new Intent(MainActivity.this,
-                            LoginActivity.class);
-                    startActivityForResult(toLoginActivity, 4);
-//                    overridePendingTransition(R.anim.slide_in_left,
-//                            R.anim.slide_out_right);
-                    overridePendingTransition_open();
-                    Log.e("onCheckedChanged", "onCheckedChanged: check = "+check);
-                    ((RadioButton)group.getChildAt((Integer.parseInt(check))-1)).setChecked(true);
+                if (!MyApplication.Userinfo.getBoolean("isLogin", false)) {
+                    start2ActivityWithResult(LoginActivity.class, 4);
+                    ((RadioButton) group.getChildAt((Integer.parseInt(check)) - 1)).setChecked(true);
                 } else {
                     tabHost.setCurrentTabByTag("4");
                     check = "4";
                 }
-
                 break;
             case R.id.tab_e:
-
-
-                if (MyApplication.Userinfo.getBoolean("isLogin", false) == false) {
-                    Intent toLoginActivity = new Intent(MainActivity.this,
-                            LoginActivity.class);
-                    startActivityForResult(toLoginActivity, 4);
-//                    overridePendingTransition(R.anim.slide_in_left,
-//                            R.anim.slide_out_right);
-                    overridePendingTransition_open();
-                    Log.e("onCheckedChanged", "onCheckedChanged: check = "+check);
-                    ((RadioButton)group.getChildAt((Integer.parseInt(check))-1)).setChecked(true);
+                if (!MyApplication.Userinfo.getBoolean("isLogin", false)) {
+                    start2ActivityWithResult(LoginActivity.class, 4);
+                    ((RadioButton) group.getChildAt((Integer.parseInt(check)) - 1)).setChecked(true);
                 } else {
                     tabHost.setCurrentTabByTag("5");
                     check = "5";
-
                 }
 
                 break;
         }
-
-
-//        resetGroupState(group,checkedId);
-
     }
 
-    /**
-     * 打开activity 动画
-     */
-    public void overridePendingTransition_open() {
-        //进
-        //100  ---   0
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_left_out);
-        //出
-        //0  --- -100
-    }
-
-    /**
-     * 关闭activity 动画
-     */
-
-
-    public  void overridePendingTransition_back() {
-        //进
-        //-100  ---   0
-        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
-        //出
-        //0  --- 100
-    }
 
     public boolean dispatchKeyEvent(KeyEvent event) {
         if (event.getKeyCode() == KeyEvent.KEYCODE_BACK
@@ -463,91 +379,6 @@ public class MainActivity extends TabActivity implements
         return super.dispatchKeyEvent(event);
     }
 
-    // public boolean dispatchKeyEvent(KeyEvent event) {
-    // if (event.getKeyCode() == KeyEvent.KEYCODE_BACK
-    // && event.getAction() == KeyEvent.ACTION_DOWN) {
-    // if (mMaterialDialog != null) {
-    // mMaterialDialog
-    // .setTitle(getString(R.string.out))
-    // .setMessage(getString(R.string.out_msg))
-    // // mMaterialDialog.setBackgroundResource(R.drawable.background);
-    // .setPositiveButton(getString(R.string.ok),
-    // new View.OnClickListener() {
-    // @Override
-    // public void onClick(View v) {
-    // mMaterialDialog.dismiss();
-    //
-    // finishAc();
-    //
-    // }
-    //
-    // })
-    // .setNegativeButton(getString(R.string.cancle),
-    // new View.OnClickListener() {
-    // @Override
-    // public void onClick(View v) {
-    // mMaterialDialog.dismiss();
-    // }
-    // }).setCanceledOnTouchOutside(true)
-    // // You can change the message anytime.
-    // // mMaterialDialog.setTitle("提示");
-    // .setOnDismissListener(
-    // new DialogInterface.OnDismissListener() {
-    // @Override
-    // public void onDismiss(DialogInterface dialog) {
-    // }
-    // }).show();
-    // // You can change the message anytime.
-    // // mMaterialDialog
-    // //
-    // .setMessage("嗨！这是一个 MaterialDialog. 它非常方便使用，你只需将它实例化，这个美观的对话框便会自动地显示出来。它简洁小巧，完全遵照 Google 2014 年发布的 Material Design 风格，希望你能喜欢它！^ ^");
-    // } else {
-    // Toast.makeText(getApplicationContext(),
-    // "You should init firstly!", Toast.LENGTH_SHORT).show();
-    // }
-    //
-    // return false;
-    // }
-    // return super.dispatchKeyEvent(event);
-    // }
-
-    // public boolean dispatchKeyEvent(KeyEvent event) {
-    // if (event.getKeyCode() == KeyEvent.KEYCODE_BACK
-    // && event.getAction() == KeyEvent.ACTION_DOWN) {
-    //
-    // final com.flyco.dialog.widget.MaterialDialog dialog = new
-    // com.flyco.dialog.widget.MaterialDialog(
-    // MainActivity.this);
-    // dialog.isTitleShow(false)
-    // //
-    // .btnNum(3).title(getString(R.string.out)).content(getResources().getString(R.string.out_msg))//
-    // .btnText(getString(R.string.out), getString(R.string.out_msg), "退出账号")//
-    // .showAnim(mBasIn)//
-    // .dismissAnim(mBasOut)//
-    // .show();
-    //
-    // dialog.setOnBtnClickL(new OnBtnClickL() {// left btn click listener
-    // @Override
-    // public void onBtnClick() {
-    // dialog.dismiss();
-    // }
-    // }, new OnBtnClickL() {// right btn click listener
-    // @Override
-    // public void onBtnClick() {
-    // dialog.dismiss();
-    // }
-    // }, new OnBtnClickL() {// middle btn click listener
-    // @Override
-    // public void onBtnClick() {
-    // dialog.dismiss();
-    // }
-    // });
-    //
-    //
-    // return false;
-    // }
-    // return super.dispatchKeyEvent(event);
-    // }
 
     public void finishAc() {
         int currentVersion = android.os.Build.VERSION.SDK_INT;
@@ -850,38 +681,6 @@ public class MainActivity extends TabActivity implements
         progressDialog.show();
     }
 
-    public static int getScreenHeight(boolean islandscape, Context context) {
-        if (islandscape) {
-            return getScreenWidth(false, context);
-        }
-        if (SystemSetting.getInstance(context).screenHeight != 0)
-            return SystemSetting.getInstance(context).screenHeight;
-        WindowManager manager = (WindowManager) context
-                .getSystemService(Context.WINDOW_SERVICE);
-        Display display = manager.getDefaultDisplay();
-        SystemSetting.getInstance(context).setGlobalScreenHeight(
-                Math.max(display.getWidth(), display.getHeight()));
-        return SystemSetting.getInstance(context).screenHeight;
-    }
-
-    /**
-     * 获得屏幕宽
-     *
-     * @param islandscape TODO
-     */
-    public static int getScreenWidth(boolean islandscape, Context context) {
-        if (islandscape) {
-            return getScreenHeight(false, context);
-        }
-        if (SystemSetting.getInstance(context).screenWidth != 0)
-            return SystemSetting.getInstance(context).screenWidth;
-        WindowManager manager = (WindowManager) context
-                .getSystemService(Context.WINDOW_SERVICE);
-        Display display = manager.getDefaultDisplay();
-        SystemSetting.getInstance(context).setGlobalScreenWidth(
-                Math.min(display.getWidth(), display.getHeight()));
-        return SystemSetting.getInstance(context).screenWidth;
-    }
 
     /**
      * 静态Helper类，用于建立、更新和打开数据库
@@ -982,68 +781,6 @@ public class MainActivity extends TabActivity implements
 
     }
 
-    /**
-     * 初始化AMap对象
-     */
-    private void init() {
-        if (aMap == null) {
-            aMap = mapView.getMap();
-            geoMarker = aMap.addMarker(new MarkerOptions().anchor(0.5f, 0.5f)
-                    .icon(BitmapDescriptorFactory
-                            .defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
-            regeoMarker = aMap.addMarker(new MarkerOptions().anchor(0.5f, 0.5f)
-                    .icon(BitmapDescriptorFactory
-                            .defaultMarker(BitmapDescriptorFactory.HUE_RED)));
-
-            aMap.setLocationSource(this);// 设置定位监听
-            aMap.getUiSettings().setMyLocationButtonEnabled(true);// 设置默认定位按钮是否显示
-            aMap.setMyLocationEnabled(true);// 设置为true表示显示定位层并可触发定位，false表示隐藏定位层并不可触发定位，默认是false
-            // aMap.setMyLocationType()
-        }
-        geocoderSearch = new GeocodeSearch(this);
-        geocoderSearch.setOnGeocodeSearchListener(this);
-        progDialog = new ProgressDialog(this);
-
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mapView.onResume();
-        JPushInterface.onResume(MyApplication.getInstance());
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mapView.onPause();
-        JPushInterface.onPause(MyApplication.getInstance());
-
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        mapView.onSaveInstanceState(outState);
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mapView.onDestroy();
-    }
 
     /**
      * 显示进度条对话框
@@ -1065,109 +802,6 @@ public class MainActivity extends TabActivity implements
         }
     }
 
-    /**
-     * 响应地理编码
-     */
-    public void getLatlon(final String name) {
-        // showDialog2();
-        GeocodeQuery query = new GeocodeQuery(name, "010");// 第一个参数表示地址，第二个参数表示查询城市，中文或者中文全拼，citycode、adcode，
-        geocoderSearch.getFromLocationNameAsyn(query);// 设置同步地理编码请求
-    }
-
-    /**
-     * 响应逆地理编码
-     */
-    public void getAddress(final LatLonPoint latLonPoint) {
-        // showDialog2();
-        RegeocodeQuery query = new RegeocodeQuery(latLonPoint, 200,
-                GeocodeSearch.AMAP);// 第一个参数表示一个Latlng，第二参数表示范围多少米，第三个参数表示是火系坐标系还是GPS原生坐标系
-        geocoderSearch.getFromLocationAsyn(query);// 设置同步逆地理编码请求
-    }
-
-    /**
-     * 地理编码查询回调
-     */
-    @Override
-    public void onGeocodeSearched(GeocodeResult result, int rCode) {
-        dismissDialog();
-        if (rCode == 1000) {
-            if (result != null && result.getGeocodeAddressList() != null
-                    && result.getGeocodeAddressList().size() > 0) {
-                GeocodeAddress address = result.getGeocodeAddressList().get(0);
-                // aMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                // AMapUtil.convertToLatLng(address.getLatLonPoint()), 15));
-                // geoMarker.setPosition(AMapUtil.convertToLatLng(address
-                // .getLatLonPoint()));
-                addressName = "经纬度值:" + address.getLatLonPoint() + "\n位置描述:"
-                        + address.getFormatAddress();
-            } else {
-                Toast.makeText(MainActivity.this, R.string.no_result, Toast.LENGTH_SHORT).show();
-            }
-
-        } else {
-            Toast.makeText(MainActivity.this, rCode, Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    /**
-     * 逆地理编码回调 code就在这里获取
-     */
-    @Override
-    public void onRegeocodeSearched(RegeocodeResult result, int rCode) {
-        dismissDialog();
-        if (rCode == 1000) {
-            if (result != null && result.getRegeocodeAddress() != null
-                    && result.getRegeocodeAddress().getFormatAddress() != null) {
-                addressName = result.getRegeocodeAddress().getFormatAddress()
-                        + "附近";
-                // aMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                // AMapUtil.convertToLatLng(latLonPoint), 15));
-                // regeoMarker.setPosition(AMapUtil.convertToLatLng(latLonPoint));
-                // Toast.makeText(AddAdressActivity.this, addressName,
-                // 1).show();
-            } else {
-                Toast.makeText(MainActivity.this, R.string.no_result, Toast.LENGTH_SHORT).show();
-            }
-        } else {
-            Toast.makeText(MainActivity.this, rCode, Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    /**
-     * 激活定位
-     */
-    @Override
-    public void activate(OnLocationChangedListener listener) {
-        mListener = listener;
-        if (mlocationClient == null) {
-            mlocationClient = new AMapLocationClient(this);
-            mLocationOption = new AMapLocationClientOption();
-            // 设置定位监听
-            mlocationClient.setLocationListener(this);
-            // 设置为高精度定位模式
-            mLocationOption.setLocationMode(AMapLocationMode.Hight_Accuracy);
-            // 设置定位参数
-            mlocationClient.setLocationOption(mLocationOption);
-            // 此方法为每隔固定时间会发起一次定位请求，为了减少电量消耗或网络流量消耗，
-            // 注意设置合适的定位时间的间隔（最小间隔支持为2000ms），并且在合适时间调用stopLocation()方法来取消定位请求
-            // 在定位结束后，在合适的生命周期调用onDestroy()方法
-            // 在单次定位情况下，定位无论成功与否，都无需调用stopLocation()方法移除请求，定位sdk内部会移除
-            mlocationClient.startLocation();
-        }
-    }
-
-    /**
-     * 停止定位
-     */
-    @Override
-    public void deactivate() {
-        mListener = null;
-        if (mlocationClient != null) {
-            mlocationClient.stopLocation();
-            mlocationClient.onDestroy();
-        }
-        mlocationClient = null;
-    }
 
     @Override
     protected void onStart() {
@@ -1176,28 +810,16 @@ public class MainActivity extends TabActivity implements
 
 
     /**
-     * 定位成功后回调函数
+     * 携参数 跳转
+     *
+     * @param cls 开启的activity
+     * @param i   result 参数
      */
-    @Override
-    public void onLocationChanged(AMapLocation amapLocation) {
-        if (mListener != null && amapLocation != null) {
-            if (amapLocation != null && amapLocation.getErrorCode() == 0) {
-                mListener.onLocationChanged(amapLocation);// 显示系统小蓝点
-                String cityCode2 = amapLocation.getCityCode();
-                String cityName = amapLocation.getCity();
-                String adCode = amapLocation.getAdCode();
-                e.putString("ScityCode", cityCode2);
-                e.putString("ScityName", GetCitiyNameByCode.initProvinceDatas(
-                        MainActivity.this, adCode));
-                e.putString("latitude", amapLocation.getLatitude() + "");
-                e.putString("longitude", amapLocation.getLongitude() + "");
-                e.commit();
-            } else {
-                String errText = "定位失败," + amapLocation.getErrorCode() + ": "
-                        + amapLocation.getErrorInfo();
-                Log.e("AmapErr", errText);
-            }
-        }
+    public void start2ActivityWithResult(Class cls, int i) {
+        Intent intent = new Intent(MainActivity.this, cls);
+        startActivityForResult(intent, 4);
+        MyUtil.overridePendingTransition_open(MainActivity.this);
     }
+
 
 }

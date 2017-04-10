@@ -1,0 +1,52 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_a_search"
+        android:layout_width="280dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/search_edit_selector"
+        android:drawableLeft="@drawable/seller_search"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:text="找苗/报价/店铺"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_a_msg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/iv_a_msg"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/iv_a_msg"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home_message"
+        tools:layout_editor_absoluteX="297dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="294dp" />
+</android.support.constraint.ConstraintLayout>

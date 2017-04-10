@@ -117,7 +117,7 @@ public class SalerActivity extends LoginActivity {
 		LinearLayout ll_yanmiao_05 = (LinearLayout) findViewById(R.id.ll_yanmiao_05);
 		ImageView btn_back = (ImageView) findViewById(R.id.btn_back);
 		tv_user_name = (TextView) findViewById(R.id.tv_user_name);
-		iv_msg = (ImageView) findViewById(R.id.iv_msg);
+		iv_msg = (ImageView) findViewById(R.id.iv_a_msg);
 		LinearLayout ll_all_order = (LinearLayout) findViewById(R.id.ll_all_order);
 		LinearLayout ll_daifukuan = (LinearLayout) findViewById(R.id.ll_daifukuan);
 		LinearLayout ll_daifahuo = (LinearLayout) findViewById(R.id.ll_daifahuo);
@@ -457,7 +457,7 @@ public class SalerActivity extends LoginActivity {
 				case R.id.btn_back:
 					finish();
 					break;
-				case R.id.iv_msg:
+				case R.id.iv_a_msg:
 					Intent toMessageListDetailActivity = new Intent(
 							SalerActivity.this, MessageListActivity.class);
 					startActivity(toMessageListDetailActivity);

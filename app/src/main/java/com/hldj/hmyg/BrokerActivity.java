@@ -51,7 +51,7 @@ public class BrokerActivity extends LoginActivity {
 		setContentView(R.layout.activity_broker);
 		fb = FinalBitmap.create(this);
 		ImageView btn_back = (ImageView) findViewById(R.id.btn_back);
-		iv_msg = (ImageView) findViewById(R.id.iv_msg);
+		iv_msg = (ImageView) findViewById(R.id.iv_a_msg);
 		tv_user_name = (TextView) findViewById(R.id.tv_user_name);
 		iv_icon_persion_pic = (CircleImageView) findViewById(R.id.iv_icon_persion_pic);
 		LinearLayout ll_all_yanmiao_order = (LinearLayout) findViewById(R.id.ll_all_yanmiao_order);
@@ -369,7 +369,7 @@ public class BrokerActivity extends LoginActivity {
 			case R.id.btn_back:
 				finish();
 				break;
-			case R.id.iv_msg:
+			case R.id.iv_a_msg:
 				Intent toMessageListDetailActivity = new Intent(
 						BrokerActivity.this, MessageListActivity.class);
 				startActivity(toMessageListDetailActivity);

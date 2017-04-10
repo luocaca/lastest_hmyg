@@ -98,7 +98,7 @@ public class BuyerActivity extends LoginActivity {
 		fb = FinalBitmap.create(this);
 		ImageView btn_back = (ImageView) findViewById(R.id.btn_back);
 		tv_user_name = (TextView) findViewById(R.id.tv_user_name);
-		iv_msg = (ImageView) findViewById(R.id.iv_msg);
+		iv_msg = (ImageView) findViewById(R.id.iv_a_msg);
 		iv_icon_persion_pic = (CircleImageView) findViewById(R.id.iv_icon_persion_pic);
 		ll_yanmiao_nei_00 = (BGABadgeLinearLayout) findViewById(R.id.ll_yanmiao_nei_00);
 		ll_yanmiao_nei_01 = (BGABadgeLinearLayout) findViewById(R.id.ll_yanmiao_nei_01);
@@ -272,7 +272,7 @@ public class BuyerActivity extends LoginActivity {
 				case R.id.btn_back:
 					finish();
 					break;
-				case R.id.iv_msg:
+				case R.id.iv_a_msg:
 					Intent toMessageListDetailActivity = new Intent(
 							BuyerActivity.this, MessageListActivity.class);
 					startActivity(toMessageListDetailActivity);

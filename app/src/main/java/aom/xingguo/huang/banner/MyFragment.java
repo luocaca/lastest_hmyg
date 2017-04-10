@@ -1,7 +1,5 @@
 package aom.xingguo.huang.banner;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
@@ -19,8 +17,12 @@ import android.widget.LinearLayout;
 
 import com.hldj.hmyg.R;
 import com.hldj.hmyg.bean.HomeStore;
-import com.white.utils.AndroidUtil;
 
+import java.util.ArrayList;
+
+/**
+ * 热门商家 片段
+ */
 public class MyFragment extends Fragment implements OnPageChangeListener {
 	ArrayList<HomeStore> urls = new ArrayList<HomeStore>();
 	private ArrayList<View> views;
