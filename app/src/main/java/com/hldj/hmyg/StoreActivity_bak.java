@@ -1,18 +1,21 @@
 package com.hldj.hmyg;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
+
+import com.hldj.hmyg.util.D;
 
 
-@SuppressLint("Override")
-public class StoreActivity_bak extends AppCompatActivity {
+public class StoreActivity_bak extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        D.e("hellwo world");
+        D.e("hellwo world");
+        D.e("hellwo world");
         setContentView(R.layout.activity_store_bak);
 
 

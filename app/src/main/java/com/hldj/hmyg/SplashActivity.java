@@ -1,9 +1,10 @@
 package com.hldj.hmyg;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.FragmentActivity;
 import android.widget.ImageView;
 
 import com.hldj.hmyg.application.MyApplication;
@@ -13,7 +14,7 @@ import com.white.utils.AndroidUtil;
 
 import net.tsz.afinal.FinalBitmap;
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends FragmentActivity {
 
     private ImageView img_sp;
     private FinalBitmap fb;
@@ -54,14 +55,14 @@ public class SplashActivity extends Activity {
 
             @Override
             public void run() {
-//				Intent toMainActivity = new Intent(SplashActivity.this,
-//						MainActivity.class);
-////				LoadingBarProxy.getInstance().dismissWithFailure("shibai");
-//				startActivity(toMainActivity);
-//				overridePendingTransition(R.anim.slide_bottom_in,
-//						R.anim.slide_bottom_out);
-//				finish();
-                StoreActivity_bak.start2StoreActivity(SplashActivity.this, "hellow world");
+				Intent toMainActivity = new Intent(SplashActivity.this,
+						MainActivity.class);
+//				LoadingBarProxy.getInstance().dismissWithFailure("shibai");
+				startActivity(toMainActivity);
+				overridePendingTransition(R.anim.slide_bottom_in,
+						R.anim.slide_bottom_out);
+				finish();
+//                StoreActivity_bak.start2StoreActivity(SplashActivity.this, "hellow world");
 
 
             }

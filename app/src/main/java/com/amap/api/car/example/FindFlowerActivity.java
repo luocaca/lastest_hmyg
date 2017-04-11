@@ -99,6 +99,36 @@ public class FindFlowerActivity extends Activity implements
     }
 
     /**
+     * 方法必须重写
+     */
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mapView.onResume();
+        activate(mListener);
+
+    }
+
+    /**
+     * 方法必须重写
+     */
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mapView.onPause();
+        deactivate();
+    }
+
+    /**
+     * 方法必须重写
+     */
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mapView.onDestroy();
+    }
+
+    /**
      * 初始化AMap对象
      */
     private void init() {
@@ -137,35 +167,6 @@ public class FindFlowerActivity extends Activity implements
         aMap.setInfoWindowAdapter(this);// 设置自定义InfoWindow样式
         Utils.addEmulateData(aMap, new LatLng(0, 0), FindFlowerActivity.this);// 往地图上添加marker
 
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mapView.onResume();
-        activate(mListener);
-
-    }
-
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onPause() {
-        super.onPause();
-        mapView.onPause();
-        deactivate();
-    }
-    /**
-     * 方法必须重写
-     */
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mapView.onDestroy();
     }
 
 
@@ -621,4 +622,67 @@ public class FindFlowerActivity extends Activity implements
         super.onActivityResult(requestCode, resultCode, data);
     }
 
+    public OnLocationChangedListener getListener() {
+        return mListener;
+    }
+
+    public void setListener(OnLocationChangedListener listener) {
+        mListener = listener;
+    }
+
+    public AMapLocationClient getMlocationClient() {
+        return mlocationClient;
+    }
+
+    public void setMlocationClient(AMapLocationClient mlocationClient) {
+        this.mlocationClient = mlocationClient;
+    }
+
+    public AMapLocationClientOption getLocationOption() {
+        return mLocationOption;
+    }
+
+    public void setLocationOption(AMapLocationClientOption locationOption) {
+        mLocationOption = locationOption;
+    }
+
+    public MapView getMapView() {
+        return mapView;
+    }
+
+    public void setMapView(MapView mapView) {
+        this.mapView = mapView;
+    }
+
+    public AMap getAMap() {
+        return aMap;
+    }
+
+    public void setAMap(AMap aMap) {
+        this.aMap = aMap;
+    }
+
+    public Button getEditButton() {
+        return editButton;
+    }
+
+    public void setEditButton(Button editButton) {
+        this.editButton = editButton;
+    }
+
+    public ImageView getBtn_back() {
+        return btn_back;
+    }
+
+    public void setBtn_back(ImageView btn_back) {
+        this.btn_back = btn_back;
+    }
+
+    public ImageView getLocation_image() {
+        return location_image;
+    }
+
+    public void setLocation_image(ImageView location_image) {
+        this.location_image = location_image;
+    }
 }

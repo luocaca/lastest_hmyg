@@ -1,18 +1,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".StoreActivity" >
+    tools:context=".StoreActivity">
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="@dimen/y34"
         android:background="@color/white"
-        android:visibility="gone" >
+        android:visibility="gone">
 
         <RelativeLayout
             android:layout_width="@dimen/x265"
@@ -22,7 +22,7 @@
             android:layout_toRightOf="@+id/btn_back1"
             android:background="@drawable/search_edit_selector"
             android:gravity="center_vertical"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/et_search"
@@ -40,8 +40,7 @@
                 android:paddingRight="2.5dip"
                 android:textColor="@color/gray"
                 android:textColorHint="@color/gray"
-                android:textSize="14.5sp" >
-            </EditText>
+                android:textSize="14.5sp"/>
         </RelativeLayout>
 
         <ImageView
@@ -68,7 +67,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="@dimen/y34"
-        android:background="@color/white" >
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/btn_back"
@@ -119,30 +118,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:enablePullDown="true"
-        app:enablePullUp="true" >
+        app:enablePullUp="true">
 
         <ScrollView
             android:id="@+id/sc_dad"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="@color/gray_bg" >
+            android:background="@color/gray_bg">
 
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:id="@+id/LinearLayout1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/iv_banner"
@@ -159,12 +158,12 @@
                         android:background="@color/white"
                         android:gravity="center_horizontal"
                         android:orientation="vertical"
-                        android:paddingLeft="10.0dip" >
+                        android:paddingLeft="10.0dip">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal" >
+                            android:orientation="horizontal">
 
                             <ImageView
                                 android:id="@+id/iv_icon_persion_pic"
@@ -177,19 +176,19 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content" >
+                                android:layout_height="wrap_content">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:orientation="vertical"
-                                    android:padding="5.0dip" >
+                                    android:padding="5.0dip">
 
                                     <LinearLayout
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_margin="2.0dip"
-                                        android:orientation="horizontal" >
+                                        android:orientation="horizontal">
 
                                         <ImageView
                                             android:layout_width="14sp"
@@ -209,7 +208,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_margin="2.0dip"
-                                        android:orientation="horizontal" >
+                                        android:orientation="horizontal">
 
                                         <ImageView
                                             android:layout_width="14sp"
@@ -231,7 +230,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_margin="2.0dip"
-                                        android:orientation="horizontal" >
+                                        android:orientation="horizontal">
 
                                         <ImageView
                                             android:layout_width="14sp"
@@ -265,7 +264,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical"
-                                android:visibility="gone" >
+                                android:visibility="gone">
 
                                 <TextView
                                     android:id="@+id/tv_name"
@@ -294,7 +293,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dip"
                     android:orientation="horizontal"
-                    android:tag="sticky" >
+                    android:tag="sticky">
 
                     <LinearLayout
                         android:id="@+id/ll_01"
@@ -303,14 +302,14 @@
                         android:layout_weight="1"
                         android:background="@drawable/btn_my_list"
                         android:orientation="vertical"
-                        android:visibility="gone" >
+                        android:visibility="gone">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="@dimen/x4"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:id="@+id/iv_01"
@@ -338,14 +337,14 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/btn_my_list"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="@dimen/x4"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:id="@+id/iv_02"
@@ -373,14 +372,14 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/btn_my_list"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_margin="@dimen/x4"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <ImageView
                                 android:id="@+id/iv_03"
@@ -409,7 +408,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
                     android:orientation="vertical"
-                    android:visibility="gone" >
+                    android:visibility="gone">
 
                     <TextView
                         android:layout_width="match_parent"
@@ -425,8 +424,7 @@
                         android:horizontalSpacing="@dimen/y5"
                         android:numColumns="2"
                         android:padding="@dimen/y5"
-                        android:verticalSpacing="@dimen/y5" >
-                    </com.jarvis.MyView.MyGridView>
+                        android:verticalSpacing="@dimen/y5"></com.jarvis.MyView.MyGridView>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -442,8 +440,7 @@
                         android:horizontalSpacing="@dimen/y5"
                         android:numColumns="2"
                         android:padding="@dimen/y5"
-                        android:verticalSpacing="@dimen/y5" >
-                    </com.jarvis.MyView.MyGridView>
+                        android:verticalSpacing="@dimen/y5"></com.jarvis.MyView.MyGridView>
                 </LinearLayout>
 
                 <LinearLayout
@@ -452,13 +449,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2.0dip"
                     android:orientation="vertical"
-                    android:visibility="gone" >
+                    android:visibility="gone">
 
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:background="@color/white"
-                        android:orientation="vertical" >
+                        android:orientation="vertical">
 
                         <RelativeLayout
                             android:id="@+id/RelativeLayout1"
@@ -466,7 +463,7 @@
                             android:layout_height="@dimen/y32"
                             android:background="@color/white"
                             android:gravity="center_vertical"
-                            android:orientation="horizontal" >
+                            android:orientation="horizontal">
 
                             <RelativeLayout
                                 android:id="@+id/RelativeLayout2"
@@ -476,7 +473,7 @@
                                 android:layout_alignParentTop="true"
                                 android:layout_toLeftOf="@+id/iv_view_type"
                                 android:gravity="center_vertical"
-                                android:orientation="horizontal" >
+                                android:orientation="horizontal">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -484,13 +481,13 @@
                                     android:gravity="center_vertical"
                                     android:orientation="horizontal"
                                     android:paddingLeft="@dimen/x13"
-                                    android:paddingRight="@dimen/x13" >
+                                    android:paddingRight="@dimen/x13">
 
                                     <RelativeLayout
                                         android:id="@+id/rl_choose_type"
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
-                                        android:layout_weight="1" >
+                                        android:layout_weight="1">
 
                                         <LinearLayout
                                             android:id="@+id/ll_type"
@@ -499,7 +496,7 @@
                                             android:layout_centerHorizontal="true"
                                             android:layout_centerVertical="true"
                                             android:gravity="center_vertical"
-                                            android:orientation="horizontal" >
+                                            android:orientation="horizontal">
 
                                             <TextView
                                                 android:id="@+id/tv_type"
@@ -523,7 +520,7 @@
                                         android:id="@+id/rl_choose_screen"
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
-                                        android:layout_weight="1" >
+                                        android:layout_weight="1">
 
                                         <LinearLayout
                                             android:id="@+id/ll_plant_type"
@@ -532,7 +529,7 @@
                                             android:layout_centerHorizontal="true"
                                             android:layout_centerVertical="true"
                                             android:gravity="center_vertical"
-                                            android:orientation="horizontal" >
+                                            android:orientation="horizontal">
 
                                             <TextView
                                                 android:id="@+id/tv_plant_type"
@@ -556,7 +553,7 @@
                                         android:id="@+id/rl_choose_price"
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
-                                        android:layout_weight="1" >
+                                        android:layout_weight="1">
 
                                         <LinearLayout
                                             android:layout_width="wrap_content"
@@ -564,7 +561,7 @@
                                             android:layout_centerHorizontal="true"
                                             android:layout_centerVertical="true"
                                             android:gravity="center_vertical"
-                                            android:orientation="horizontal" >
+                                            android:orientation="horizontal">
 
                                             <TextView
                                                 android:layout_width="wrap_content"
@@ -615,8 +612,7 @@
                         android:numColumns="2"
                         android:padding="@dimen/y5"
                         android:verticalSpacing="@dimen/y5"
-                        android:visibility="gone" >
-                    </com.jarvis.MyView.MyGridView>
+                        android:visibility="gone"></com.jarvis.MyView.MyGridView>
 
                     <com.jarvis.MyView.MyListView
                         android:id="@+id/lv_all"
@@ -624,8 +620,7 @@
                         android:layout_height="match_parent"
                         android:horizontalSpacing="@dimen/y5"
                         android:padding="@dimen/y5"
-                        android:verticalSpacing="@dimen/y5" >
-                    </com.jarvis.MyView.MyListView>
+                        android:verticalSpacing="@dimen/y5"></com.jarvis.MyView.MyListView>
                 </LinearLayout>
 
                 <LinearLayout
@@ -633,11 +628,11 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:visibility="gone" >
+                    android:visibility="gone">
 
                     <RelativeLayout
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent" >
+                        android:layout_height="fill_parent">
 
                         <WebView
                             android:id="@+id/webview"

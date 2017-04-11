@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.hldj.hmyg"
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 25
         aaptOptions.cruncherEnabled = false
         aaptOptions.useNewCruncher = false
 
@@ -110,7 +110,8 @@ dependencies {
     //    compile "com.android.support:support-core-utils:24.2.0"
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:design:25.3.1'
-    compile files('libs/android-support-v4.jar')
+    compile 'com.android.support:support-v4:25.3.1'
+
 
 
 }

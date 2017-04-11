@@ -232,7 +232,7 @@
         <activity
             android:name="com.hldj.hmyg.StoreActivity_bak"
             android:screenOrientation="portrait"
-
+            android:theme="@style/e_activity_theme"
             />
         <activity
             android:name="com.hldj.hmyg.store.StoreTypeActivity"

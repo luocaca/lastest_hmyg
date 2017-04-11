@@ -1,14 +1,5 @@
 package com.hldj.hmyg;
 
-import java.util.Set;
-
-import net.tsz.afinal.FinalHttp;
-import net.tsz.afinal.http.AjaxCallBack;
-import net.tsz.afinal.http.AjaxParams;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
@@ -25,16 +16,25 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.jpush.android.api.JPushInterface;
-import cn.jpush.android.api.TagAliasCallback;
-import me.imid.swipebacklayout.lib.app.NeedSwipeBackActivity;
-
 import com.hldj.hmyg.application.Data;
 import com.hldj.hmyg.application.MyApplication;
+import com.hldj.hmyg.util.MyUtil;
 import com.hy.utils.GetServerUrl;
 import com.hy.utils.JsonGetInfo;
 import com.loginjudge.LoginJudge;
 import com.mrwujay.cascade.activity.BaseActivity;
+
+import net.tsz.afinal.FinalHttp;
+import net.tsz.afinal.http.AjaxCallBack;
+import net.tsz.afinal.http.AjaxParams;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Set;
+
+import cn.jpush.android.api.JPushInterface;
+import cn.jpush.android.api.TagAliasCallback;
 
 //public class LoginActivity extends BaseActivity {
 public class LoginActivity extends BaseActivity {
@@ -55,7 +55,10 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_login);
+        Log.e("LoginActivity", "width="+ MyUtil.getScreenWidth(false,this));
+        Log.e("LoginActivity", "height="+ MyUtil.getScreenWidth(false,this));
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
         // if (Build.VERSION.SDK_INT >= 23) {
